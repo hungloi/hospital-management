@@ -1,0 +1,4852 @@
+{
+  "changed": [
+    {
+      "userId": "cmsge1ug70000fo7fjwbkzx5z",
+      "from": "BS. Nguyễn Văn A 1",
+      "to": "PGS.TS.BS. Trịnh Hưng Lợi",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1uh40002fo7f572obgsu",
+      "from": "BS. Trần Văn B 1",
+      "to": "TS.BS. Trần Anh Tuấn",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1uhp0004fo7fmksgdjgl",
+      "from": "BS. Lê Văn C 1",
+      "to": "TS.BS. Vũ Đình Hùng",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1ui90006fo7fptbsbysc",
+      "from": "BS. Phạm Văn D 1",
+      "to": "TS.BS. Nguyễn Thị Lan",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1uir0008fo7fzogppumy",
+      "from": "BS. Hoàng Văn E 1",
+      "to": "TS.BS. Lê Thị Mỹ Hạnh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1ujb000afo7f7ciiwvbg",
+      "from": "BS. Vũ Thị F 1",
+      "to": "BS. Hoàng Văn Sơn",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1ujt000cfo7fdrqe80y4",
+      "from": "BS. Đỗ Thị G 1",
+      "to": "BS. Bùi Quốc Huy",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1uk8000efo7fl7tnv8ny",
+      "from": "BS. Bùi Thị H 1",
+      "to": "BS. Đỗ Thị Hương",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1uko000gfo7fca1apel8",
+      "from": "BS. Đặng Văn I 1",
+      "to": "BS. Phạm Văn Minh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1ulb000ifo7fv6pb0yhg",
+      "from": "BS. Ngô Thị J 1",
+      "to": "TS.BS. Trương Nhân Khánh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1umi000kfo7fxtqo8o54",
+      "from": "BS. Nguyễn Văn A 2",
+      "to": "TS.BS. Lý Anh Đức",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1un1000mfo7f53ywuqoi",
+      "from": "BS. Trần Văn B 2",
+      "to": "BS. Ngô Thanh Bình",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1unh000ofo7fnhfoxl98",
+      "from": "BS. Lê Văn C 2",
+      "to": "TS.BS. Trần Thị Nguyệt",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1unx000qfo7f54fmm0dz",
+      "from": "BS. Phạm Văn D 2",
+      "to": "BS. Võ Văn Chính",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1uod000sfo7f2s43zvth",
+      "from": "BS. Hoàng Văn E 2",
+      "to": "BS. Đinh Thị Hồng",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1uou000ufo7fstuq20ja",
+      "from": "BS. Vũ Thị F 2",
+      "to": "TS.BS. Hà Văn Tú",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1upd000wfo7f9w3xm8bw",
+      "from": "BS. Đỗ Thị G 2",
+      "to": "TS.BS. Lê Hoàng Phúc",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1ups000yfo7fi7gyl366",
+      "from": "BS. Bùi Thị H 2",
+      "to": "BS. Trần Văn Nam",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1uq70010fo7fjjcdeij8",
+      "from": "BS. Đặng Văn I 2",
+      "to": "BS. Nguyễn Thái Bảo",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1uql0012fo7f92a38eto",
+      "from": "BS. Ngô Thị J 2",
+      "to": "TS.BS. Lê Thị Thanh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1ur00014fo7fsqmcri2b",
+      "from": "BS. Nguyễn Văn A 3",
+      "to": "PGS.TS.BS. Trịnh Hưng Lợi",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1urg0016fo7f8gpb3jva",
+      "from": "BS. Trần Văn B 3",
+      "to": "TS.BS. Trần Anh Tuấn",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1urw0018fo7f0448flwm",
+      "from": "BS. Lê Văn C 3",
+      "to": "TS.BS. Vũ Đình Hùng",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1usa001afo7fk03nzz69",
+      "from": "BS. Phạm Văn D 3",
+      "to": "TS.BS. Nguyễn Thị Lan",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1usx001cfo7fzg2mizzq",
+      "from": "BS. Hoàng Văn E 3",
+      "to": "TS.BS. Lê Thị Mỹ Hạnh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1uti001efo7fxuhmwj5c",
+      "from": "BS. Vũ Thị F 3",
+      "to": "BS. Hoàng Văn Sơn",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1uu5001gfo7fhbaxdssg",
+      "from": "BS. Đỗ Thị G 3",
+      "to": "BS. Bùi Quốc Huy",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1uuu001ifo7fd8qr295n",
+      "from": "BS. Bùi Thị H 3",
+      "to": "BS. Đỗ Thị Hương",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1uve001kfo7f2ql3rgio",
+      "from": "BS. Đặng Văn I 3",
+      "to": "BS. Phạm Văn Minh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1uw2001mfo7f0ht36wq8",
+      "from": "BS. Ngô Thị J 3",
+      "to": "TS.BS. Trương Nhân Khánh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1uwl001ofo7f5ceyqjh7",
+      "from": "BS. Nguyễn Văn A 4",
+      "to": "TS.BS. Lý Anh Đức",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1ux9001qfo7f7lelpb1u",
+      "from": "BS. Trần Văn B 4",
+      "to": "BS. Ngô Thanh Bình",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1uxu001sfo7fx2phgu03",
+      "from": "BS. Lê Văn C 4",
+      "to": "TS.BS. Trần Thị Nguyệt",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1uyc001ufo7ftnfrvjah",
+      "from": "BS. Phạm Văn D 4",
+      "to": "BS. Võ Văn Chính",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1uyu001wfo7fgvkuna4q",
+      "from": "BS. Hoàng Văn E 4",
+      "to": "BS. Đinh Thị Hồng",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1uzg001yfo7fvm8e9pgi",
+      "from": "BS. Vũ Thị F 4",
+      "to": "TS.BS. Hà Văn Tú",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1v040020fo7foeqj7gmx",
+      "from": "BS. Đỗ Thị G 4",
+      "to": "TS.BS. Lê Hoàng Phúc",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1v0r0022fo7foi8ueysl",
+      "from": "BS. Bùi Thị H 4",
+      "to": "BS. Trần Văn Nam",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1v180024fo7fuze93wii",
+      "from": "BS. Đặng Văn I 4",
+      "to": "BS. Nguyễn Thái Bảo",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1v1x0026fo7f99e07bdg",
+      "from": "BS. Ngô Thị J 4",
+      "to": "TS.BS. Lê Thị Thanh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1v2i0028fo7fx1m48c1n",
+      "from": "BS. Nguyễn Văn A 5",
+      "to": "PGS.TS.BS. Trịnh Hưng Lợi",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1v34002afo7fgfl5nzjm",
+      "from": "BS. Trần Văn B 5",
+      "to": "TS.BS. Trần Anh Tuấn",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1v3n002cfo7fctyrhg2a",
+      "from": "BS. Lê Văn C 5",
+      "to": "TS.BS. Vũ Đình Hùng",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1v45002efo7fddhkp95g",
+      "from": "BS. Phạm Văn D 5",
+      "to": "TS.BS. Nguyễn Thị Lan",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1v4s002gfo7fkkyb1rox",
+      "from": "BS. Hoàng Văn E 5",
+      "to": "TS.BS. Lê Thị Mỹ Hạnh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1v59002ifo7fh8fudvuk",
+      "from": "BS. Vũ Thị F 5",
+      "to": "BS. Hoàng Văn Sơn",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1v5t002kfo7f0x973k34",
+      "from": "BS. Đỗ Thị G 5",
+      "to": "BS. Bùi Quốc Huy",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1v6c002mfo7fn3onv08l",
+      "from": "BS. Bùi Thị H 5",
+      "to": "BS. Đỗ Thị Hương",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1v73002ofo7frn33ihcf",
+      "from": "BS. Đặng Văn I 5",
+      "to": "BS. Phạm Văn Minh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1v7n002qfo7fprcfo5wn",
+      "from": "BS. Ngô Thị J 5",
+      "to": "TS.BS. Trương Nhân Khánh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1v85002sfo7feax4xzkx",
+      "from": "BS. Nguyễn Văn A 6",
+      "to": "TS.BS. Lý Anh Đức",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1v8p002ufo7f8n69tydy",
+      "from": "BS. Trần Văn B 6",
+      "to": "BS. Ngô Thanh Bình",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1v9a002wfo7flkj7flvi",
+      "from": "BS. Lê Văn C 6",
+      "to": "TS.BS. Trần Thị Nguyệt",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1v9u002yfo7f8fenmpxq",
+      "from": "BS. Phạm Văn D 6",
+      "to": "BS. Võ Văn Chính",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1vad0030fo7fgbznaqp8",
+      "from": "BS. Hoàng Văn E 6",
+      "to": "BS. Đinh Thị Hồng",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1vaw0032fo7fh721ai6s",
+      "from": "BS. Vũ Thị F 6",
+      "to": "TS.BS. Hà Văn Tú",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1vbg0034fo7f4t07sj1z",
+      "from": "BS. Đỗ Thị G 6",
+      "to": "TS.BS. Lê Hoàng Phúc",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1vbz0036fo7f2k1eeib8",
+      "from": "BS. Bùi Thị H 6",
+      "to": "BS. Trần Văn Nam",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1vcn0038fo7fq3x9vdlh",
+      "from": "BS. Đặng Văn I 6",
+      "to": "BS. Nguyễn Thái Bảo",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1vd7003afo7fyrwma2s5",
+      "from": "BS. Ngô Thị J 6",
+      "to": "TS.BS. Lê Thị Thanh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1vdp003cfo7fiiuv8qaf",
+      "from": "BS. Nguyễn Văn A 7",
+      "to": "PGS.TS.BS. Trịnh Hưng Lợi",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1ve6003efo7f5hb106pt",
+      "from": "BS. Trần Văn B 7",
+      "to": "TS.BS. Trần Anh Tuấn",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1ven003gfo7frh9g4sjc",
+      "from": "BS. Lê Văn C 7",
+      "to": "TS.BS. Vũ Đình Hùng",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1vf2003ifo7fb42fs3oj",
+      "from": "BS. Phạm Văn D 7",
+      "to": "TS.BS. Nguyễn Thị Lan",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1vfn003kfo7fwjaj13z8",
+      "from": "BS. Hoàng Văn E 7",
+      "to": "TS.BS. Lê Thị Mỹ Hạnh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1vg8003mfo7fndzvh37j",
+      "from": "BS. Vũ Thị F 7",
+      "to": "BS. Hoàng Văn Sơn",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1vgr003ofo7fh9gxrlnc",
+      "from": "BS. Đỗ Thị G 7",
+      "to": "BS. Bùi Quốc Huy",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1vhd003qfo7frk0hfd91",
+      "from": "BS. Bùi Thị H 7",
+      "to": "BS. Đỗ Thị Hương",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1vi7003sfo7fr8oo3vhg",
+      "from": "BS. Đặng Văn I 7",
+      "to": "BS. Phạm Văn Minh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1vio003ufo7fez2la4uo",
+      "from": "BS. Ngô Thị J 7",
+      "to": "TS.BS. Trương Nhân Khánh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1vjh003wfo7fzlffp8um",
+      "from": "BS. Nguyễn Văn A 8",
+      "to": "TS.BS. Lý Anh Đức",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1vka003yfo7fiywv2i86",
+      "from": "BS. Trần Văn B 8",
+      "to": "BS. Ngô Thanh Bình",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1vkw0040fo7fpqayq380",
+      "from": "BS. Lê Văn C 8",
+      "to": "TS.BS. Trần Thị Nguyệt",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1vli0042fo7fjckgtyr5",
+      "from": "BS. Phạm Văn D 8",
+      "to": "BS. Võ Văn Chính",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1vm90044fo7fg7m6g3pm",
+      "from": "BS. Hoàng Văn E 8",
+      "to": "BS. Đinh Thị Hồng",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1vmq0046fo7fvqzzxdto",
+      "from": "BS. Vũ Thị F 8",
+      "to": "TS.BS. Hà Văn Tú",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1vnd0048fo7fttjsnugg",
+      "from": "BS. Đỗ Thị G 8",
+      "to": "TS.BS. Lê Hoàng Phúc",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1vnz004afo7f95u8brr5",
+      "from": "BS. Bùi Thị H 8",
+      "to": "BS. Trần Văn Nam",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1voi004cfo7fylvgo2u0",
+      "from": "BS. Đặng Văn I 8",
+      "to": "BS. Nguyễn Thái Bảo",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1vp2004efo7fskk8w2n5",
+      "from": "BS. Ngô Thị J 8",
+      "to": "TS.BS. Lê Thị Thanh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1vpt004gfo7fxbpy54aq",
+      "from": "BS. Nguyễn Văn A 9",
+      "to": "PGS.TS.BS. Trịnh Hưng Lợi",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1vqn004ifo7fgl578q4i",
+      "from": "BS. Trần Văn B 9",
+      "to": "TS.BS. Trần Anh Tuấn",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1vr7004kfo7fx0o98jr1",
+      "from": "BS. Lê Văn C 9",
+      "to": "TS.BS. Vũ Đình Hùng",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1vrx004mfo7fyjt0oapa",
+      "from": "BS. Phạm Văn D 9",
+      "to": "TS.BS. Nguyễn Thị Lan",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1vsg004ofo7fx9xzxya1",
+      "from": "BS. Hoàng Văn E 9",
+      "to": "TS.BS. Lê Thị Mỹ Hạnh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1vt0004qfo7f8h812ok7",
+      "from": "BS. Vũ Thị F 9",
+      "to": "BS. Hoàng Văn Sơn",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1vtp004sfo7fjqq5vsby",
+      "from": "BS. Đỗ Thị G 9",
+      "to": "BS. Bùi Quốc Huy",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1vud004ufo7fg51jgodh",
+      "from": "BS. Bùi Thị H 9",
+      "to": "BS. Đỗ Thị Hương",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1vuz004wfo7fcbevwiym",
+      "from": "BS. Đặng Văn I 9",
+      "to": "BS. Phạm Văn Minh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1vvp004yfo7f9at67dpl",
+      "from": "BS. Ngô Thị J 9",
+      "to": "TS.BS. Trương Nhân Khánh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1vw90050fo7fbsm96q9g",
+      "from": "BS. Nguyễn Văn A 10",
+      "to": "TS.BS. Lý Anh Đức",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1vwu0052fo7fs7plyssw",
+      "from": "BS. Trần Văn B 10",
+      "to": "BS. Ngô Thanh Bình",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1vxj0054fo7fx3p3miql",
+      "from": "BS. Lê Văn C 10",
+      "to": "TS.BS. Trần Thị Nguyệt",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1vy50056fo7fcn23w11e",
+      "from": "BS. Phạm Văn D 10",
+      "to": "BS. Võ Văn Chính",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1vyu0058fo7f37htc505",
+      "from": "BS. Hoàng Văn E 10",
+      "to": "BS. Đinh Thị Hồng",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1vzj005afo7fgtv3og2g",
+      "from": "BS. Vũ Thị F 10",
+      "to": "TS.BS. Hà Văn Tú",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1w05005cfo7fixomvzqm",
+      "from": "BS. Đỗ Thị G 10",
+      "to": "TS.BS. Lê Hoàng Phúc",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1w0q005efo7fuitk5lb1",
+      "from": "BS. Bùi Thị H 10",
+      "to": "BS. Trần Văn Nam",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1w18005gfo7flrum7jsn",
+      "from": "BS. Đặng Văn I 10",
+      "to": "BS. Nguyễn Thái Bảo",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1w1t005ifo7f777khmks",
+      "from": "BS. Ngô Thị J 10",
+      "to": "TS.BS. Lê Thị Thanh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1w2e005kfo7fk6fg6i4c",
+      "from": "BS. Nguyễn Văn A 11",
+      "to": "PGS.TS.BS. Trịnh Hưng Lợi",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1w2y005mfo7f5baqryqd",
+      "from": "BS. Trần Văn B 11",
+      "to": "TS.BS. Trần Anh Tuấn",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1w3i005ofo7fuurodiyk",
+      "from": "BS. Lê Văn C 11",
+      "to": "TS.BS. Vũ Đình Hùng",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1w45005qfo7fzrc335xd",
+      "from": "BS. Phạm Văn D 11",
+      "to": "TS.BS. Nguyễn Thị Lan",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1w4r005sfo7f4ffxhc6k",
+      "from": "BS. Hoàng Văn E 11",
+      "to": "TS.BS. Lê Thị Mỹ Hạnh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1w5f005ufo7fswptobpf",
+      "from": "BS. Vũ Thị F 11",
+      "to": "BS. Hoàng Văn Sơn",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1w5x005wfo7fihyfuxmp",
+      "from": "BS. Đỗ Thị G 11",
+      "to": "BS. Bùi Quốc Huy",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1w6i005yfo7flb1qzhmq",
+      "from": "BS. Bùi Thị H 11",
+      "to": "BS. Đỗ Thị Hương",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1w730060fo7fq8sg2xjl",
+      "from": "BS. Đặng Văn I 11",
+      "to": "BS. Phạm Văn Minh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1w7t0062fo7f5vcetnvd",
+      "from": "BS. Ngô Thị J 11",
+      "to": "TS.BS. Trương Nhân Khánh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1w8f0064fo7fd37c02cz",
+      "from": "BS. Nguyễn Văn A 12",
+      "to": "TS.BS. Lý Anh Đức",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1w930066fo7f31mja0uc",
+      "from": "BS. Trần Văn B 12",
+      "to": "BS. Ngô Thanh Bình",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1w9m0068fo7forvzwz1g",
+      "from": "BS. Lê Văn C 12",
+      "to": "TS.BS. Trần Thị Nguyệt",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1wa8006afo7fxriqmb4u",
+      "from": "BS. Phạm Văn D 12",
+      "to": "BS. Võ Văn Chính",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1wav006cfo7f2pxalnbt",
+      "from": "BS. Hoàng Văn E 12",
+      "to": "BS. Đinh Thị Hồng",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1wbc006efo7fj5adjrzy",
+      "from": "BS. Vũ Thị F 12",
+      "to": "TS.BS. Hà Văn Tú",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1wc0006gfo7fcbuyy7yg",
+      "from": "BS. Đỗ Thị G 12",
+      "to": "TS.BS. Lê Hoàng Phúc",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1wci006ifo7fw9429rzg",
+      "from": "BS. Bùi Thị H 12",
+      "to": "BS. Trần Văn Nam",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1wd0006kfo7fbe7cawim",
+      "from": "BS. Đặng Văn I 12",
+      "to": "BS. Nguyễn Thái Bảo",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1wdk006mfo7f7369a64u",
+      "from": "BS. Ngô Thị J 12",
+      "to": "TS.BS. Lê Thị Thanh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1we2006ofo7fozow3uvb",
+      "from": "BS. Nguyễn Văn A 13",
+      "to": "PGS.TS.BS. Trịnh Hưng Lợi",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1wel006qfo7f7p5u17xg",
+      "from": "BS. Trần Văn B 13",
+      "to": "TS.BS. Trần Anh Tuấn",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1wf6006sfo7f2rzvtngg",
+      "from": "BS. Lê Văn C 13",
+      "to": "TS.BS. Vũ Đình Hùng",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1wfs006ufo7f2o02wbl3",
+      "from": "BS. Phạm Văn D 13",
+      "to": "TS.BS. Nguyễn Thị Lan",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1wgm006wfo7fy4w8dd38",
+      "from": "BS. Hoàng Văn E 13",
+      "to": "TS.BS. Lê Thị Mỹ Hạnh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1wh3006yfo7ft36y4m6d",
+      "from": "BS. Vũ Thị F 13",
+      "to": "BS. Hoàng Văn Sơn",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1whk0070fo7fk5qmjtzr",
+      "from": "BS. Đỗ Thị G 13",
+      "to": "BS. Bùi Quốc Huy",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1wi20072fo7fdcn0rit6",
+      "from": "BS. Bùi Thị H 13",
+      "to": "BS. Đỗ Thị Hương",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1wil0074fo7fh1qfo98s",
+      "from": "BS. Đặng Văn I 13",
+      "to": "BS. Phạm Văn Minh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1wj60076fo7fx4vgb712",
+      "from": "BS. Ngô Thị J 13",
+      "to": "TS.BS. Trương Nhân Khánh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1wjm0078fo7fcw4c9p3t",
+      "from": "BS. Nguyễn Văn A 14",
+      "to": "TS.BS. Lý Anh Đức",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1wk3007afo7f5852yxzj",
+      "from": "BS. Trần Văn B 14",
+      "to": "BS. Ngô Thanh Bình",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1wkl007cfo7f5ey6zvhb",
+      "from": "BS. Lê Văn C 14",
+      "to": "TS.BS. Trần Thị Nguyệt",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1wl7007efo7four9bp4e",
+      "from": "BS. Phạm Văn D 14",
+      "to": "BS. Võ Văn Chính",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1wln007gfo7fn5dl5b3g",
+      "from": "BS. Hoàng Văn E 14",
+      "to": "BS. Đinh Thị Hồng",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1wm3007ifo7fm66a0e28",
+      "from": "BS. Vũ Thị F 14",
+      "to": "TS.BS. Hà Văn Tú",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1wml007kfo7f0azmu2rg",
+      "from": "BS. Đỗ Thị G 14",
+      "to": "TS.BS. Lê Hoàng Phúc",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1wn6007mfo7feexn4rqf",
+      "from": "BS. Bùi Thị H 14",
+      "to": "BS. Trần Văn Nam",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1wnl007ofo7fke9sd8t4",
+      "from": "BS. Đặng Văn I 14",
+      "to": "BS. Nguyễn Thái Bảo",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1wny007qfo7fju1475ut",
+      "from": "BS. Ngô Thị J 14",
+      "to": "TS.BS. Lê Thị Thanh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1woc007sfo7fttoq8leb",
+      "from": "BS. Nguyễn Văn A 15",
+      "to": "PGS.TS.BS. Trịnh Hưng Lợi",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1wor007ufo7frxkokagr",
+      "from": "BS. Trần Văn B 15",
+      "to": "TS.BS. Trần Anh Tuấn",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1wp9007wfo7fjlmegsmw",
+      "from": "BS. Lê Văn C 15",
+      "to": "TS.BS. Vũ Đình Hùng",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1wps007yfo7fnfbwtwb2",
+      "from": "BS. Phạm Văn D 15",
+      "to": "TS.BS. Nguyễn Thị Lan",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1wqb0080fo7f2u6hsrgm",
+      "from": "BS. Hoàng Văn E 15",
+      "to": "TS.BS. Lê Thị Mỹ Hạnh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1wqs0082fo7f1janmz4l",
+      "from": "BS. Vũ Thị F 15",
+      "to": "BS. Hoàng Văn Sơn",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1wrc0084fo7f8svi8d8f",
+      "from": "BS. Đỗ Thị G 15",
+      "to": "BS. Bùi Quốc Huy",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1wrv0086fo7f8nbnr9bo",
+      "from": "BS. Bùi Thị H 15",
+      "to": "BS. Đỗ Thị Hương",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1wsd0088fo7fcfc7ze24",
+      "from": "BS. Đặng Văn I 15",
+      "to": "BS. Phạm Văn Minh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1wsu008afo7ff114jw41",
+      "from": "BS. Ngô Thị J 15",
+      "to": "TS.BS. Trương Nhân Khánh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1wt9008cfo7ffnf5e1km",
+      "from": "BS. Nguyễn Văn A 16",
+      "to": "TS.BS. Lý Anh Đức",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1wtv008efo7f2scooo0c",
+      "from": "BS. Trần Văn B 16",
+      "to": "BS. Ngô Thanh Bình",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1wu9008gfo7fw5fb6ses",
+      "from": "BS. Lê Văn C 16",
+      "to": "TS.BS. Trần Thị Nguyệt",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1wuq008ifo7fc9me63k4",
+      "from": "BS. Phạm Văn D 16",
+      "to": "BS. Võ Văn Chính",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1wv8008kfo7f07u7gm38",
+      "from": "BS. Hoàng Văn E 16",
+      "to": "BS. Đinh Thị Hồng",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1wvq008mfo7f43e6jsbt",
+      "from": "BS. Vũ Thị F 16",
+      "to": "TS.BS. Hà Văn Tú",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1wwa008ofo7fnzgyw5bv",
+      "from": "BS. Đỗ Thị G 16",
+      "to": "TS.BS. Lê Hoàng Phúc",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1wwt008qfo7fq82d5kqq",
+      "from": "BS. Bùi Thị H 16",
+      "to": "BS. Trần Văn Nam",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1wxb008sfo7fqjn1a5fr",
+      "from": "BS. Đặng Văn I 16",
+      "to": "BS. Nguyễn Thái Bảo",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1wxp008ufo7fhym8bj8y",
+      "from": "BS. Ngô Thị J 16",
+      "to": "TS.BS. Lê Thị Thanh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1wy6008wfo7f9anzbg6z",
+      "from": "BS. Nguyễn Văn A 17",
+      "to": "PGS.TS.BS. Trịnh Hưng Lợi",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1wyp008yfo7fgdo7ixdc",
+      "from": "BS. Trần Văn B 17",
+      "to": "TS.BS. Trần Anh Tuấn",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1wz80090fo7f0yfkqo4r",
+      "from": "BS. Lê Văn C 17",
+      "to": "TS.BS. Vũ Đình Hùng",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1wzn0092fo7f7ebvnpcy",
+      "from": "BS. Phạm Văn D 17",
+      "to": "TS.BS. Nguyễn Thị Lan",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1x040094fo7fryh6ovx5",
+      "from": "BS. Hoàng Văn E 17",
+      "to": "TS.BS. Lê Thị Mỹ Hạnh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1x0q0096fo7fkjivesdu",
+      "from": "BS. Vũ Thị F 17",
+      "to": "BS. Hoàng Văn Sơn",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1x170098fo7fubvd3ane",
+      "from": "BS. Đỗ Thị G 17",
+      "to": "BS. Bùi Quốc Huy",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1x1o009afo7fa2poorvt",
+      "from": "BS. Bùi Thị H 17",
+      "to": "BS. Đỗ Thị Hương",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1x24009cfo7f8bmeehv2",
+      "from": "BS. Đặng Văn I 17",
+      "to": "BS. Phạm Văn Minh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1x2i009efo7fwn6d9qo4",
+      "from": "BS. Ngô Thị J 17",
+      "to": "TS.BS. Trương Nhân Khánh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1x2x009gfo7fscese3za",
+      "from": "BS. Nguyễn Văn A 18",
+      "to": "TS.BS. Lý Anh Đức",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1x3h009ifo7fe2a5oizh",
+      "from": "BS. Trần Văn B 18",
+      "to": "BS. Ngô Thanh Bình",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1x3w009kfo7f4un7cmvu",
+      "from": "BS. Lê Văn C 18",
+      "to": "TS.BS. Trần Thị Nguyệt",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1x4e009mfo7fqz8svo5z",
+      "from": "BS. Phạm Văn D 18",
+      "to": "BS. Võ Văn Chính",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1x4t009ofo7fe6217nmx",
+      "from": "BS. Hoàng Văn E 18",
+      "to": "BS. Đinh Thị Hồng",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1x59009qfo7fe7gqt9ql",
+      "from": "BS. Vũ Thị F 18",
+      "to": "TS.BS. Hà Văn Tú",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1x5q009sfo7fku81ni5p",
+      "from": "BS. Đỗ Thị G 18",
+      "to": "TS.BS. Lê Hoàng Phúc",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1x68009ufo7fhkxah3f4",
+      "from": "BS. Bùi Thị H 18",
+      "to": "BS. Trần Văn Nam",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1x6q009wfo7ffkw8mv65",
+      "from": "BS. Đặng Văn I 18",
+      "to": "BS. Nguyễn Thái Bảo",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1x76009yfo7f4o9ugonp",
+      "from": "BS. Ngô Thị J 18",
+      "to": "TS.BS. Lê Thị Thanh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1x7o00a0fo7fdhra3hv2",
+      "from": "BS. Nguyễn Văn A 19",
+      "to": "PGS.TS.BS. Trịnh Hưng Lợi",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1x8400a2fo7fvwf89klm",
+      "from": "BS. Trần Văn B 19",
+      "to": "TS.BS. Trần Anh Tuấn",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1x8n00a4fo7f5d4vszwy",
+      "from": "BS. Lê Văn C 19",
+      "to": "TS.BS. Vũ Đình Hùng",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1x9a00a6fo7fb8wlw5s8",
+      "from": "BS. Phạm Văn D 19",
+      "to": "TS.BS. Nguyễn Thị Lan",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1x9u00a8fo7fmo7qsupr",
+      "from": "BS. Hoàng Văn E 19",
+      "to": "TS.BS. Lê Thị Mỹ Hạnh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1xaa00aafo7ftk68uo92",
+      "from": "BS. Vũ Thị F 19",
+      "to": "BS. Hoàng Văn Sơn",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1xar00acfo7fsafjnx1o",
+      "from": "BS. Đỗ Thị G 19",
+      "to": "BS. Bùi Quốc Huy",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1xb700aefo7fo18fn1u8",
+      "from": "BS. Bùi Thị H 19",
+      "to": "BS. Đỗ Thị Hương",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1xbk00agfo7fuj8i8ueq",
+      "from": "BS. Đặng Văn I 19",
+      "to": "BS. Phạm Văn Minh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1xbz00aifo7fh3tptnvz",
+      "from": "BS. Ngô Thị J 19",
+      "to": "TS.BS. Trương Nhân Khánh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1xci00akfo7f5p4laxlb",
+      "from": "BS. Nguyễn Văn A 20",
+      "to": "TS.BS. Lý Anh Đức",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1xd400amfo7fc8m46aoj",
+      "from": "BS. Trần Văn B 20",
+      "to": "BS. Ngô Thanh Bình",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1xdj00aofo7fknp0vbjg",
+      "from": "BS. Lê Văn C 20",
+      "to": "TS.BS. Trần Thị Nguyệt",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1xe700aqfo7flgq9axd9",
+      "from": "BS. Phạm Văn D 20",
+      "to": "BS. Võ Văn Chính",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1xep00asfo7fsvx3tbcs",
+      "from": "BS. Hoàng Văn E 20",
+      "to": "BS. Đinh Thị Hồng",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1xf800aufo7f7nazp4a0",
+      "from": "BS. Vũ Thị F 20",
+      "to": "TS.BS. Hà Văn Tú",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1xfr00awfo7f7wrnviy6",
+      "from": "BS. Đỗ Thị G 20",
+      "to": "TS.BS. Lê Hoàng Phúc",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1xgf00ayfo7fyleor8il",
+      "from": "BS. Bùi Thị H 20",
+      "to": "BS. Trần Văn Nam",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1xgv00b0fo7fpw9vpk7r",
+      "from": "BS. Đặng Văn I 20",
+      "to": "BS. Nguyễn Thái Bảo",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1xhd00b2fo7fl6nxrk59",
+      "from": "BS. Ngô Thị J 20",
+      "to": "TS.BS. Lê Thị Thanh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1xhx00b4fo7f42oix1fs",
+      "from": "BS. Nguyễn Văn A 21",
+      "to": "PGS.TS.BS. Trịnh Hưng Lợi",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1xic00b6fo7fr1947ieq",
+      "from": "BS. Trần Văn B 21",
+      "to": "TS.BS. Trần Anh Tuấn",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1xiv00b8fo7fjp8xnwiz",
+      "from": "BS. Lê Văn C 21",
+      "to": "TS.BS. Vũ Đình Hùng",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1xjf00bafo7f5jvq0k5w",
+      "from": "BS. Phạm Văn D 21",
+      "to": "TS.BS. Nguyễn Thị Lan",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1xjt00bcfo7fsx34ltk9",
+      "from": "BS. Hoàng Văn E 21",
+      "to": "TS.BS. Lê Thị Mỹ Hạnh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1xk800befo7fudxri6if",
+      "from": "BS. Vũ Thị F 21",
+      "to": "BS. Hoàng Văn Sơn",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1xkm00bgfo7f551hmum8",
+      "from": "BS. Đỗ Thị G 21",
+      "to": "BS. Bùi Quốc Huy",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1xl200bifo7frpw33skp",
+      "from": "BS. Bùi Thị H 21",
+      "to": "BS. Đỗ Thị Hương",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1xlh00bkfo7fzxwh2w54",
+      "from": "BS. Đặng Văn I 21",
+      "to": "BS. Phạm Văn Minh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1xlw00bmfo7fcvbg2tf0",
+      "from": "BS. Ngô Thị J 21",
+      "to": "TS.BS. Trương Nhân Khánh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1xmc00bofo7ficmuqwoi",
+      "from": "BS. Nguyễn Văn A 22",
+      "to": "TS.BS. Lý Anh Đức",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1xmt00bqfo7fpgvqgpye",
+      "from": "BS. Trần Văn B 22",
+      "to": "BS. Ngô Thanh Bình",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1xnb00bsfo7f6z3fcnzj",
+      "from": "BS. Lê Văn C 22",
+      "to": "TS.BS. Trần Thị Nguyệt",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1xnz00bufo7f2knubq88",
+      "from": "BS. Phạm Văn D 22",
+      "to": "BS. Võ Văn Chính",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1xof00bwfo7fl5eg921r",
+      "from": "BS. Hoàng Văn E 22",
+      "to": "BS. Đinh Thị Hồng",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1xoz00byfo7fkwm36ee0",
+      "from": "BS. Vũ Thị F 22",
+      "to": "TS.BS. Hà Văn Tú",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1xpf00c0fo7fvyss4eqe",
+      "from": "BS. Đỗ Thị G 22",
+      "to": "TS.BS. Lê Hoàng Phúc",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1xpv00c2fo7ff195r6jo",
+      "from": "BS. Bùi Thị H 22",
+      "to": "BS. Trần Văn Nam",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1xqf00c4fo7fx2gdiuaq",
+      "from": "BS. Đặng Văn I 22",
+      "to": "BS. Nguyễn Thái Bảo",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1xr000c6fo7fe4t0yta5",
+      "from": "BS. Ngô Thị J 22",
+      "to": "TS.BS. Lê Thị Thanh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1xrh00c8fo7fdji8qf87",
+      "from": "BS. Nguyễn Văn A 23",
+      "to": "PGS.TS.BS. Trịnh Hưng Lợi",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1xry00cafo7fp0p7sfri",
+      "from": "BS. Trần Văn B 23",
+      "to": "TS.BS. Trần Anh Tuấn",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1xsd00ccfo7fcb4kc5ow",
+      "from": "BS. Lê Văn C 23",
+      "to": "TS.BS. Vũ Đình Hùng",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1xst00cefo7frvksl8qd",
+      "from": "BS. Phạm Văn D 23",
+      "to": "TS.BS. Nguyễn Thị Lan",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1xt900cgfo7fa8mmq871",
+      "from": "BS. Hoàng Văn E 23",
+      "to": "TS.BS. Lê Thị Mỹ Hạnh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1xto00cifo7fxsqlt1nj",
+      "from": "BS. Vũ Thị F 23",
+      "to": "BS. Hoàng Văn Sơn",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1xu400ckfo7f9f2da8ny",
+      "from": "BS. Đỗ Thị G 23",
+      "to": "BS. Bùi Quốc Huy",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1xup00cmfo7f52v2dv6g",
+      "from": "BS. Bùi Thị H 23",
+      "to": "BS. Đỗ Thị Hương",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1xv500cofo7f340ztdom",
+      "from": "BS. Đặng Văn I 23",
+      "to": "BS. Phạm Văn Minh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1xvl00cqfo7fuxm6rggq",
+      "from": "BS. Ngô Thị J 23",
+      "to": "TS.BS. Trương Nhân Khánh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1xw200csfo7fyh1c7s5c",
+      "from": "BS. Nguyễn Văn A 24",
+      "to": "TS.BS. Lý Anh Đức",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1xwg00cufo7ffvptlcj9",
+      "from": "BS. Trần Văn B 24",
+      "to": "BS. Ngô Thanh Bình",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1xwu00cwfo7fe64k22n7",
+      "from": "BS. Lê Văn C 24",
+      "to": "TS.BS. Trần Thị Nguyệt",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1xxb00cyfo7f4mkvtj8y",
+      "from": "BS. Phạm Văn D 24",
+      "to": "BS. Võ Văn Chính",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1xxr00d0fo7f3433gf43",
+      "from": "BS. Hoàng Văn E 24",
+      "to": "BS. Đinh Thị Hồng",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1xy700d2fo7fo8jdj51y",
+      "from": "BS. Vũ Thị F 24",
+      "to": "TS.BS. Hà Văn Tú",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1xyn00d4fo7f3dw8krr5",
+      "from": "BS. Đỗ Thị G 24",
+      "to": "TS.BS. Lê Hoàng Phúc",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1xz200d6fo7fnh3ot4z9",
+      "from": "BS. Bùi Thị H 24",
+      "to": "BS. Trần Văn Nam",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1xzn00d8fo7fydu3zqhu",
+      "from": "BS. Đặng Văn I 24",
+      "to": "BS. Nguyễn Thái Bảo",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1y0200dafo7f4bfzi47u",
+      "from": "BS. Ngô Thị J 24",
+      "to": "TS.BS. Lê Thị Thanh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1y0o00dcfo7faymzh1xi",
+      "from": "BS. Nguyễn Văn A 25",
+      "to": "PGS.TS.BS. Trịnh Hưng Lợi",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1y1800defo7fucpeep48",
+      "from": "BS. Trần Văn B 25",
+      "to": "TS.BS. Trần Anh Tuấn",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1y1p00dgfo7fstkemh4i",
+      "from": "BS. Lê Văn C 25",
+      "to": "TS.BS. Vũ Đình Hùng",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1y2600difo7f6tf139s8",
+      "from": "BS. Phạm Văn D 25",
+      "to": "TS.BS. Nguyễn Thị Lan",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1y2o00dkfo7ffu8vf1bd",
+      "from": "BS. Hoàng Văn E 25",
+      "to": "TS.BS. Lê Thị Mỹ Hạnh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1y3500dmfo7fp8j7c07n",
+      "from": "BS. Vũ Thị F 25",
+      "to": "BS. Hoàng Văn Sơn",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1y3l00dofo7f22welu98",
+      "from": "BS. Đỗ Thị G 25",
+      "to": "BS. Bùi Quốc Huy",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1y4200dqfo7f0o31z3lx",
+      "from": "BS. Bùi Thị H 25",
+      "to": "BS. Đỗ Thị Hương",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1y4s00dsfo7ft08s5whd",
+      "from": "BS. Đặng Văn I 25",
+      "to": "BS. Phạm Văn Minh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1y5a00dufo7fl66jfjhy",
+      "from": "BS. Ngô Thị J 25",
+      "to": "TS.BS. Trương Nhân Khánh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1y5s00dwfo7fwenb80wa",
+      "from": "BS. Nguyễn Văn A 26",
+      "to": "TS.BS. Lý Anh Đức",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1y6600dyfo7f1nu2ny9t",
+      "from": "BS. Trần Văn B 26",
+      "to": "BS. Ngô Thanh Bình",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1y6l00e0fo7fwyarkk9q",
+      "from": "BS. Lê Văn C 26",
+      "to": "TS.BS. Trần Thị Nguyệt",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1y7000e2fo7fyoiht3is",
+      "from": "BS. Phạm Văn D 26",
+      "to": "BS. Võ Văn Chính",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1y7f00e4fo7fdlm2znaj",
+      "from": "BS. Hoàng Văn E 26",
+      "to": "BS. Đinh Thị Hồng",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1y8400e6fo7fgovfqxt6",
+      "from": "BS. Vũ Thị F 26",
+      "to": "TS.BS. Hà Văn Tú",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1y8j00e8fo7fvpge0wft",
+      "from": "BS. Đỗ Thị G 26",
+      "to": "TS.BS. Lê Hoàng Phúc",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1y8z00eafo7f7i5444sm",
+      "from": "BS. Bùi Thị H 26",
+      "to": "BS. Trần Văn Nam",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1y9f00ecfo7fytw6auzk",
+      "from": "BS. Đặng Văn I 26",
+      "to": "BS. Nguyễn Thái Bảo",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1ya000eefo7fq8fw4atp",
+      "from": "BS. Ngô Thị J 26",
+      "to": "TS.BS. Lê Thị Thanh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1yag00egfo7fi9j08rxz",
+      "from": "BS. Nguyễn Văn A 27",
+      "to": "PGS.TS.BS. Trịnh Hưng Lợi",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1yay00eifo7fawb9ef5s",
+      "from": "BS. Trần Văn B 27",
+      "to": "TS.BS. Trần Anh Tuấn",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1ybf00ekfo7fs5k654pa",
+      "from": "BS. Lê Văn C 27",
+      "to": "TS.BS. Vũ Đình Hùng",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1ybx00emfo7fscpsug3c",
+      "from": "BS. Phạm Văn D 27",
+      "to": "TS.BS. Nguyễn Thị Lan",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1ycc00eofo7fr98jqy6n",
+      "from": "BS. Hoàng Văn E 27",
+      "to": "TS.BS. Lê Thị Mỹ Hạnh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1ycs00eqfo7f6ngb0ve1",
+      "from": "BS. Vũ Thị F 27",
+      "to": "BS. Hoàng Văn Sơn",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1yd700esfo7fr23gdlyp",
+      "from": "BS. Đỗ Thị G 27",
+      "to": "BS. Bùi Quốc Huy",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1ydo00eufo7f4looh2e7",
+      "from": "BS. Bùi Thị H 27",
+      "to": "BS. Đỗ Thị Hương",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1ye500ewfo7fsnlkbejo",
+      "from": "BS. Đặng Văn I 27",
+      "to": "BS. Phạm Văn Minh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1yen00eyfo7fjqrm2d14",
+      "from": "BS. Ngô Thị J 27",
+      "to": "TS.BS. Trương Nhân Khánh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1yf700f0fo7fxsuh9xhj",
+      "from": "BS. Nguyễn Văn A 28",
+      "to": "TS.BS. Lý Anh Đức",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1yfo00f2fo7fwpacdee0",
+      "from": "BS. Trần Văn B 28",
+      "to": "BS. Ngô Thanh Bình",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1yg300f4fo7f2e8al5wb",
+      "from": "BS. Lê Văn C 28",
+      "to": "TS.BS. Trần Thị Nguyệt",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1ygf00f6fo7fqtvvue1h",
+      "from": "BS. Phạm Văn D 28",
+      "to": "BS. Võ Văn Chính",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1ygx00f8fo7f3c71jdbr",
+      "from": "BS. Hoàng Văn E 28",
+      "to": "BS. Đinh Thị Hồng",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1yhd00fafo7fkmuqlt7w",
+      "from": "BS. Vũ Thị F 28",
+      "to": "TS.BS. Hà Văn Tú",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1yhr00fcfo7fq3gcfs19",
+      "from": "BS. Đỗ Thị G 28",
+      "to": "TS.BS. Lê Hoàng Phúc",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1yib00fefo7fhv6lyk5e",
+      "from": "BS. Bùi Thị H 28",
+      "to": "BS. Trần Văn Nam",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1yiq00fgfo7ftyg56xgu",
+      "from": "BS. Đặng Văn I 28",
+      "to": "BS. Nguyễn Thái Bảo",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1yj300fifo7flc9cq4nm",
+      "from": "BS. Ngô Thị J 28",
+      "to": "TS.BS. Lê Thị Thanh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1yjk00fkfo7f47bof2e6",
+      "from": "BS. Nguyễn Văn A 29",
+      "to": "PGS.TS.BS. Trịnh Hưng Lợi",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1yk000fmfo7fc64mxr9d",
+      "from": "BS. Trần Văn B 29",
+      "to": "TS.BS. Trần Anh Tuấn",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1yki00fofo7foe7e5kes",
+      "from": "BS. Lê Văn C 29",
+      "to": "TS.BS. Vũ Đình Hùng",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1yky00fqfo7fwmw7dd2i",
+      "from": "BS. Phạm Văn D 29",
+      "to": "TS.BS. Nguyễn Thị Lan",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1ylh00fsfo7fem36tfsy",
+      "from": "BS. Hoàng Văn E 29",
+      "to": "TS.BS. Lê Thị Mỹ Hạnh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1ym100fufo7fztw716xi",
+      "from": "BS. Vũ Thị F 29",
+      "to": "BS. Hoàng Văn Sơn",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1ymi00fwfo7fomlznora",
+      "from": "BS. Đỗ Thị G 29",
+      "to": "BS. Bùi Quốc Huy",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1ymz00fyfo7fattvet78",
+      "from": "BS. Bùi Thị H 29",
+      "to": "BS. Đỗ Thị Hương",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1ynj00g0fo7ffcizbpj7",
+      "from": "BS. Đặng Văn I 29",
+      "to": "BS. Phạm Văn Minh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1ynz00g2fo7f4xaxeqkk",
+      "from": "BS. Ngô Thị J 29",
+      "to": "TS.BS. Trương Nhân Khánh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1yoe00g4fo7flu7yg4aa",
+      "from": "BS. Nguyễn Văn A 30",
+      "to": "TS.BS. Lý Anh Đức",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1you00g6fo7foajht50r",
+      "from": "BS. Trần Văn B 30",
+      "to": "BS. Ngô Thanh Bình",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1ypa00g8fo7f4tkv1wr7",
+      "from": "BS. Lê Văn C 30",
+      "to": "TS.BS. Trần Thị Nguyệt",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1ypr00gafo7flxvn0l86",
+      "from": "BS. Phạm Văn D 30",
+      "to": "BS. Võ Văn Chính",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1yq600gcfo7f0w38ns0v",
+      "from": "BS. Hoàng Văn E 30",
+      "to": "BS. Đinh Thị Hồng",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1yqn00gefo7fc16by8pv",
+      "from": "BS. Vũ Thị F 30",
+      "to": "TS.BS. Hà Văn Tú",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1yr200ggfo7f0lb8gk2e",
+      "from": "BS. Đỗ Thị G 30",
+      "to": "TS.BS. Lê Hoàng Phúc",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1yrj00gifo7fmsoscrrt",
+      "from": "BS. Bùi Thị H 30",
+      "to": "BS. Trần Văn Nam",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1ys200gkfo7fcm6t825s",
+      "from": "BS. Đặng Văn I 30",
+      "to": "BS. Nguyễn Thái Bảo",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1ysh00gmfo7fesgvmf9b",
+      "from": "BS. Ngô Thị J 30",
+      "to": "TS.BS. Lê Thị Thanh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1ysx00gofo7fp8204xxu",
+      "from": "BS. Nguyễn Văn A 31",
+      "to": "PGS.TS.BS. Trịnh Hưng Lợi",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1ytd00gqfo7f80jsvoej",
+      "from": "BS. Trần Văn B 31",
+      "to": "TS.BS. Trần Anh Tuấn",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1ytu00gsfo7f8ts4875x",
+      "from": "BS. Lê Văn C 31",
+      "to": "TS.BS. Vũ Đình Hùng",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1yuc00gufo7fwkdllnhj",
+      "from": "BS. Phạm Văn D 31",
+      "to": "TS.BS. Nguyễn Thị Lan",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1yut00gwfo7fpwauafz0",
+      "from": "BS. Hoàng Văn E 31",
+      "to": "TS.BS. Lê Thị Mỹ Hạnh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1yva00gyfo7fhdb3yvde",
+      "from": "BS. Vũ Thị F 31",
+      "to": "BS. Hoàng Văn Sơn",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1yvs00h0fo7fzufhqbgy",
+      "from": "BS. Đỗ Thị G 31",
+      "to": "BS. Bùi Quốc Huy",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1yw900h2fo7ffoz117g8",
+      "from": "BS. Bùi Thị H 31",
+      "to": "BS. Đỗ Thị Hương",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1yws00h4fo7fsrvqjonm",
+      "from": "BS. Đặng Văn I 31",
+      "to": "BS. Phạm Văn Minh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1yx900h6fo7fvuqru91j",
+      "from": "BS. Ngô Thị J 31",
+      "to": "TS.BS. Trương Nhân Khánh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1yxq00h8fo7f4ichiqgv",
+      "from": "BS. Nguyễn Văn A 32",
+      "to": "TS.BS. Lý Anh Đức",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1yy400hafo7fu6mlkike",
+      "from": "BS. Trần Văn B 32",
+      "to": "BS. Ngô Thanh Bình",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1yyx00hcfo7ffs9ec37o",
+      "from": "BS. Lê Văn C 32",
+      "to": "TS.BS. Trần Thị Nguyệt",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1yze00hefo7foz6r9qlk",
+      "from": "BS. Phạm Văn D 32",
+      "to": "BS. Võ Văn Chính",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1yzw00hgfo7fr2d5pznn",
+      "from": "BS. Hoàng Văn E 32",
+      "to": "BS. Đinh Thị Hồng",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1z0c00hifo7f7nvpvksp",
+      "from": "BS. Vũ Thị F 32",
+      "to": "TS.BS. Hà Văn Tú",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1z0s00hkfo7fgyuoeah1",
+      "from": "BS. Đỗ Thị G 32",
+      "to": "TS.BS. Lê Hoàng Phúc",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1z1800hmfo7fxo8zwtp0",
+      "from": "BS. Bùi Thị H 32",
+      "to": "BS. Trần Văn Nam",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1z1q00hofo7fjyudewy8",
+      "from": "BS. Đặng Văn I 32",
+      "to": "BS. Nguyễn Thái Bảo",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1z2a00hqfo7fl68xg5sw",
+      "from": "BS. Ngô Thị J 32",
+      "to": "TS.BS. Lê Thị Thanh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1z2y00hsfo7fyssml8si",
+      "from": "BS. Nguyễn Văn A 33",
+      "to": "PGS.TS.BS. Trịnh Hưng Lợi",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1z3e00hufo7ffmktrako",
+      "from": "BS. Trần Văn B 33",
+      "to": "TS.BS. Trần Anh Tuấn",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1z3s00hwfo7fl9vzqahm",
+      "from": "BS. Lê Văn C 33",
+      "to": "TS.BS. Vũ Đình Hùng",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1z4800hyfo7fcjqkj7n8",
+      "from": "BS. Phạm Văn D 33",
+      "to": "TS.BS. Nguyễn Thị Lan",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1z4o00i0fo7ff3f6je6l",
+      "from": "BS. Hoàng Văn E 33",
+      "to": "TS.BS. Lê Thị Mỹ Hạnh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1z5400i2fo7f1u3jxuat",
+      "from": "BS. Vũ Thị F 33",
+      "to": "BS. Hoàng Văn Sơn",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1z5p00i4fo7f6gh2uzi4",
+      "from": "BS. Đỗ Thị G 33",
+      "to": "BS. Bùi Quốc Huy",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1z6400i6fo7fc2cvbg06",
+      "from": "BS. Bùi Thị H 33",
+      "to": "BS. Đỗ Thị Hương",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1z6j00i8fo7f3jq4i59i",
+      "from": "BS. Đặng Văn I 33",
+      "to": "BS. Phạm Văn Minh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1z7200iafo7fpsggrkti",
+      "from": "BS. Ngô Thị J 33",
+      "to": "TS.BS. Trương Nhân Khánh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1z7h00icfo7fmybi9g13",
+      "from": "BS. Nguyễn Văn A 34",
+      "to": "TS.BS. Lý Anh Đức",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1z8000iefo7f0uw31iic",
+      "from": "BS. Trần Văn B 34",
+      "to": "BS. Ngô Thanh Bình",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1z8g00igfo7fpb3n0ecc",
+      "from": "BS. Lê Văn C 34",
+      "to": "TS.BS. Trần Thị Nguyệt",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1z8y00iifo7fk42xwhzx",
+      "from": "BS. Phạm Văn D 34",
+      "to": "BS. Võ Văn Chính",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1z9e00ikfo7f00l1uljc",
+      "from": "BS. Hoàng Văn E 34",
+      "to": "BS. Đinh Thị Hồng",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1z9v00imfo7f5si4hymj",
+      "from": "BS. Vũ Thị F 34",
+      "to": "TS.BS. Hà Văn Tú",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1zae00iofo7fwdw8vwu1",
+      "from": "BS. Đỗ Thị G 34",
+      "to": "TS.BS. Lê Hoàng Phúc",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1zaw00iqfo7fcfyktuw1",
+      "from": "BS. Bùi Thị H 34",
+      "to": "BS. Trần Văn Nam",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1zbc00isfo7fnfdza2o8",
+      "from": "BS. Đặng Văn I 34",
+      "to": "BS. Nguyễn Thái Bảo",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1zbt00iufo7fh1kvam6f",
+      "from": "BS. Ngô Thị J 34",
+      "to": "TS.BS. Lê Thị Thanh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1zca00iwfo7fnmhztvus",
+      "from": "BS. Nguyễn Văn A 35",
+      "to": "PGS.TS.BS. Trịnh Hưng Lợi",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1zcm00iyfo7f7nssrphi",
+      "from": "BS. Trần Văn B 35",
+      "to": "TS.BS. Trần Anh Tuấn",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1zcz00j0fo7fwibtc5iw",
+      "from": "BS. Lê Văn C 35",
+      "to": "TS.BS. Vũ Đình Hùng",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1zdf00j2fo7fl45p2z1g",
+      "from": "BS. Phạm Văn D 35",
+      "to": "TS.BS. Nguyễn Thị Lan",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1zdu00j4fo7f9f820z29",
+      "from": "BS. Hoàng Văn E 35",
+      "to": "TS.BS. Lê Thị Mỹ Hạnh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1zed00j6fo7f8wqtkysu",
+      "from": "BS. Vũ Thị F 35",
+      "to": "BS. Hoàng Văn Sơn",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1zes00j8fo7fmpjikeul",
+      "from": "BS. Đỗ Thị G 35",
+      "to": "BS. Bùi Quốc Huy",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1zff00jafo7fzna5wkjt",
+      "from": "BS. Bùi Thị H 35",
+      "to": "BS. Đỗ Thị Hương",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1zft00jcfo7fejkdqoiy",
+      "from": "BS. Đặng Văn I 35",
+      "to": "BS. Phạm Văn Minh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1zg500jefo7f8qh9afym",
+      "from": "BS. Ngô Thị J 35",
+      "to": "TS.BS. Trương Nhân Khánh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1zgj00jgfo7ftdwid6n3",
+      "from": "BS. Nguyễn Văn A 36",
+      "to": "TS.BS. Lý Anh Đức",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1zgw00jifo7fuvev8bnx",
+      "from": "BS. Trần Văn B 36",
+      "to": "BS. Ngô Thanh Bình",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1zhc00jkfo7f3ejul6hv",
+      "from": "BS. Lê Văn C 36",
+      "to": "TS.BS. Trần Thị Nguyệt",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1zhq00jmfo7ff6zqnuqs",
+      "from": "BS. Phạm Văn D 36",
+      "to": "BS. Võ Văn Chính",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1zi600jofo7fzj0lfxd7",
+      "from": "BS. Hoàng Văn E 36",
+      "to": "BS. Đinh Thị Hồng",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1ziq00jqfo7faqqgoun4",
+      "from": "BS. Vũ Thị F 36",
+      "to": "TS.BS. Hà Văn Tú",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1zj700jsfo7fvdg18jts",
+      "from": "BS. Đỗ Thị G 36",
+      "to": "TS.BS. Lê Hoàng Phúc",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1zjs00jufo7fawnheoom",
+      "from": "BS. Bùi Thị H 36",
+      "to": "BS. Trần Văn Nam",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1zk800jwfo7fqulpbp93",
+      "from": "BS. Đặng Văn I 36",
+      "to": "BS. Nguyễn Thái Bảo",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1zkm00jyfo7fyq966l51",
+      "from": "BS. Ngô Thị J 36",
+      "to": "TS.BS. Lê Thị Thanh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1zl500k0fo7fbis5qe2c",
+      "from": "BS. Nguyễn Văn A 37",
+      "to": "PGS.TS.BS. Trịnh Hưng Lợi",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1zll00k2fo7f5q5t9o5m",
+      "from": "BS. Trần Văn B 37",
+      "to": "TS.BS. Trần Anh Tuấn",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1zm100k4fo7ftf5t8tcx",
+      "from": "BS. Lê Văn C 37",
+      "to": "TS.BS. Vũ Đình Hùng",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1zmi00k6fo7f6hg1fix8",
+      "from": "BS. Phạm Văn D 37",
+      "to": "TS.BS. Nguyễn Thị Lan",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1zn000k8fo7fk3cn7fix",
+      "from": "BS. Hoàng Văn E 37",
+      "to": "TS.BS. Lê Thị Mỹ Hạnh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1zng00kafo7fx9ve95h7",
+      "from": "BS. Vũ Thị F 37",
+      "to": "BS. Hoàng Văn Sơn",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1znw00kcfo7fuub247jg",
+      "from": "BS. Đỗ Thị G 37",
+      "to": "BS. Bùi Quốc Huy",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1zod00kefo7fw8j9pooy",
+      "from": "BS. Bùi Thị H 37",
+      "to": "BS. Đỗ Thị Hương",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1zou00kgfo7fv9v4nq1f",
+      "from": "BS. Đặng Văn I 37",
+      "to": "BS. Phạm Văn Minh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1zpb00kifo7f9z8vrhb0",
+      "from": "BS. Ngô Thị J 37",
+      "to": "TS.BS. Trương Nhân Khánh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1zps00kkfo7fakrpbhen",
+      "from": "BS. Nguyễn Văn A 38",
+      "to": "TS.BS. Lý Anh Đức",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1zq700kmfo7fk1b66478",
+      "from": "BS. Trần Văn B 38",
+      "to": "BS. Ngô Thanh Bình",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1zqm00kofo7fh1f84jvi",
+      "from": "BS. Lê Văn C 38",
+      "to": "TS.BS. Trần Thị Nguyệt",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1zr000kqfo7fedo2ee1z",
+      "from": "BS. Phạm Văn D 38",
+      "to": "BS. Võ Văn Chính",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1zre00ksfo7faiymtdbc",
+      "from": "BS. Hoàng Văn E 38",
+      "to": "BS. Đinh Thị Hồng",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1zrw00kufo7f64wup3ki",
+      "from": "BS. Vũ Thị F 38",
+      "to": "TS.BS. Hà Văn Tú",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1zsc00kwfo7feglsq0re",
+      "from": "BS. Đỗ Thị G 38",
+      "to": "TS.BS. Lê Hoàng Phúc",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1zsw00kyfo7froknp391",
+      "from": "BS. Bùi Thị H 38",
+      "to": "BS. Trần Văn Nam",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1ztd00l0fo7faqc61bcv",
+      "from": "BS. Đặng Văn I 38",
+      "to": "BS. Nguyễn Thái Bảo",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1ztt00l2fo7fjzjuiriu",
+      "from": "BS. Ngô Thị J 38",
+      "to": "TS.BS. Lê Thị Thanh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1zu900l4fo7fzuk221vk",
+      "from": "BS. Nguyễn Văn A 39",
+      "to": "PGS.TS.BS. Trịnh Hưng Lợi",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1zur00l6fo7f6wnc2kca",
+      "from": "BS. Trần Văn B 39",
+      "to": "TS.BS. Trần Anh Tuấn",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1zv800l8fo7f7cf9fid7",
+      "from": "BS. Lê Văn C 39",
+      "to": "TS.BS. Vũ Đình Hùng",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1zvo00lafo7fzhie4l0w",
+      "from": "BS. Phạm Văn D 39",
+      "to": "TS.BS. Nguyễn Thị Lan",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1zw500lcfo7f18g3el8y",
+      "from": "BS. Hoàng Văn E 39",
+      "to": "TS.BS. Lê Thị Mỹ Hạnh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1zwp00lefo7ftkbc1yic",
+      "from": "BS. Vũ Thị F 39",
+      "to": "BS. Hoàng Văn Sơn",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1zx600lgfo7fbgls6y4g",
+      "from": "BS. Đỗ Thị G 39",
+      "to": "BS. Bùi Quốc Huy",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1zxn00lifo7f86yamtl5",
+      "from": "BS. Bùi Thị H 39",
+      "to": "BS. Đỗ Thị Hương",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1zy200lkfo7fq0z4bowi",
+      "from": "BS. Đặng Văn I 39",
+      "to": "BS. Phạm Văn Minh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1zyl00lmfo7fo8s4928o",
+      "from": "BS. Ngô Thị J 39",
+      "to": "TS.BS. Trương Nhân Khánh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1zz100lofo7ftflngku2",
+      "from": "BS. Nguyễn Văn A 40",
+      "to": "TS.BS. Lý Anh Đức",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1zzh00lqfo7fywi2nhno",
+      "from": "BS. Trần Văn B 40",
+      "to": "BS. Ngô Thanh Bình",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge1zzy00lsfo7f8n1uj652",
+      "from": "BS. Lê Văn C 40",
+      "to": "TS.BS. Trần Thị Nguyệt",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge200g00lufo7ffkiq19o7",
+      "from": "BS. Phạm Văn D 40",
+      "to": "BS. Võ Văn Chính",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge200x00lwfo7fkycimg7l",
+      "from": "BS. Hoàng Văn E 40",
+      "to": "BS. Đinh Thị Hồng",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge201d00lyfo7fx36zg0kw",
+      "from": "BS. Vũ Thị F 40",
+      "to": "TS.BS. Hà Văn Tú",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge201x00m0fo7fvdf59i3q",
+      "from": "BS. Đỗ Thị G 40",
+      "to": "TS.BS. Lê Hoàng Phúc",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge202e00m2fo7fdolfcbge",
+      "from": "BS. Bùi Thị H 40",
+      "to": "BS. Trần Văn Nam",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge202v00m4fo7fsxy1ks0q",
+      "from": "BS. Đặng Văn I 40",
+      "to": "BS. Nguyễn Thái Bảo",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge203c00m6fo7fw020rcok",
+      "from": "BS. Ngô Thị J 40",
+      "to": "TS.BS. Lê Thị Thanh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge203t00m8fo7fl058g2pa",
+      "from": "BS. Nguyễn Văn A 41",
+      "to": "PGS.TS.BS. Trịnh Hưng Lợi",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge204800mafo7f37t045fu",
+      "from": "BS. Trần Văn B 41",
+      "to": "TS.BS. Trần Anh Tuấn",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge204n00mcfo7fodqrfqos",
+      "from": "BS. Lê Văn C 41",
+      "to": "TS.BS. Vũ Đình Hùng",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge205400mefo7fbin2l252",
+      "from": "BS. Phạm Văn D 41",
+      "to": "TS.BS. Nguyễn Thị Lan",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge205l00mgfo7fpz5rj8y7",
+      "from": "BS. Hoàng Văn E 41",
+      "to": "TS.BS. Lê Thị Mỹ Hạnh",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge206000mifo7fr8xt18m2",
+      "from": "BS. Vũ Thị F 41",
+      "to": "BS. Hoàng Văn Sơn",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge206e00mkfo7fpccc0vsb",
+      "from": "BS. Đỗ Thị G 41",
+      "to": "BS. Bùi Quốc Huy",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsge206t00mmfo7frkut79a0",
+      "from": "BS. Bùi Thị H 41",
+      "to": "BS. Đỗ Thị Hương",
+      "role": "DOCTOR"
+    },
+    {
+      "userId": "cmsgejprf0000u87f59be1jef",
+      "from": "ĐD. Vũ Thị Hồng 1",
+      "to": "ĐD. Trần Thị Lan",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejps90002u87f2hs9dr65",
+      "from": "ĐD. Phạm Thị Thanh 1",
+      "to": "ĐD. Nguyễn Thị Hoa",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejpst0004u87f37kay2r0",
+      "from": "ĐD. Trần Thị Yến 1",
+      "to": "ĐD. Vũ Thị Hương",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejptf0006u87f85tusu81",
+      "from": "ĐD. Nguyễn Thị Thu 1",
+      "to": "ĐD. Phạm Thị Linh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejpuc0008u87fiq2a5crn",
+      "from": "ĐD. Lê Thị Linh 1",
+      "to": "ĐD. Lê Thị Mai",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejpvr000au87fh8n2ecb4",
+      "from": "ĐD. Đỗ Thị Hảo 1",
+      "to": "ĐD. Đỗ Thị Thanh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejpwb000cu87fcfbycszd",
+      "from": "ĐD. Hoàng Thị Duyên 1",
+      "to": "ĐD. Hoàng Thị Tú",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejpwt000eu87fkw272t26",
+      "from": "ĐD. Bùi Thị Loan 1",
+      "to": "ĐD. Ngô Thị Bích",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejpx9000gu87fs5s6nrw3",
+      "from": "ĐD. Trương Thị Huyền 1",
+      "to": "ĐD. Bùi Thị Ngọc",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejpxp000iu87f705g0j3t",
+      "from": "ĐD. Ngô Thị Vân 1",
+      "to": "ĐD. Trương Thị Yến",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejpy5000ku87fmtbcw7u3",
+      "from": "ĐD. Lý Thị Hà 1",
+      "to": "ĐD. Đặng Thị Thu",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejpyl000mu87fgavs3gsh",
+      "from": "ĐD. Đặng Thị Hợp 1",
+      "to": "ĐD. Lý Thị Hương",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejpz0000ou87fy41sjnmt",
+      "from": "ĐD. Vũ Thị Tuyến 1",
+      "to": "ĐD. Nguyễn Thị Kim",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejpzi000qu87fc0ijcc2a",
+      "from": "ĐD. Phạm Thị Hạnh 1",
+      "to": "ĐD. Vũ Thị Diệp",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejpzy000su87f91c5w9tw",
+      "from": "ĐD. Trần Thị Linh 1",
+      "to": "ĐD. Phạm Thị Hồng",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejq0e000uu87fg7jrp4m6",
+      "from": "ĐD. Nguyễn Thị Kim 1",
+      "to": "ĐD. Trần Thị Bích",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejq0u000wu87fodej8kgh",
+      "from": "ĐD. Lê Thị Thắm 1",
+      "to": "ĐD. Lê Văn Anh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejq1a000yu87frwtzm258",
+      "from": "ĐD. Đỗ Thị Ngân 1",
+      "to": "ĐD. Ngô Văn Hùng",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejq1s0010u87fd2q7hvxl",
+      "from": "ĐD. Hoàng Thị Sơn 1",
+      "to": "ĐD. Bùi Văn Tuấn",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejq290012u87f1q567phf",
+      "from": "ĐD. Bùi Thị Tính 1",
+      "to": "ĐD. Đỗ Văn Minh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejq2p0014u87ffbyy797b",
+      "from": "ĐD. Lê Thị Mai 1",
+      "to": "ĐD. Trần Thị Lan",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejq370016u87fgcfcbyqu",
+      "from": "ĐD. Đỗ Thị Thanh 1",
+      "to": "ĐD. Nguyễn Thị Hoa",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejq3m0018u87f31htv3wj",
+      "from": "ĐD. Hoàng Thị Tú 1",
+      "to": "ĐD. Vũ Thị Hương",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejq45001au87fuhme4nba",
+      "from": "ĐD. Ngô Thị Bích 1",
+      "to": "ĐD. Phạm Thị Linh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejq4r001cu87fldmvzqwc",
+      "from": "ĐD. Bùi Thị Ngọc 1",
+      "to": "ĐD. Lê Thị Mai",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejq5e001eu87fyt0eu8vn",
+      "from": "ĐD. Trương Thị Yến 1",
+      "to": "ĐD. Đỗ Thị Thanh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejq61001gu87f61tu482a",
+      "from": "ĐD. Đặng Thị Thu 1",
+      "to": "ĐD. Hoàng Thị Tú",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejq6v001iu87figbfku54",
+      "from": "ĐD. Lý Thị Hương 1",
+      "to": "ĐD. Ngô Thị Bích",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejq87001ku87fn0soea0o",
+      "from": "ĐD. Vũ Thị Diệp 1",
+      "to": "ĐD. Bùi Thị Ngọc",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejq92001mu87fob9dploe",
+      "from": "ĐD. Vũ Thị Hồng 2",
+      "to": "ĐD. Trương Thị Yến",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejq9u001ou87f75wbv2cm",
+      "from": "ĐD. Phạm Thị Thanh 2",
+      "to": "ĐD. Đặng Thị Thu",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejqai001qu87fbtqeufp9",
+      "from": "ĐD. Trần Thị Yến 2",
+      "to": "ĐD. Lý Thị Hương",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejqbb001su87fhcihoiqv",
+      "from": "ĐD. Nguyễn Thị Thu 2",
+      "to": "ĐD. Nguyễn Thị Kim",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejqbv001uu87fa9t9l4tm",
+      "from": "ĐD. Lê Thị Linh 2",
+      "to": "ĐD. Vũ Thị Diệp",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejqcg001wu87furax55kj",
+      "from": "ĐD. Đỗ Thị Hảo 2",
+      "to": "ĐD. Phạm Thị Hồng",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejqd1001yu87fvcn38bfq",
+      "from": "ĐD. Hoàng Thị Duyên 2",
+      "to": "ĐD. Trần Thị Bích",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejqdm0020u87fd1fjool1",
+      "from": "ĐD. Bùi Thị Loan 2",
+      "to": "ĐD. Lê Văn Anh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejqe80022u87fra7w5yop",
+      "from": "ĐD. Trương Thị Huyền 2",
+      "to": "ĐD. Ngô Văn Hùng",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejqer0024u87fpk2w7n0v",
+      "from": "ĐD. Ngô Thị Vân 2",
+      "to": "ĐD. Bùi Văn Tuấn",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejqfc0026u87fxqw9h4zu",
+      "from": "ĐD. Lý Thị Hà 2",
+      "to": "ĐD. Đỗ Văn Minh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejqfx0028u87fvnnm3t2j",
+      "from": "ĐD. Đặng Thị Hợp 2",
+      "to": "ĐD. Trần Thị Lan",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejqgq002au87fp4dg6gm0",
+      "from": "ĐD. Vũ Thị Tuyến 2",
+      "to": "ĐD. Nguyễn Thị Hoa",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejqhc002cu87fosyjqfwk",
+      "from": "ĐD. Phạm Thị Hạnh 2",
+      "to": "ĐD. Vũ Thị Hương",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejqhv002eu87fwn0em1ig",
+      "from": "ĐD. Trần Thị Linh 2",
+      "to": "ĐD. Phạm Thị Linh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejqil002gu87f50a05bzi",
+      "from": "ĐD. Nguyễn Thị Kim 2",
+      "to": "ĐD. Lê Thị Mai",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejqj2002iu87fxltqbfao",
+      "from": "ĐD. Lê Thị Thắm 2",
+      "to": "ĐD. Đỗ Thị Thanh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejqjl002ku87floza1ksp",
+      "from": "ĐD. Đỗ Thị Ngân 2",
+      "to": "ĐD. Hoàng Thị Tú",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejqk4002mu87f623e1ygz",
+      "from": "ĐD. Hoàng Thị Sơn 2",
+      "to": "ĐD. Ngô Thị Bích",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejqko002ou87fwyp5mwik",
+      "from": "ĐD. Bùi Thị Tính 2",
+      "to": "ĐD. Bùi Thị Ngọc",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejqle002qu87f230s7ptf",
+      "from": "ĐD. Lê Thị Mai 2",
+      "to": "ĐD. Trương Thị Yến",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejqm5002su87fkrr7tvvg",
+      "from": "ĐD. Đỗ Thị Thanh 2",
+      "to": "ĐD. Đặng Thị Thu",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejqn3002uu87fer9kjcc8",
+      "from": "ĐD. Hoàng Thị Tú 2",
+      "to": "ĐD. Lý Thị Hương",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejqnp002wu87f3efgqosa",
+      "from": "ĐD. Ngô Thị Bích 2",
+      "to": "ĐD. Nguyễn Thị Kim",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejqog002yu87frai0mi92",
+      "from": "ĐD. Bùi Thị Ngọc 2",
+      "to": "ĐD. Vũ Thị Diệp",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejqp20030u87f2abcpucw",
+      "from": "ĐD. Trương Thị Yến 2",
+      "to": "ĐD. Phạm Thị Hồng",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejqpq0032u87ffavvnssw",
+      "from": "ĐD. Đặng Thị Thu 2",
+      "to": "ĐD. Trần Thị Bích",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejqqd0034u87f55xcxceq",
+      "from": "ĐD. Lý Thị Hương 2",
+      "to": "ĐD. Lê Văn Anh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejqrd0036u87fup8o6k85",
+      "from": "ĐD. Vũ Thị Diệp 2",
+      "to": "ĐD. Ngô Văn Hùng",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejqs20038u87ffo6mye8c",
+      "from": "ĐD. Vũ Thị Hồng 3",
+      "to": "ĐD. Bùi Văn Tuấn",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejqsu003au87f01fkos2i",
+      "from": "ĐD. Phạm Thị Thanh 3",
+      "to": "ĐD. Đỗ Văn Minh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejqto003cu87fgqod2p0q",
+      "from": "ĐD. Trần Thị Yến 3",
+      "to": "ĐD. Trần Thị Lan",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejquc003eu87fw04atoar",
+      "from": "ĐD. Nguyễn Thị Thu 3",
+      "to": "ĐD. Nguyễn Thị Hoa",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejquy003gu87ftp0ikydx",
+      "from": "ĐD. Lê Thị Linh 3",
+      "to": "ĐD. Vũ Thị Hương",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejqvi003iu87f4tpmv438",
+      "from": "ĐD. Đỗ Thị Hảo 3",
+      "to": "ĐD. Phạm Thị Linh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejqvz003ku87fnx0gwvt3",
+      "from": "ĐD. Hoàng Thị Duyên 3",
+      "to": "ĐD. Lê Thị Mai",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejqwk003mu87f7rvbzocr",
+      "from": "ĐD. Bùi Thị Loan 3",
+      "to": "ĐD. Đỗ Thị Thanh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejqx4003ou87fzh388nuq",
+      "from": "ĐD. Trương Thị Huyền 3",
+      "to": "ĐD. Hoàng Thị Tú",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejqxm003qu87fn35brlfg",
+      "from": "ĐD. Ngô Thị Vân 3",
+      "to": "ĐD. Ngô Thị Bích",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejqy6003su87f0gjhsryn",
+      "from": "ĐD. Lý Thị Hà 3",
+      "to": "ĐD. Bùi Thị Ngọc",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejqyu003uu87fuznxfbnr",
+      "from": "ĐD. Đặng Thị Hợp 3",
+      "to": "ĐD. Trương Thị Yến",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejqzg003wu87f8v5bufaz",
+      "from": "ĐD. Vũ Thị Tuyến 3",
+      "to": "ĐD. Đặng Thị Thu",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejr02003yu87f652815nw",
+      "from": "ĐD. Phạm Thị Hạnh 3",
+      "to": "ĐD. Lý Thị Hương",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejr0n0040u87f6bbhhznm",
+      "from": "ĐD. Trần Thị Linh 3",
+      "to": "ĐD. Nguyễn Thị Kim",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejr130042u87fenrqjnf6",
+      "from": "ĐD. Nguyễn Thị Kim 3",
+      "to": "ĐD. Vũ Thị Diệp",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejr1i0044u87f9rlydzdd",
+      "from": "ĐD. Lê Thị Thắm 3",
+      "to": "ĐD. Phạm Thị Hồng",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejr250046u87f0iq7w1cq",
+      "from": "ĐD. Đỗ Thị Ngân 3",
+      "to": "ĐD. Trần Thị Bích",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejr2p0048u87fps94n76d",
+      "from": "ĐD. Hoàng Thị Sơn 3",
+      "to": "ĐD. Lê Văn Anh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejr38004au87f1qvjl6lb",
+      "from": "ĐD. Bùi Thị Tính 3",
+      "to": "ĐD. Ngô Văn Hùng",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejr3x004cu87fdhgad6zm",
+      "from": "ĐD. Lê Thị Mai 3",
+      "to": "ĐD. Bùi Văn Tuấn",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejr4m004eu87f208humu7",
+      "from": "ĐD. Đỗ Thị Thanh 3",
+      "to": "ĐD. Đỗ Văn Minh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejr57004gu87fo977zf3s",
+      "from": "ĐD. Hoàng Thị Tú 3",
+      "to": "ĐD. Trần Thị Lan",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejr5u004iu87fo0vn7ihu",
+      "from": "ĐD. Ngô Thị Bích 3",
+      "to": "ĐD. Nguyễn Thị Hoa",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejr6i004ku87fci4my7jy",
+      "from": "ĐD. Bùi Thị Ngọc 3",
+      "to": "ĐD. Vũ Thị Hương",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejr75004mu87fsia75alo",
+      "from": "ĐD. Trương Thị Yến 3",
+      "to": "ĐD. Phạm Thị Linh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejr7n004ou87fq0onlmfp",
+      "from": "ĐD. Đặng Thị Thu 3",
+      "to": "ĐD. Lê Thị Mai",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejr84004qu87fnaqip76z",
+      "from": "ĐD. Lý Thị Hương 3",
+      "to": "ĐD. Đỗ Thị Thanh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejr8w004su87f6kvvgfjy",
+      "from": "ĐD. Vũ Thị Diệp 3",
+      "to": "ĐD. Hoàng Thị Tú",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejr9p004uu87f6ifjcb8y",
+      "from": "ĐD. Vũ Thị Hồng 4",
+      "to": "ĐD. Ngô Thị Bích",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejrac004wu87fnb96zfg2",
+      "from": "ĐD. Phạm Thị Thanh 4",
+      "to": "ĐD. Bùi Thị Ngọc",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejrax004yu87f995ep5pf",
+      "from": "ĐD. Trần Thị Yến 4",
+      "to": "ĐD. Trương Thị Yến",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejrbk0050u87f9aauypti",
+      "from": "ĐD. Nguyễn Thị Thu 4",
+      "to": "ĐD. Đặng Thị Thu",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejrca0052u87fyfv149w7",
+      "from": "ĐD. Lê Thị Linh 4",
+      "to": "ĐD. Lý Thị Hương",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejrd60054u87fa64lr9be",
+      "from": "ĐD. Đỗ Thị Hảo 4",
+      "to": "ĐD. Nguyễn Thị Kim",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejrdp0056u87fyeycsowr",
+      "from": "ĐD. Hoàng Thị Duyên 4",
+      "to": "ĐD. Vũ Thị Diệp",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejre70058u87fpwiz0nf8",
+      "from": "ĐD. Bùi Thị Loan 4",
+      "to": "ĐD. Phạm Thị Hồng",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejrev005au87fpi0y6des",
+      "from": "ĐD. Trương Thị Huyền 4",
+      "to": "ĐD. Trần Thị Bích",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejrfg005cu87ftig03fhx",
+      "from": "ĐD. Ngô Thị Vân 4",
+      "to": "ĐD. Lê Văn Anh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejrg1005eu87fsu7aedlc",
+      "from": "ĐD. Lý Thị Hà 4",
+      "to": "ĐD. Ngô Văn Hùng",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejrgj005gu87fq584lw8r",
+      "from": "ĐD. Đặng Thị Hợp 4",
+      "to": "ĐD. Bùi Văn Tuấn",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejrh6005iu87fb9y3qbbd",
+      "from": "ĐD. Vũ Thị Tuyến 4",
+      "to": "ĐD. Đỗ Văn Minh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejrho005ku87f27pj8xly",
+      "from": "ĐD. Phạm Thị Hạnh 4",
+      "to": "ĐD. Trần Thị Lan",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejric005mu87fv4w5e2y0",
+      "from": "ĐD. Trần Thị Linh 4",
+      "to": "ĐD. Nguyễn Thị Hoa",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejriu005ou87fjzuvqmx1",
+      "from": "ĐD. Nguyễn Thị Kim 4",
+      "to": "ĐD. Vũ Thị Hương",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejrjd005qu87fhpzo1gbn",
+      "from": "ĐD. Lê Thị Thắm 4",
+      "to": "ĐD. Phạm Thị Linh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejrjz005su87f5fkf2w32",
+      "from": "ĐD. Đỗ Thị Ngân 4",
+      "to": "ĐD. Lê Thị Mai",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejrki005uu87fbwvuyvuy",
+      "from": "ĐD. Hoàng Thị Sơn 4",
+      "to": "ĐD. Đỗ Thị Thanh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejrl5005wu87fp82olur8",
+      "from": "ĐD. Bùi Thị Tính 4",
+      "to": "ĐD. Hoàng Thị Tú",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejrlu005yu87f6tsh0mop",
+      "from": "ĐD. Lê Thị Mai 4",
+      "to": "ĐD. Ngô Thị Bích",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejrme0060u87fmsnpfvbx",
+      "from": "ĐD. Đỗ Thị Thanh 4",
+      "to": "ĐD. Bùi Thị Ngọc",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejrmy0062u87fmfhvzm56",
+      "from": "ĐD. Hoàng Thị Tú 4",
+      "to": "ĐD. Trương Thị Yến",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejrnk0064u87f1cg44cuy",
+      "from": "ĐD. Ngô Thị Bích 4",
+      "to": "ĐD. Đặng Thị Thu",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejro60066u87fz1gie97y",
+      "from": "ĐD. Bùi Thị Ngọc 4",
+      "to": "ĐD. Lý Thị Hương",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejror0068u87f72vdlwgw",
+      "from": "ĐD. Trương Thị Yến 4",
+      "to": "ĐD. Nguyễn Thị Kim",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejrpb006au87fgwo7pqfc",
+      "from": "ĐD. Đặng Thị Thu 4",
+      "to": "ĐD. Vũ Thị Diệp",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejrq1006cu87faxounw6l",
+      "from": "ĐD. Lý Thị Hương 4",
+      "to": "ĐD. Phạm Thị Hồng",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejrqr006eu87fjb1ga6kn",
+      "from": "ĐD. Vũ Thị Diệp 4",
+      "to": "ĐD. Trần Thị Bích",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejrr9006gu87f03c4j54k",
+      "from": "ĐD. Vũ Thị Hồng 5",
+      "to": "ĐD. Lê Văn Anh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejrro006iu87fqj14wapv",
+      "from": "ĐD. Phạm Thị Thanh 5",
+      "to": "ĐD. Ngô Văn Hùng",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejrs7006ku87fcb5bteck",
+      "from": "ĐD. Trần Thị Yến 5",
+      "to": "ĐD. Bùi Văn Tuấn",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejrst006mu87fg6rf54v8",
+      "from": "ĐD. Nguyễn Thị Thu 5",
+      "to": "ĐD. Đỗ Văn Minh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejrth006ou87f6rqr9mm6",
+      "from": "ĐD. Lê Thị Linh 5",
+      "to": "ĐD. Trần Thị Lan",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejru8006qu87f5got2ylq",
+      "from": "ĐD. Đỗ Thị Hảo 5",
+      "to": "ĐD. Nguyễn Thị Hoa",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejruq006su87f1n76gru3",
+      "from": "ĐD. Hoàng Thị Duyên 5",
+      "to": "ĐD. Vũ Thị Hương",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejrw3006uu87ff27w960d",
+      "from": "ĐD. Bùi Thị Loan 5",
+      "to": "ĐD. Phạm Thị Linh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejrwn006wu87fwf75grc0",
+      "from": "ĐD. Trương Thị Huyền 5",
+      "to": "ĐD. Lê Thị Mai",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejrx7006yu87fw8axylzt",
+      "from": "ĐD. Ngô Thị Vân 5",
+      "to": "ĐD. Đỗ Thị Thanh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejrxp0070u87f874z13p7",
+      "from": "ĐD. Lý Thị Hà 5",
+      "to": "ĐD. Hoàng Thị Tú",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejry50072u87f48hj0ico",
+      "from": "ĐD. Đặng Thị Hợp 5",
+      "to": "ĐD. Ngô Thị Bích",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejryj0074u87f7km1gr3f",
+      "from": "ĐD. Vũ Thị Tuyến 5",
+      "to": "ĐD. Bùi Thị Ngọc",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejs1w0076u87fi7tecx09",
+      "from": "ĐD. Phạm Thị Hạnh 5",
+      "to": "ĐD. Trương Thị Yến",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejs2l0078u87fbsfgxl16",
+      "from": "ĐD. Trần Thị Linh 5",
+      "to": "ĐD. Đặng Thị Thu",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejs3e007au87fqrqmsd98",
+      "from": "ĐD. Nguyễn Thị Kim 5",
+      "to": "ĐD. Lý Thị Hương",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejs48007cu87fundir8if",
+      "from": "ĐD. Lê Thị Thắm 5",
+      "to": "ĐD. Nguyễn Thị Kim",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejs4s007eu87forp2n74y",
+      "from": "ĐD. Đỗ Thị Ngân 5",
+      "to": "ĐD. Vũ Thị Diệp",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejs5b007gu87f11lw2l25",
+      "from": "ĐD. Hoàng Thị Sơn 5",
+      "to": "ĐD. Phạm Thị Hồng",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejs5r007iu87fo213c0nv",
+      "from": "ĐD. Bùi Thị Tính 5",
+      "to": "ĐD. Trần Thị Bích",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejs6b007ku87fjyzls02k",
+      "from": "ĐD. Lê Thị Mai 5",
+      "to": "ĐD. Lê Văn Anh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejs6u007mu87fulupf9mu",
+      "from": "ĐD. Đỗ Thị Thanh 5",
+      "to": "ĐD. Ngô Văn Hùng",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejs7d007ou87fy9hyhbh4",
+      "from": "ĐD. Hoàng Thị Tú 5",
+      "to": "ĐD. Bùi Văn Tuấn",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejs7z007qu87fwd8i1hb0",
+      "from": "ĐD. Ngô Thị Bích 5",
+      "to": "ĐD. Đỗ Văn Minh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejs8l007su87foefonbni",
+      "from": "ĐD. Bùi Thị Ngọc 5",
+      "to": "ĐD. Trần Thị Lan",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejs96007uu87f2pi81ccq",
+      "from": "ĐD. Trương Thị Yến 5",
+      "to": "ĐD. Nguyễn Thị Hoa",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejs9q007wu87fn36qww67",
+      "from": "ĐD. Đặng Thị Thu 5",
+      "to": "ĐD. Vũ Thị Hương",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejsaa007yu87fvri0iigh",
+      "from": "ĐD. Lý Thị Hương 5",
+      "to": "ĐD. Phạm Thị Linh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejsb20080u87fffqnfky5",
+      "from": "ĐD. Vũ Thị Diệp 5",
+      "to": "ĐD. Lê Thị Mai",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejsbj0082u87fmshotscf",
+      "from": "ĐD. Vũ Thị Hồng 6",
+      "to": "ĐD. Đỗ Thị Thanh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejsby0084u87ffzlj25jo",
+      "from": "ĐD. Phạm Thị Thanh 6",
+      "to": "ĐD. Hoàng Thị Tú",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejscc0086u87f6ssvwf29",
+      "from": "ĐD. Trần Thị Yến 6",
+      "to": "ĐD. Ngô Thị Bích",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejscs0088u87fkxztnhni",
+      "from": "ĐD. Nguyễn Thị Thu 6",
+      "to": "ĐD. Bùi Thị Ngọc",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejsde008au87fi7atypcu",
+      "from": "ĐD. Lê Thị Linh 6",
+      "to": "ĐD. Trương Thị Yến",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejsdu008cu87fstz7fd8f",
+      "from": "ĐD. Đỗ Thị Hảo 6",
+      "to": "ĐD. Đặng Thị Thu",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejse9008eu87fcsp75ta5",
+      "from": "ĐD. Hoàng Thị Duyên 6",
+      "to": "ĐD. Lý Thị Hương",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejses008gu87f8fc39ejx",
+      "from": "ĐD. Bùi Thị Loan 6",
+      "to": "ĐD. Nguyễn Thị Kim",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejsfk008iu87fm5aqxwmj",
+      "from": "ĐD. Trương Thị Huyền 6",
+      "to": "ĐD. Vũ Thị Diệp",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejsg4008ku87f9uf67ew1",
+      "from": "ĐD. Ngô Thị Vân 6",
+      "to": "ĐD. Phạm Thị Hồng",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejsgu008mu87fuhczbxo5",
+      "from": "ĐD. Lý Thị Hà 6",
+      "to": "ĐD. Trần Thị Bích",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejshf008ou87f3as9b621",
+      "from": "ĐD. Đặng Thị Hợp 6",
+      "to": "ĐD. Lê Văn Anh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejshw008qu87f7m0ey5oa",
+      "from": "ĐD. Vũ Thị Tuyến 6",
+      "to": "ĐD. Ngô Văn Hùng",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejsiq008su87fwtoku7rn",
+      "from": "ĐD. Phạm Thị Hạnh 6",
+      "to": "ĐD. Bùi Văn Tuấn",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejsjh008uu87f5p2504m2",
+      "from": "ĐD. Trần Thị Linh 6",
+      "to": "ĐD. Đỗ Văn Minh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejsk5008wu87fvrxa1wpj",
+      "from": "ĐD. Nguyễn Thị Kim 6",
+      "to": "ĐD. Trần Thị Lan",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejskm008yu87ffo6r6y8v",
+      "from": "ĐD. Lê Thị Thắm 6",
+      "to": "ĐD. Nguyễn Thị Hoa",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejsl30090u87fisfmuxhc",
+      "from": "ĐD. Đỗ Thị Ngân 6",
+      "to": "ĐD. Vũ Thị Hương",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejslm0092u87fl2q3uj0f",
+      "from": "ĐD. Hoàng Thị Sơn 6",
+      "to": "ĐD. Phạm Thị Linh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejsm80094u87fkqo7xc1v",
+      "from": "ĐD. Bùi Thị Tính 6",
+      "to": "ĐD. Lê Thị Mai",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejsmr0096u87faqfyu8bz",
+      "from": "ĐD. Lê Thị Mai 6",
+      "to": "ĐD. Đỗ Thị Thanh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejsn80098u87fk8mt6ucl",
+      "from": "ĐD. Đỗ Thị Thanh 6",
+      "to": "ĐD. Hoàng Thị Tú",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejsno009au87fegx3omci",
+      "from": "ĐD. Hoàng Thị Tú 6",
+      "to": "ĐD. Ngô Thị Bích",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejso5009cu87f86wwdimq",
+      "from": "ĐD. Ngô Thị Bích 6",
+      "to": "ĐD. Bùi Thị Ngọc",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejson009eu87fkrffqrj2",
+      "from": "ĐD. Bùi Thị Ngọc 6",
+      "to": "ĐD. Trương Thị Yến",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejsp2009gu87fp3lgtikv",
+      "from": "ĐD. Trương Thị Yến 6",
+      "to": "ĐD. Đặng Thị Thu",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejsph009iu87fbom6e6yb",
+      "from": "ĐD. Đặng Thị Thu 6",
+      "to": "ĐD. Lý Thị Hương",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejspz009ku87fws9fsvhx",
+      "from": "ĐD. Lý Thị Hương 6",
+      "to": "ĐD. Nguyễn Thị Kim",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejsqw009mu87fhb9c5phj",
+      "from": "ĐD. Vũ Thị Diệp 6",
+      "to": "ĐD. Vũ Thị Diệp",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejsrg009ou87fizxyu6ln",
+      "from": "ĐD. Vũ Thị Hồng 7",
+      "to": "ĐD. Phạm Thị Hồng",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejss1009qu87f3zffausb",
+      "from": "ĐD. Phạm Thị Thanh 7",
+      "to": "ĐD. Trần Thị Bích",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejssm009su87ftoksdz4c",
+      "from": "ĐD. Trần Thị Yến 7",
+      "to": "ĐD. Lê Văn Anh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejst6009uu87fkukm066p",
+      "from": "ĐD. Nguyễn Thị Thu 7",
+      "to": "ĐD. Ngô Văn Hùng",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejstp009wu87fvbwryfzm",
+      "from": "ĐD. Lê Thị Linh 7",
+      "to": "ĐD. Bùi Văn Tuấn",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejsu7009yu87f3c57w6sc",
+      "from": "ĐD. Đỗ Thị Hảo 7",
+      "to": "ĐD. Đỗ Văn Minh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejsul00a0u87fjh66aeso",
+      "from": "ĐD. Hoàng Thị Duyên 7",
+      "to": "ĐD. Trần Thị Lan",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejsv000a2u87f1eh6nt5s",
+      "from": "ĐD. Bùi Thị Loan 7",
+      "to": "ĐD. Nguyễn Thị Hoa",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejsvh00a4u87f35bvo8p6",
+      "from": "ĐD. Trương Thị Huyền 7",
+      "to": "ĐD. Vũ Thị Hương",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejsvx00a6u87fwnv2bndb",
+      "from": "ĐD. Ngô Thị Vân 7",
+      "to": "ĐD. Phạm Thị Linh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejswc00a8u87fvoxmq24j",
+      "from": "ĐD. Lý Thị Hà 7",
+      "to": "ĐD. Lê Thị Mai",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejsws00aau87fazpqwafj",
+      "from": "ĐD. Đặng Thị Hợp 7",
+      "to": "ĐD. Đỗ Thị Thanh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejsx900acu87fwztr0xjl",
+      "from": "ĐD. Vũ Thị Tuyến 7",
+      "to": "ĐD. Hoàng Thị Tú",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejsxn00aeu87fahyq9nua",
+      "from": "ĐD. Phạm Thị Hạnh 7",
+      "to": "ĐD. Ngô Thị Bích",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejsy100agu87fd8k62i30",
+      "from": "ĐD. Trần Thị Linh 7",
+      "to": "ĐD. Bùi Thị Ngọc",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejsyh00aiu87f4lwav6p7",
+      "from": "ĐD. Nguyễn Thị Kim 7",
+      "to": "ĐD. Trương Thị Yến",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejsyw00aku87f8wafh7sw",
+      "from": "ĐD. Lê Thị Thắm 7",
+      "to": "ĐD. Đặng Thị Thu",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejszd00amu87fbtstngee",
+      "from": "ĐD. Đỗ Thị Ngân 7",
+      "to": "ĐD. Lý Thị Hương",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejszt00aou87fbh673iox",
+      "from": "ĐD. Hoàng Thị Sơn 7",
+      "to": "ĐD. Nguyễn Thị Kim",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejt0800aqu87f7berd6zo",
+      "from": "ĐD. Bùi Thị Tính 7",
+      "to": "ĐD. Vũ Thị Diệp",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejt0r00asu87fc2l9ru4z",
+      "from": "ĐD. Lê Thị Mai 7",
+      "to": "ĐD. Phạm Thị Hồng",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejt1a00auu87f8m2bugwj",
+      "from": "ĐD. Đỗ Thị Thanh 7",
+      "to": "ĐD. Trần Thị Bích",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejt1p00awu87fllxtqckx",
+      "from": "ĐD. Hoàng Thị Tú 7",
+      "to": "ĐD. Lê Văn Anh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejt2500ayu87f6s6i9549",
+      "from": "ĐD. Ngô Thị Bích 7",
+      "to": "ĐD. Ngô Văn Hùng",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejt2j00b0u87fafc9zcd0",
+      "from": "ĐD. Bùi Thị Ngọc 7",
+      "to": "ĐD. Bùi Văn Tuấn",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejt2y00b2u87fmigdzikd",
+      "from": "ĐD. Trương Thị Yến 7",
+      "to": "ĐD. Đỗ Văn Minh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejt3e00b4u87fv9ezrhcb",
+      "from": "ĐD. Đặng Thị Thu 7",
+      "to": "ĐD. Trần Thị Lan",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejt3u00b6u87f36wcj1pe",
+      "from": "ĐD. Lý Thị Hương 7",
+      "to": "ĐD. Nguyễn Thị Hoa",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejt4g00b8u87fijg64tsf",
+      "from": "ĐD. Vũ Thị Diệp 7",
+      "to": "ĐD. Vũ Thị Hương",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejt4z00bau87fwsyegeg8",
+      "from": "ĐD. Vũ Thị Hồng 8",
+      "to": "ĐD. Phạm Thị Linh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejt5i00bcu87foehtaxbv",
+      "from": "ĐD. Phạm Thị Thanh 8",
+      "to": "ĐD. Lê Thị Mai",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejt5y00beu87f985u9ynz",
+      "from": "ĐD. Trần Thị Yến 8",
+      "to": "ĐD. Đỗ Thị Thanh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejt6d00bgu87fgu56ck06",
+      "from": "ĐD. Nguyễn Thị Thu 8",
+      "to": "ĐD. Hoàng Thị Tú",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejt6s00biu87flvj7cjzy",
+      "from": "ĐD. Lê Thị Linh 8",
+      "to": "ĐD. Ngô Thị Bích",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejt7b00bku87fz3fwqtz4",
+      "from": "ĐD. Đỗ Thị Hảo 8",
+      "to": "ĐD. Bùi Thị Ngọc",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejt7r00bmu87fodqakkce",
+      "from": "ĐD. Hoàng Thị Duyên 8",
+      "to": "ĐD. Trương Thị Yến",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejt8800bou87fx1yl0pms",
+      "from": "ĐD. Bùi Thị Loan 8",
+      "to": "ĐD. Đặng Thị Thu",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejt8o00bqu87fygbbnj2z",
+      "from": "ĐD. Trương Thị Huyền 8",
+      "to": "ĐD. Lý Thị Hương",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejt9400bsu87fvufiqtct",
+      "from": "ĐD. Ngô Thị Vân 8",
+      "to": "ĐD. Nguyễn Thị Kim",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejt9q00buu87fwgpov7n6",
+      "from": "ĐD. Lý Thị Hà 8",
+      "to": "ĐD. Vũ Thị Diệp",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejta700bwu87fpnsowiqb",
+      "from": "ĐD. Đặng Thị Hợp 8",
+      "to": "ĐD. Phạm Thị Hồng",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejtam00byu87fjrks11ge",
+      "from": "ĐD. Vũ Thị Tuyến 8",
+      "to": "ĐD. Trần Thị Bích",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejtb400c0u87fe5ddfb9d",
+      "from": "ĐD. Phạm Thị Hạnh 8",
+      "to": "ĐD. Lê Văn Anh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejtbj00c2u87f02mr1ii7",
+      "from": "ĐD. Trần Thị Linh 8",
+      "to": "ĐD. Ngô Văn Hùng",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejtby00c4u87fck46i2xr",
+      "from": "ĐD. Nguyễn Thị Kim 8",
+      "to": "ĐD. Bùi Văn Tuấn",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejtcc00c6u87flpse5zhk",
+      "from": "ĐD. Lê Thị Thắm 8",
+      "to": "ĐD. Đỗ Văn Minh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejtcs00c8u87fm2s7dut8",
+      "from": "ĐD. Đỗ Thị Ngân 8",
+      "to": "ĐD. Trần Thị Lan",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejtd900cau87fmtui5gy6",
+      "from": "ĐD. Hoàng Thị Sơn 8",
+      "to": "ĐD. Nguyễn Thị Hoa",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejtdt00ccu87fcdy9yjwb",
+      "from": "ĐD. Bùi Thị Tính 8",
+      "to": "ĐD. Vũ Thị Hương",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejteb00ceu87fxhmgyb3b",
+      "from": "ĐD. Lê Thị Mai 8",
+      "to": "ĐD. Phạm Thị Linh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejtex00cgu87fgkcnlwsw",
+      "from": "ĐD. Đỗ Thị Thanh 8",
+      "to": "ĐD. Lê Thị Mai",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejtfc00ciu87fsqhmuz9x",
+      "from": "ĐD. Hoàng Thị Tú 8",
+      "to": "ĐD. Đỗ Thị Thanh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejtfr00cku87fk4ikbde6",
+      "from": "ĐD. Ngô Thị Bích 8",
+      "to": "ĐD. Hoàng Thị Tú",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejtg700cmu87ftfyx2gf7",
+      "from": "ĐD. Bùi Thị Ngọc 8",
+      "to": "ĐD. Ngô Thị Bích",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejtgq00cou87f33w03yy5",
+      "from": "ĐD. Trương Thị Yến 8",
+      "to": "ĐD. Bùi Thị Ngọc",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejth500cqu87fzu584g3i",
+      "from": "ĐD. Đặng Thị Thu 8",
+      "to": "ĐD. Trương Thị Yến",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejthn00csu87fgafsmufb",
+      "from": "ĐD. Lý Thị Hương 8",
+      "to": "ĐD. Đặng Thị Thu",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejtic00cuu87fkvpdh6kv",
+      "from": "ĐD. Vũ Thị Diệp 8",
+      "to": "ĐD. Lý Thị Hương",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejtiw00cwu87f0nfh5ydo",
+      "from": "ĐD. Vũ Thị Hồng 9",
+      "to": "ĐD. Nguyễn Thị Kim",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejtjc00cyu87f5qrplb5y",
+      "from": "ĐD. Phạm Thị Thanh 9",
+      "to": "ĐD. Vũ Thị Diệp",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejtjs00d0u87fne0axmpt",
+      "from": "ĐD. Trần Thị Yến 9",
+      "to": "ĐD. Phạm Thị Hồng",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejtk800d2u87fsfbr7pvi",
+      "from": "ĐD. Nguyễn Thị Thu 9",
+      "to": "ĐD. Trần Thị Bích",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejtkm00d4u87fneu0dmf4",
+      "from": "ĐD. Lê Thị Linh 9",
+      "to": "ĐD. Lê Văn Anh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejtl100d6u87fj1uyk4nf",
+      "from": "ĐD. Đỗ Thị Hảo 9",
+      "to": "ĐD. Ngô Văn Hùng",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejtlf00d8u87flp8x5w1x",
+      "from": "ĐD. Hoàng Thị Duyên 9",
+      "to": "ĐD. Bùi Văn Tuấn",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejtlv00dau87fvmtgbdce",
+      "from": "ĐD. Bùi Thị Loan 9",
+      "to": "ĐD. Đỗ Văn Minh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejtmc00dcu87flnyrtxk0",
+      "from": "ĐD. Trương Thị Huyền 9",
+      "to": "ĐD. Trần Thị Lan",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejtmr00deu87f0qp7ab2u",
+      "from": "ĐD. Ngô Thị Vân 9",
+      "to": "ĐD. Nguyễn Thị Hoa",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejtn700dgu87f6apm551n",
+      "from": "ĐD. Lý Thị Hà 9",
+      "to": "ĐD. Vũ Thị Hương",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejtnn00diu87f4hi7pzn0",
+      "from": "ĐD. Đặng Thị Hợp 9",
+      "to": "ĐD. Phạm Thị Linh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejto300dku87fbvdr4evt",
+      "from": "ĐD. Vũ Thị Tuyến 9",
+      "to": "ĐD. Lê Thị Mai",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejtoj00dmu87fhuc68n4c",
+      "from": "ĐD. Phạm Thị Hạnh 9",
+      "to": "ĐD. Đỗ Thị Thanh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejtow00dou87fss8hhvf0",
+      "from": "ĐD. Trần Thị Linh 9",
+      "to": "ĐD. Hoàng Thị Tú",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejtpc00dqu87fxl6elc38",
+      "from": "ĐD. Nguyễn Thị Kim 9",
+      "to": "ĐD. Ngô Thị Bích",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejtpu00dsu87f48im16py",
+      "from": "ĐD. Lê Thị Thắm 9",
+      "to": "ĐD. Bùi Thị Ngọc",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejtq800duu87fdpl28wvd",
+      "from": "ĐD. Đỗ Thị Ngân 9",
+      "to": "ĐD. Trương Thị Yến",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejtqs00dwu87f9pc0irko",
+      "from": "ĐD. Hoàng Thị Sơn 9",
+      "to": "ĐD. Đặng Thị Thu",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejtr900dyu87fxna1bux2",
+      "from": "ĐD. Bùi Thị Tính 9",
+      "to": "ĐD. Lý Thị Hương",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejtrs00e0u87fveakpvgw",
+      "from": "ĐD. Lê Thị Mai 9",
+      "to": "ĐD. Nguyễn Thị Kim",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejts700e2u87fnc8mv16w",
+      "from": "ĐD. Đỗ Thị Thanh 9",
+      "to": "ĐD. Vũ Thị Diệp",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejtsm00e4u87f9pwzl8t6",
+      "from": "ĐD. Hoàng Thị Tú 9",
+      "to": "ĐD. Phạm Thị Hồng",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejtt200e6u87f5iyl1qyw",
+      "from": "ĐD. Ngô Thị Bích 9",
+      "to": "ĐD. Trần Thị Bích",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejtth00e8u87f3voca3eg",
+      "from": "ĐD. Bùi Thị Ngọc 9",
+      "to": "ĐD. Lê Văn Anh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejttv00eau87fan61prfv",
+      "from": "ĐD. Trương Thị Yến 9",
+      "to": "ĐD. Ngô Văn Hùng",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejtuf00ecu87ffsbwe0i2",
+      "from": "ĐD. Đặng Thị Thu 9",
+      "to": "ĐD. Bùi Văn Tuấn",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejtuu00eeu87f5wnlthrn",
+      "from": "ĐD. Lý Thị Hương 9",
+      "to": "ĐD. Đỗ Văn Minh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejtvi00egu87flwyx91dg",
+      "from": "ĐD. Vũ Thị Diệp 9",
+      "to": "ĐD. Trần Thị Lan",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejtw000eiu87fjw3wigv6",
+      "from": "ĐD. Vũ Thị Hồng 10",
+      "to": "ĐD. Nguyễn Thị Hoa",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejtwe00eku87f8364k3q2",
+      "from": "ĐD. Phạm Thị Thanh 10",
+      "to": "ĐD. Vũ Thị Hương",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejtwt00emu87fzhutbdjd",
+      "from": "ĐD. Trần Thị Yến 10",
+      "to": "ĐD. Phạm Thị Linh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejtx700eou87fpmwz8qva",
+      "from": "ĐD. Nguyễn Thị Thu 10",
+      "to": "ĐD. Lê Thị Mai",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejtxl00equ87ffzp5sf3d",
+      "from": "ĐD. Lê Thị Linh 10",
+      "to": "ĐD. Đỗ Thị Thanh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejtxy00esu87fggdanesp",
+      "from": "ĐD. Đỗ Thị Hảo 10",
+      "to": "ĐD. Hoàng Thị Tú",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejtyd00euu87fxcawboxh",
+      "from": "ĐD. Hoàng Thị Duyên 10",
+      "to": "ĐD. Ngô Thị Bích",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejtyu00ewu87fq3wr4edi",
+      "from": "ĐD. Bùi Thị Loan 10",
+      "to": "ĐD. Bùi Thị Ngọc",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejtzb00eyu87fglvys3hz",
+      "from": "ĐD. Trương Thị Huyền 10",
+      "to": "ĐD. Trương Thị Yến",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejtzp00f0u87f88r1t5i5",
+      "from": "ĐD. Ngô Thị Vân 10",
+      "to": "ĐD. Đặng Thị Thu",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgeju0300f2u87fxconj9am",
+      "from": "ĐD. Lý Thị Hà 10",
+      "to": "ĐD. Lý Thị Hương",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgeju0l00f4u87f33vw5rlg",
+      "from": "ĐD. Đặng Thị Hợp 10",
+      "to": "ĐD. Nguyễn Thị Kim",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgeju1000f6u87f0okxbiap",
+      "from": "ĐD. Vũ Thị Tuyến 10",
+      "to": "ĐD. Vũ Thị Diệp",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgeju1f00f8u87fznu4j4yq",
+      "from": "ĐD. Phạm Thị Hạnh 10",
+      "to": "ĐD. Phạm Thị Hồng",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgeju1t00fau87f1ak02piv",
+      "from": "ĐD. Trần Thị Linh 10",
+      "to": "ĐD. Trần Thị Bích",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgeju2700fcu87fjhook44u",
+      "from": "ĐD. Nguyễn Thị Kim 10",
+      "to": "ĐD. Lê Văn Anh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgeju2n00feu87fp2r8ytea",
+      "from": "ĐD. Lê Thị Thắm 10",
+      "to": "ĐD. Ngô Văn Hùng",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgeju3400fgu87f0omlrwy8",
+      "from": "ĐD. Đỗ Thị Ngân 10",
+      "to": "ĐD. Bùi Văn Tuấn",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgeju3l00fiu87fsp71140l",
+      "from": "ĐD. Hoàng Thị Sơn 10",
+      "to": "ĐD. Đỗ Văn Minh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgeju4500fku87f5iyzfn2t",
+      "from": "ĐD. Bùi Thị Tính 10",
+      "to": "ĐD. Trần Thị Lan",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgeju4n00fmu87f335ls63e",
+      "from": "ĐD. Lê Thị Mai 10",
+      "to": "ĐD. Nguyễn Thị Hoa",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgeju5300fou87fvgwbo0s2",
+      "from": "ĐD. Đỗ Thị Thanh 10",
+      "to": "ĐD. Vũ Thị Hương",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgeju5g00fqu87f5hbrthl2",
+      "from": "ĐD. Hoàng Thị Tú 10",
+      "to": "ĐD. Phạm Thị Linh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgeju5v00fsu87fhzu33m16",
+      "from": "ĐD. Ngô Thị Bích 10",
+      "to": "ĐD. Lê Thị Mai",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgeju6a00fuu87fsvir65mc",
+      "from": "ĐD. Bùi Thị Ngọc 10",
+      "to": "ĐD. Đỗ Thị Thanh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgeju6r00fwu87f24o751rj",
+      "from": "ĐD. Trương Thị Yến 10",
+      "to": "ĐD. Hoàng Thị Tú",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgeju7700fyu87fjw3qqvsi",
+      "from": "ĐD. Đặng Thị Thu 10",
+      "to": "ĐD. Ngô Thị Bích",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgeju7o00g0u87f8p3v1tih",
+      "from": "ĐD. Lý Thị Hương 10",
+      "to": "ĐD. Bùi Thị Ngọc",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgeju8i00g2u87f42zmv3u7",
+      "from": "ĐD. Vũ Thị Diệp 10",
+      "to": "ĐD. Trương Thị Yến",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgeju8x00g4u87fp0fxohc3",
+      "from": "ĐD. Vũ Thị Hồng 11",
+      "to": "ĐD. Đặng Thị Thu",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgeju9c00g6u87f1gytoasn",
+      "from": "ĐD. Phạm Thị Thanh 11",
+      "to": "ĐD. Lý Thị Hương",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgeju9p00g8u87fjrwnk80m",
+      "from": "ĐD. Trần Thị Yến 11",
+      "to": "ĐD. Nguyễn Thị Kim",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejua600gau87f0831ve31",
+      "from": "ĐD. Nguyễn Thị Thu 11",
+      "to": "ĐD. Vũ Thị Diệp",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejuam00gcu87fh5rndopz",
+      "from": "ĐD. Lê Thị Linh 11",
+      "to": "ĐD. Phạm Thị Hồng",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejub200geu87fom2631wc",
+      "from": "ĐD. Đỗ Thị Hảo 11",
+      "to": "ĐD. Trần Thị Bích",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejubi00ggu87fhny301ci",
+      "from": "ĐD. Hoàng Thị Duyên 11",
+      "to": "ĐD. Lê Văn Anh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejuby00giu87f5ote16bg",
+      "from": "ĐD. Bùi Thị Loan 11",
+      "to": "ĐD. Ngô Văn Hùng",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejucf00gku87fdb61hnj1",
+      "from": "ĐD. Trương Thị Huyền 11",
+      "to": "ĐD. Bùi Văn Tuấn",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejucu00gmu87fn1tfge1x",
+      "from": "ĐD. Ngô Thị Vân 11",
+      "to": "ĐD. Đỗ Văn Minh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejude00gou87fh7u1vybj",
+      "from": "ĐD. Lý Thị Hà 11",
+      "to": "ĐD. Trần Thị Lan",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejudv00gqu87fkqolo8me",
+      "from": "ĐD. Đặng Thị Hợp 11",
+      "to": "ĐD. Nguyễn Thị Hoa",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejuea00gsu87f8n1r7n21",
+      "from": "ĐD. Vũ Thị Tuyến 11",
+      "to": "ĐD. Vũ Thị Hương",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejueq00guu87fh1emwegb",
+      "from": "ĐD. Phạm Thị Hạnh 11",
+      "to": "ĐD. Phạm Thị Linh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejuf600gwu87fb5b50hsa",
+      "from": "ĐD. Trần Thị Linh 11",
+      "to": "ĐD. Lê Thị Mai",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejufm00gyu87fuq2qwg5u",
+      "from": "ĐD. Nguyễn Thị Kim 11",
+      "to": "ĐD. Đỗ Thị Thanh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejug200h0u87fpvgfbvdg",
+      "from": "ĐD. Lê Thị Thắm 11",
+      "to": "ĐD. Hoàng Thị Tú",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejugh00h2u87fru2yci8s",
+      "from": "ĐD. Đỗ Thị Ngân 11",
+      "to": "ĐD. Ngô Thị Bích",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejugx00h4u87foj9ldkph",
+      "from": "ĐD. Hoàng Thị Sơn 11",
+      "to": "ĐD. Bùi Thị Ngọc",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejuhg00h6u87f3sb080em",
+      "from": "ĐD. Bùi Thị Tính 11",
+      "to": "ĐD. Trương Thị Yến",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejuhx00h8u87flwy7ihqt",
+      "from": "ĐD. Lê Thị Mai 11",
+      "to": "ĐD. Đặng Thị Thu",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejuic00hau87fqox8dr09",
+      "from": "ĐD. Đỗ Thị Thanh 11",
+      "to": "ĐD. Lý Thị Hương",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejuit00hcu87ftvpml06l",
+      "from": "ĐD. Hoàng Thị Tú 11",
+      "to": "ĐD. Nguyễn Thị Kim",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejuja00heu87f9o7z8uqo",
+      "from": "ĐD. Ngô Thị Bích 11",
+      "to": "ĐD. Vũ Thị Diệp",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejujp00hgu87f14t033e1",
+      "from": "ĐD. Bùi Thị Ngọc 11",
+      "to": "ĐD. Phạm Thị Hồng",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejuk600hiu87ff55vq4r0",
+      "from": "ĐD. Trương Thị Yến 11",
+      "to": "ĐD. Trần Thị Bích",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejukm00hku87fd4brkzv0",
+      "from": "ĐD. Đặng Thị Thu 11",
+      "to": "ĐD. Lê Văn Anh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejul300hmu87f1qo4xb41",
+      "from": "ĐD. Lý Thị Hương 11",
+      "to": "ĐD. Ngô Văn Hùng",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejulr00hou87fo5zqr8h6",
+      "from": "ĐD. Vũ Thị Diệp 11",
+      "to": "ĐD. Bùi Văn Tuấn",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejum700hqu87felz5ffrh",
+      "from": "ĐD. Vũ Thị Hồng 12",
+      "to": "ĐD. Đỗ Văn Minh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejumm00hsu87fbjd35b8x",
+      "from": "ĐD. Phạm Thị Thanh 12",
+      "to": "ĐD. Trần Thị Lan",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejun100huu87fkwaa3eog",
+      "from": "ĐD. Trần Thị Yến 12",
+      "to": "ĐD. Nguyễn Thị Hoa",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejunh00hwu87fqamw9usm",
+      "from": "ĐD. Nguyễn Thị Thu 12",
+      "to": "ĐD. Vũ Thị Hương",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejunu00hyu87f2gicia2i",
+      "from": "ĐD. Lê Thị Linh 12",
+      "to": "ĐD. Phạm Thị Linh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejuo900i0u87fh4631sb3",
+      "from": "ĐD. Đỗ Thị Hảo 12",
+      "to": "ĐD. Lê Thị Mai",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejuoo00i2u87frw4splfq",
+      "from": "ĐD. Hoàng Thị Duyên 12",
+      "to": "ĐD. Đỗ Thị Thanh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejup500i4u87faz9qb9yk",
+      "from": "ĐD. Bùi Thị Loan 12",
+      "to": "ĐD. Hoàng Thị Tú",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejupj00i6u87fk8nchode",
+      "from": "ĐD. Trương Thị Huyền 12",
+      "to": "ĐD. Ngô Thị Bích",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejupz00i8u87frx286lef",
+      "from": "ĐD. Ngô Thị Vân 12",
+      "to": "ĐD. Bùi Thị Ngọc",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejuqj00iau87fjj9b276u",
+      "from": "ĐD. Lý Thị Hà 12",
+      "to": "ĐD. Trương Thị Yến",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejur000icu87fwwo8jdil",
+      "from": "ĐD. Đặng Thị Hợp 12",
+      "to": "ĐD. Đặng Thị Thu",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejurg00ieu87fmqmxfots",
+      "from": "ĐD. Vũ Thị Tuyến 12",
+      "to": "ĐD. Lý Thị Hương",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejurv00igu87ftyq1kjv4",
+      "from": "ĐD. Phạm Thị Hạnh 12",
+      "to": "ĐD. Nguyễn Thị Kim",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejus900iiu87f4cputi4a",
+      "from": "ĐD. Trần Thị Linh 12",
+      "to": "ĐD. Vũ Thị Diệp",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejuso00iku87fsbddd33e",
+      "from": "ĐD. Nguyễn Thị Kim 12",
+      "to": "ĐD. Phạm Thị Hồng",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejut600imu87fw456ct5k",
+      "from": "ĐD. Lê Thị Thắm 12",
+      "to": "ĐD. Trần Thị Bích",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejutk00iou87fzx58w1gx",
+      "from": "ĐD. Đỗ Thị Ngân 12",
+      "to": "ĐD. Lê Văn Anh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejutw00iqu87f13va91f4",
+      "from": "ĐD. Hoàng Thị Sơn 12",
+      "to": "ĐD. Ngô Văn Hùng",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejuv600isu87f96de20el",
+      "from": "ĐD. Bùi Thị Tính 12",
+      "to": "ĐD. Bùi Văn Tuấn",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejuvj00iuu87fsxwko6ei",
+      "from": "ĐD. Lê Thị Mai 12",
+      "to": "ĐD. Đỗ Văn Minh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejuvy00iwu87ftd3lvp4b",
+      "from": "ĐD. Đỗ Thị Thanh 12",
+      "to": "ĐD. Trần Thị Lan",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejuwd00iyu87fq8bqblrj",
+      "from": "ĐD. Hoàng Thị Tú 12",
+      "to": "ĐD. Nguyễn Thị Hoa",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejuwv00j0u87f1a50ap1a",
+      "from": "ĐD. Ngô Thị Bích 12",
+      "to": "ĐD. Vũ Thị Hương",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejuxc00j2u87f9cfk5fvh",
+      "from": "ĐD. Bùi Thị Ngọc 12",
+      "to": "ĐD. Phạm Thị Linh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejuxs00j4u87f5428do2i",
+      "from": "ĐD. Trương Thị Yến 12",
+      "to": "ĐD. Lê Thị Mai",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejuy500j6u87fj8izxujc",
+      "from": "ĐD. Đặng Thị Thu 12",
+      "to": "ĐD. Đỗ Thị Thanh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejuyl00j8u87f9brimz04",
+      "from": "ĐD. Lý Thị Hương 12",
+      "to": "ĐD. Hoàng Thị Tú",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejuz900jau87f00xjejbq",
+      "from": "ĐD. Vũ Thị Diệp 12",
+      "to": "ĐD. Ngô Thị Bích",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejuzt00jcu87fxjfo4ky3",
+      "from": "ĐD. Vũ Thị Hồng 13",
+      "to": "ĐD. Bùi Thị Ngọc",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejv0a00jeu87f64smbrto",
+      "from": "ĐD. Phạm Thị Thanh 13",
+      "to": "ĐD. Trương Thị Yến",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejv0p00jgu87f489bqump",
+      "from": "ĐD. Trần Thị Yến 13",
+      "to": "ĐD. Đặng Thị Thu",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejv1e00jiu87f8qf1q2kz",
+      "from": "ĐD. Nguyễn Thị Thu 13",
+      "to": "ĐD. Lý Thị Hương",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejv1w00jku87f5m2mqqdh",
+      "from": "ĐD. Lê Thị Linh 13",
+      "to": "ĐD. Nguyễn Thị Kim",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejv2d00jmu87frrjyyflf",
+      "from": "ĐD. Đỗ Thị Hảo 13",
+      "to": "ĐD. Vũ Thị Diệp",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejv2x00jou87fxi4kzu26",
+      "from": "ĐD. Hoàng Thị Duyên 13",
+      "to": "ĐD. Phạm Thị Hồng",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejv3e00jqu87fojjkvmer",
+      "from": "ĐD. Bùi Thị Loan 13",
+      "to": "ĐD. Trần Thị Bích",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejv3u00jsu87fdyey4lya",
+      "from": "ĐD. Trương Thị Huyền 13",
+      "to": "ĐD. Lê Văn Anh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejv4900juu87fw96dyi3x",
+      "from": "ĐD. Ngô Thị Vân 13",
+      "to": "ĐD. Ngô Văn Hùng",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejv4q00jwu87fe5jdduw5",
+      "from": "ĐD. Lý Thị Hà 13",
+      "to": "ĐD. Bùi Văn Tuấn",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejv5600jyu87fra7jnbzr",
+      "from": "ĐD. Đặng Thị Hợp 13",
+      "to": "ĐD. Đỗ Văn Minh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejv5k00k0u87fk783vgpc",
+      "from": "ĐD. Vũ Thị Tuyến 13",
+      "to": "ĐD. Trần Thị Lan",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejv5y00k2u87fsul62n26",
+      "from": "ĐD. Phạm Thị Hạnh 13",
+      "to": "ĐD. Nguyễn Thị Hoa",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejv6d00k4u87fai0uwgh0",
+      "from": "ĐD. Trần Thị Linh 13",
+      "to": "ĐD. Vũ Thị Hương",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejv6t00k6u87fe5xl4mdk",
+      "from": "ĐD. Nguyễn Thị Kim 13",
+      "to": "ĐD. Phạm Thị Linh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejv7700k8u87fxlxvqnar",
+      "from": "ĐD. Lê Thị Thắm 13",
+      "to": "ĐD. Lê Thị Mai",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejv7p00kau87fz8wk49me",
+      "from": "ĐD. Đỗ Thị Ngân 13",
+      "to": "ĐD. Đỗ Thị Thanh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejv8500kcu87f8phy3q8m",
+      "from": "ĐD. Hoàng Thị Sơn 13",
+      "to": "ĐD. Hoàng Thị Tú",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejv8m00keu87fk808xz9q",
+      "from": "ĐD. Bùi Thị Tính 13",
+      "to": "ĐD. Ngô Thị Bích",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejv9300kgu87fo4mp6nty",
+      "from": "ĐD. Lê Thị Mai 13",
+      "to": "ĐD. Bùi Thị Ngọc",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejv9i00kiu87fdcmgcsns",
+      "from": "ĐD. Đỗ Thị Thanh 13",
+      "to": "ĐD. Trương Thị Yến",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejva000kku87f20fb9ndd",
+      "from": "ĐD. Hoàng Thị Tú 13",
+      "to": "ĐD. Đặng Thị Thu",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejval00kmu87ff2pdtco2",
+      "from": "ĐD. Ngô Thị Bích 13",
+      "to": "ĐD. Lý Thị Hương",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejvb300kou87fa1vdzq4c",
+      "from": "ĐD. Bùi Thị Ngọc 13",
+      "to": "ĐD. Nguyễn Thị Kim",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejvbj00kqu87fpty1fpj5",
+      "from": "ĐD. Trương Thị Yến 13",
+      "to": "ĐD. Vũ Thị Diệp",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejvbx00ksu87fqok1xy39",
+      "from": "ĐD. Đặng Thị Thu 13",
+      "to": "ĐD. Phạm Thị Hồng",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejvcd00kuu87fhmucol31",
+      "from": "ĐD. Lý Thị Hương 13",
+      "to": "ĐD. Trần Thị Bích",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejvd200kwu87fwtj7bh8h",
+      "from": "ĐD. Vũ Thị Diệp 13",
+      "to": "ĐD. Lê Văn Anh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejvdh00kyu87f9mwaa545",
+      "from": "ĐD. Vũ Thị Hồng 14",
+      "to": "ĐD. Ngô Văn Hùng",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejvdw00l0u87ff1f0hb8l",
+      "from": "ĐD. Phạm Thị Thanh 14",
+      "to": "ĐD. Bùi Văn Tuấn",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejvej00l2u87fnp6nkk0h",
+      "from": "ĐD. Trần Thị Yến 14",
+      "to": "ĐD. Đỗ Văn Minh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejvf100l4u87flqottvr4",
+      "from": "ĐD. Nguyễn Thị Thu 14",
+      "to": "ĐD. Trần Thị Lan",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejvfi00l6u87fia6wf4ry",
+      "from": "ĐD. Lê Thị Linh 14",
+      "to": "ĐD. Nguyễn Thị Hoa",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejvfz00l8u87fk4qm2apx",
+      "from": "ĐD. Đỗ Thị Hảo 14",
+      "to": "ĐD. Vũ Thị Hương",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejvgg00lau87f00v2m79b",
+      "from": "ĐD. Hoàng Thị Duyên 14",
+      "to": "ĐD. Phạm Thị Linh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejvgx00lcu87fj0rsmo0d",
+      "from": "ĐD. Bùi Thị Loan 14",
+      "to": "ĐD. Lê Thị Mai",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejvhd00leu87fsa6zzyk3",
+      "from": "ĐD. Trương Thị Huyền 14",
+      "to": "ĐD. Đỗ Thị Thanh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgejvhv00lgu87fkrn9fsle",
+      "from": "ĐD. Ngô Thị Vân 14",
+      "to": "ĐD. Hoàng Thị Tú",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgeyzpx0000zg7f7owa4ece",
+      "from": "Nguyễn Thị Mai (ND-cmsg-1)",
+      "to": "ĐD. Ngô Thị Bích",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgeyzql0002zg7fu72gt43j",
+      "from": "Trần Văn An (ND-0a8f-1)",
+      "to": "ĐD. Bùi Thị Ngọc",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgeyzr60004zg7fjmjx4gai",
+      "from": "Lê Thị Hồng (ND-25e4-1)",
+      "to": "ĐD. Trương Thị Yến",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgeyzrt0006zg7flo5pek3q",
+      "from": "Phạm Văn Quý (ND-cmsg-1)",
+      "to": "ĐD. Đặng Thị Thu",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgeyzse0008zg7fimy6xi4i",
+      "from": "Hoàng Thị Lan (ND-cmsg-1)",
+      "to": "ĐD. Lý Thị Hương",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgeyzsw000azg7f85vhk6xk",
+      "from": "Vũ Minh Tuấn (ND-cmsg-1)",
+      "to": "ĐD. Nguyễn Thị Kim",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgeyzte000czg7fhuusq89r",
+      "from": "Đặng Thị Hậu (ND-cmsg-1)",
+      "to": "ĐD. Vũ Thị Diệp",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgeyztu000ezg7fmnmqw6de",
+      "from": "Bùi Văn Đức (ND-cmsg-1)",
+      "to": "ĐD. Phạm Thị Hồng",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgeyzua000gzg7fh9p8rrfb",
+      "from": "Ngô Thị Phương (ND-cmsg-1)",
+      "to": "ĐD. Trần Thị Bích",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgeyzut000izg7feiive8jq",
+      "from": "Lê Minh Hoàng (ND-cmsg-1)",
+      "to": "ĐD. Lê Văn Anh",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgeyzvb000kzg7fsefwlces",
+      "from": "Phan Thị Thanh (ND-cmsg-1)",
+      "to": "ĐD. Ngô Văn Hùng",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgeyzvr000mzg7f9q05rwya",
+      "from": "Đỗ Văn Khang (ND-cmsg-1)",
+      "to": "ĐD. Bùi Văn Tuấn",
+      "role": "NURSE"
+    },
+    {
+      "userId": "cmsgeyzw8000ozg7fkt14ad63",
+      "from": "Lê Thị Ngọc (ND-cmsg-1)",
+      "to": "ĐD. Đỗ Văn Minh",
+      "role": "NURSE"
+    }
+  ]
+}

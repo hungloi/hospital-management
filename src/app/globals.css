@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap');
+
+:root {
+  /* === COLOR PALETTE === */
+  --primary: #1a56db;
+  --primary-dark: #0a2d6e;
+  --primary-darker: #061a45;
+  --primary-light: #3b82f6;
+  --primary-glow: rgba(26, 86, 219, 0.25);
+
+  --accent: #00c6a2;
+  --accent-dark: #009e82;
+  --accent-light: rgba(0, 198, 162, 0.15);
+
+  --secondary: #f97316;
+
+  --navy: #0a1628;
+  --navy-mid: #0f2040;
+  --navy-light: #162a52;
+
+  /* Gradient presets */
+  --grad-primary: linear-gradient(135deg, #1a56db 0%, #2979ff 50%, #00c6a2 100%);
+  --grad-hero: linear-gradient(135deg, #061a45 0%, #0a2d6e 40%, #1a56db 100%);
+  --grad-card: linear-gradient(135deg, rgba(26, 86, 219, 0.08) 0%, rgba(0, 198, 162, 0.06) 100%);
+  --grad-mesh: radial-gradient(ellipse at 20% 50%, rgba(26, 86, 219, 0.3) 0%, transparent 50%),
+               radial-gradient(ellipse at 80% 20%, rgba(0, 198, 162, 0.2) 0%, transparent 40%),
+               radial-gradient(ellipse at 60% 80%, rgba(41, 121, 255, 0.15) 0%, transparent 40%);
+
+  /* Surfaces */
+  --bg-main: #f0f4ff;
+  --surface: #ffffff;
+  --surface-2: #f8faff;
+  --surface-glass: rgba(255, 255, 255, 0.08);
+
+  /* Text */
+  --text-primary: #0d1b2a;
+  --text-secondary: #475569;
+  --text-muted: #94a3b8;
+  --text-white: #ffffff;
+  --text-white-soft: rgba(255, 255, 255, 0.85);
+
+  /* Border */
+  --border: rgba(26, 86, 219, 0.12);
+  --border-dark: rgba(255, 255, 255, 0.1);
+
+  /* Shadows */
+  --shadow-sm: 0 1px 3px rgba(10, 29, 100, 0.08), 0 1px 2px rgba(10, 29, 100, 0.06);
+  --shadow-md: 0 4px 16px rgba(10, 29, 100, 0.1), 0 2px 8px rgba(10, 29, 100, 0.06);
+  --shadow-lg: 0 20px 50px rgba(10, 29, 100, 0.15), 0 8px 24px rgba(10, 29, 100, 0.08);
+  --shadow-xl: 0 40px 80px rgba(10, 29, 100, 0.2);
+  --shadow-glow: 0 0 40px rgba(26, 86, 219, 0.3);
+  --shadow-accent: 0 8px 32px rgba(0, 198, 162, 0.3);
+
+  /* Typography */
+  --font: 'Be Vietnam Pro', 'Inter', Arial, sans-serif;
+
+  /* Radius */
+  --r-sm: 8px;
+  --r-md: 14px;
+  --r-lg: 20px;
+  --r-xl: 28px;
+  --r-full: 9999px;
+
+  /* Transitions */
+  --ease: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --dur: 0.28s;
+
+  /* Legacy support */
+  --primary-color: #1a56db;
+  --accent-color: #00c6a2;
+  --background-light: #f0f4ff;
+  --surface-light: #ffffff;
+  --text-main: #0d1b2a;
+  --text-muted: #475569;
+  --border-color: #cbd5e1;
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+  --shadow-glass: 0 4px 24px rgba(26, 86, 219, 0.1);
+}
+
+/* === RESET === */
+*, *::before, *::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font);
+  background-color: var(--bg-main);
+  color: var(--text-primary);
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* === LAYOUT === */
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.main-content {
+  min-height: calc(100vh - 80px);
+}
+
+/* === GLASSMORPHISM === */
+.glass {
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: var(--shadow-glass);
+}
+
+/* === ANIMATIONS === */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-12px); }
+}
+
+@keyframes pulse-ring {
+  0% { transform: scale(0.8); opacity: 0.8; }
+  100% { transform: scale(1.6); opacity: 0; }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% center; }
+  100% { background-position: 200% center; }
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes blob {
+  0%, 100% { border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%; }
+  50% { border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%; }
+}
+
+@keyframes spin-slow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes count-up {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* === UTILITY === */
+.service-card:hover {
+  transform: translateY(-6px);
+}
+
+.footer-link:hover {
+  color: var(--accent) !important;
+}
+
+/* Gradient text */
+.text-gradient {
+  background: var(--grad-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
