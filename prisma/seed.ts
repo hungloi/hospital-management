@@ -196,8 +196,19 @@ async function main() {
 
   const rooms: any[] = [];
   for (const r of roomData) {
+    const { bed, ...rest } = r;
     const room = await prisma.room.create({
-      data: { ...r, status: 'AVAILABLE', description: `${r.type} room - Tầng ${r.floor}` }
+      data: { 
+        ...rest, 
+        status: 'AVAILABLE', 
+        description: `${r.type} room - Tầng ${r.floor}`,
+        beds: bed ? {
+          create: {
+            bedNumber: bed,
+            status: 'AVAILABLE'
+          }
+        } : undefined
+      }
     });
     rooms.push(room);
   }
