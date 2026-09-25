@@ -7,7 +7,7 @@ import { ADMIN_NAV, ADMIN_THEME } from '@/lib/adminConfig';
 
 export default async function AdminDashboard() {
   const session = await auth();
-  if (!session?.user || (session.user as any).role !== 'ADMIN') redirect('/login');
+  if (!session?.user || !['ADMIN','DIRECTOR'].includes((session.user as any).role)) redirect('/login');
 
   const [totalPatients, totalDoctors, pendingAppts, totalRevenue, recentAppts, deptStats, pendingPrescriptions, medicineStockData, supplyStockData, todayRevenue] = await Promise.all([
     prisma.user.count({ where: { role: 'PATIENT' } }),

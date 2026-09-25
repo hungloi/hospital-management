@@ -30,8 +30,10 @@ export default function DashboardShell({ title, subtitle, items, theme, footer, 
   const [userName, setUserName] = useState(title);
   const [userRole, setUserRole] = useState(subtitle);
   const [userPhone, setUserPhone] = useState<string | null>(null);
+  const [isMounted, setIsMounted] = useState(false);
 
   useEffect(() => {
+    setIsMounted(true);
     if (session?.user) {
       setUserName(session.user.name || title);
       setUserRole(((session.user as any).role) || subtitle);
@@ -114,7 +116,7 @@ export default function DashboardShell({ title, subtitle, items, theme, footer, 
   const accent = theme.accentColor || '#1a56db';
 
   return (
-    <div style={{ minHeight: '100vh', background: theme.bg, display: 'flex' }}>
+    <div style={{ minHeight: '100vh', background: theme.bg, display: 'flex' }} suppressHydrationWarning>
       {/* ── SIDEBAR ── */}
       <aside style={{
         width: '248px', flexShrink: 0,
@@ -161,20 +163,20 @@ export default function DashboardShell({ title, subtitle, items, theme, footer, 
                 background: `linear-gradient(135deg, ${accent} 0%, ${accent}99 100%)`,
                 display: 'flex', alignItems: 'center', justifyContent: 'center',
                 fontWeight: 800, fontSize: '0.9rem', color: 'white'
-              }}>
-                {initials || 'U'}
+              }} suppressHydrationWarning>
+                {isMounted ? (initials || 'U') : ''}
               </div>
             )}
-            <div style={{ minWidth: 0 }}>
-              <div style={{ color: 'white', fontWeight: 700, fontSize: '0.88rem', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
-                {displayName || userName}
+            <div style={{ minWidth: 0 }} suppressHydrationWarning>
+              <div style={{ color: 'white', fontWeight: 700, fontSize: '0.88rem', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }} suppressHydrationWarning>
+                {isMounted ? (displayName || userName) : ''}
               </div>
-              {patientCode && userRole === 'PATIENT' && (
+              {isMounted && patientCode && userRole === 'PATIENT' && (
                 <div style={{ fontSize: '0.72rem', color: accent, fontWeight: 600, marginTop: '1px' }}>{patientCode}</div>
               )}
-              <div style={{ display: 'flex', alignItems: 'center', gap: '4px', marginTop: '2px' }}>
-                <span style={{ fontSize: '0.7rem' }}>{roleIcon}</span>
-                <span style={{ fontSize: '0.72rem', color: 'rgba(255,255,255,0.5)', fontWeight: 500 }}>{displayRole}</span>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '4px', marginTop: '2px' }} suppressHydrationWarning>
+                <span style={{ fontSize: '0.7rem' }}>{isMounted ? roleIcon : ''}</span>
+                <span style={{ fontSize: '0.72rem', color: 'rgba(255,255,255,0.5)', fontWeight: 500 }}>{isMounted ? displayRole : ''}</span>
               </div>
             </div>
           </div>

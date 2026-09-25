@@ -1,7 +1,14 @@
 import BookingForm from '@/components/BookingForm';
 import { prisma } from '@/lib/prisma';
+import { auth } from '@/auth';
+import { redirect } from 'next/navigation';
 
 export default async function BookingPage() {
+  const session = await auth();
+  if (session?.user && (session.user as any).role === 'PATIENT') {
+    redirect('/patient/booking');
+  }
+
   const departments = await prisma.department.findMany({
     orderBy: { name: 'asc' },
     include: { doctors: { include: { user: true } } }

@@ -38,7 +38,7 @@ const DOCTORS = [
 
 
 
-export default function HospitalInfo() {
+export default function HospitalInfo({ articles = [] }: { articles?: any[] }) {
   return (
     <>
       {/* === SPECIALTIES SECTION === */}
@@ -142,16 +142,16 @@ export default function HospitalInfo() {
           </div>
 
           <div className={styles.newsGrid}>
-            {MOCK_NEWS.slice(0, 3).map((n, i) => (
+            {(articles.length > 0 ? articles : MOCK_NEWS.slice(0, 3)).map((n, i) => (
               <Link key={i} href={`/news/${n.slug}`} className={styles.newsCard}>
                 <div className={styles.newsImgWrap}>
-                  <img src={n.img} alt={n.title} className={styles.newsImg} />
-                  <span className={styles.newsTag}>{n.tag}</span>
+                  <img src={n.coverImage || n.img} alt={n.title} className={styles.newsImg} />
+                  <span className={styles.newsTag}>{n.category || n.tag}</span>
                 </div>
                 <div className={styles.newsBody}>
-                  <span className={styles.newsDate}>{n.date}</span>
+                  <span className={styles.newsDate}>{n.createdAt ? new Date(n.createdAt).toLocaleDateString('vi-VN') : n.date}</span>
                   <h3 className={styles.newsTitle}>{n.title}</h3>
-                  <p className={styles.newsDesc}>{n.desc}</p>
+                  <p className={styles.newsDesc}>{n.excerpt || n.desc}</p>
                   <span className={styles.newsReadMore}>Đọc thêm →</span>
                 </div>
               </Link>

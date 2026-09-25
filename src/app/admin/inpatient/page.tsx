@@ -7,7 +7,7 @@ import { InpatientClient } from './InpatientClient';
 export default async function AdminInpatientPage() {
   const session = await auth();
 
-  if (!session?.user || (session.user as any).role !== 'ADMIN') {
+  if (!session?.user || !['ADMIN','DIRECTOR'].includes((session.user as any).role)) {
     redirect('/login');
   }
 

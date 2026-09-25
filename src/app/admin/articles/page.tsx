@@ -9,7 +9,7 @@ import { ADMIN_NAV, ADMIN_THEME } from '@/lib/adminConfig';
 
 export default async function AdminArticlesPage() {
   const session = await auth();
-  if (!session?.user || (session.user as any).role !== 'ADMIN') redirect('/login');
+  if (!session?.user || !['ADMIN','DIRECTOR'].includes((session.user as any).role)) redirect('/login');
 
   const articles = await prisma.article.findMany({
     orderBy: { createdAt: 'desc' },

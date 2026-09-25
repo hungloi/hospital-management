@@ -10,7 +10,7 @@ import Link from 'next/link';
 
 export default async function AdminSuppliesPage() {
   const session = await auth();
-  if (!session?.user || (session.user as any).role !== 'ADMIN') redirect('/login');
+  if (!session?.user || !['ADMIN','DIRECTOR'].includes((session.user as any).role)) redirect('/login');
 
   const supplies = await prisma.medicalSupply.findMany({ orderBy: { name: 'asc' } });
   const lowStock = supplies.filter((s) => s.inventory <= s.minStock).length;

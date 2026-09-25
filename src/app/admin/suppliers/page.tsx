@@ -9,7 +9,7 @@ import SuppliersClient from './SuppliersClient';
 export default async function AdminSuppliersPage() {
   // server side auth check
   const session = await auth();
-  if (!session?.user || (session.user as any).role !== 'ADMIN') redirect('/login');
+  if (!session?.user || !['ADMIN','DIRECTOR'].includes((session.user as any).role)) redirect('/login');
 
   // Render a client component that fetches suppliers via SWR
   

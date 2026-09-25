@@ -6,7 +6,7 @@ export const ADMIN_NAV = [
   { href: '/admin/users', icon: '⊞', label: 'Tài khoản hệ thống' },
   { href: '/admin/doctors', icon: '⚕', label: 'Bác sĩ' },
   { href: '/admin/nurses', icon: '⊕', label: 'Điều dưỡng' },
-  { href: '/admin/departments', icon: '⊟', label: 'Khoa phòng' },
+  { href: '/admin/departments', icon: '⊟', label: 'Khoa' },
   { href: '/admin/schedules', icon: '⊞', label: 'Ca làm việc' },
   // Quản lý BN & KCB
   { href: '/admin/patients', icon: '⊚', label: 'Bệnh nhân' },
@@ -58,13 +58,14 @@ export const DOCTOR_THEME = {
 
 // ── PATIENT ────────────────────────────────────────────────────────
 export const PATIENT_NAV = [
-  { href: '/patient', icon: '◈', label: 'Tổng quan' },
-  { href: '/booking', icon: '⊡', label: 'Đặt lịch khám' },
-  { href: '/patient/appointments', icon: '⊞', label: 'Lịch hẹn của tôi' },
-  { href: '/patient/records', icon: '⊟', label: 'Hồ sơ sức khỏe' },
+  { href: '/patient', icon: '◈', label: 'Trang chủ' },
+  { href: '/patient/booking', icon: '⊡', label: 'Đăng ký khám bệnh' },
+  { href: '/patient/appointments', icon: '⊞', label: 'Lịch sử khám bệnh' },
+  { href: '/patient/records', icon: '⊟', label: 'Hồ sơ bệnh án' },
+  { href: '/patient/payments', icon: '⊚', label: 'Thanh toán' },
+  { href: '/patient/lab-results', icon: '⊞', label: 'Kết quả xét nghiệm' },
   { href: '/patient/prescriptions', icon: '⊕', label: 'Đơn thuốc' },
-  { href: '/patient/payments', icon: '⊚', label: 'Lịch sử thanh toán' },
-  { href: '/doctors', icon: '⊠', label: 'Danh sách Bác sĩ' },
+  { href: '/patient/profile', icon: '⊠', label: 'Thông tin cá nhân' },
 ];
 
 export const PATIENT_THEME = {

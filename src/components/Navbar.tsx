@@ -9,9 +9,10 @@ import { normalizeUserDisplayName } from '@/lib/userUtils';
 const DASHBOARD_PATHS = ['/admin', '/doctor', '/patient', '/nurse', '/reception', '/pharmacy', '/accountant', '/director', '/staff', '/clinic', '/lab', '/inventory'];
 
 const NAV_LINKS = [
-  { href: '/services', label: 'Dịch vụ' },
-  { href: '/doctors', label: 'Bác sĩ' },
-  { href: '/booking', label: 'Đặt lịch' },
+  { href: '/', label: 'Trang chủ' },
+  { href: '/booking', label: 'Đặt lịch khám' },
+  { href: '/departments', label: 'Chuyên khoa' },
+  { href: '/doctors', label: 'Đội ngũ bác sĩ' },
   { href: '/news', label: 'Tin tức' },
   { href: '/about', label: 'Về chúng tôi' },
 ];
@@ -95,14 +96,18 @@ export default function Navbar() {
       }}>
         <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '0.5rem' }}>
           <div style={{ display: 'flex', gap: '1.5rem', alignItems: 'center' }}>
-            <span>📞 Hotline: <strong style={{ color: '#00c6a2' }}>1900 1234</strong></span>
-            <span>⏰ T2-T6: 6:00 - 16:00</span>
-            <span>📍 123 Đường Y Tế, Q.1, TP.HCM</span>
+            <span>📞 Hotline: <strong style={{ color: '#00c6a2' }}>1900 1234</strong> / <strong style={{ color: '#00c6a2' }}>0292 3 456 789</strong></span>
+            <span>⏰ T2-CN: 6:00 - 20:00</span>
           </div>
           <div style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
-            <span style={{ opacity: 0.7 }}>Bảo hiểm Y tế (BHYT)</span>
+            <span>📍 123 Nguyễn Văn Cừ, P. An Khánh, Q. Ninh Kiều, TP. Cần Thơ</span>
             <span>|</span>
-            <span style={{ opacity: 0.7 }}>Cấp cứu 24/7</span>
+            <span>📧 contact@hungloi.vn</span>
+            <span style={{ display: 'flex', gap: '0.5rem', marginLeft: '0.5rem' }}>
+              <span style={{ cursor: 'pointer' }}>f</span>
+              <span style={{ cursor: 'pointer' }}>▶</span>
+              <span style={{ cursor: 'pointer' }}>✕</span>
+            </span>
           </div>
         </div>
       </div>
@@ -172,16 +177,30 @@ export default function Navbar() {
 
           {/* Auth area */}
           <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', flexShrink: 0 }}>
-            {status === 'authenticated' && session?.user ? (
+            {status === 'loading' ? (
+              <div style={{ width: '100px', height: '36px', borderRadius: '10px', background: 'rgba(0,0,0,0.05)', animation: 'pulse 2s infinite' }} />
+            ) : status === 'authenticated' && session?.user ? (
               <>
+                <div style={{ display: 'flex', alignItems: 'center', background: '#f1f5f9', borderRadius: '999px', padding: '0.4rem 1rem', width: '300px', border: '1px solid #e2e8f0' }}>
+                  <span style={{ color: '#94a3b8', marginRight: '0.5rem' }}>🔍</span>
+                  <input type="text" placeholder="Tìm kiếm bác sĩ, chuyên khoa, dịch vụ..." style={{ border: 'none', background: 'transparent', outline: 'none', width: '100%', fontSize: '0.85rem', color: '#333' }} />
+                </div>
+                <div style={{ position: 'relative', cursor: 'pointer', padding: '0.5rem' }}>
+                  <span style={{ fontSize: '1.2rem' }}>🔔</span>
+                  <div style={{ position: 'absolute', top: '4px', right: '4px', width: '8px', height: '8px', background: '#ef4444', borderRadius: '50%' }}></div>
+                </div>
                 <Link href="/patient" style={{
                   display: 'flex', alignItems: 'center', gap: '0.5rem',
-                  padding: '0.5rem 1rem', borderRadius: '10px',
-                  background: 'rgba(26,86,219,0.08)', color: '#1a56db',
+                  padding: '0.25rem 0.75rem', borderRadius: '999px',
+                  background: 'transparent', color: '#0f172a',
                   fontWeight: 600, fontSize: '0.9rem',
+                  textDecoration: 'none'
                 }}>
-                  <span>👤</span>
+                  <div style={{ width: '32px', height: '32px', borderRadius: '50%', background: '#2563eb', color: 'white', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '1rem', fontWeight: 'bold' }}>
+                    {(displayName || session.user.name || 'T').charAt(0).toUpperCase()}
+                  </div>
                   <span>{displayName || session.user.name || 'Tài khoản'}</span>
+                  <span style={{ fontSize: '0.7rem', color: '#64748b' }}>▼</span>
                 </Link>
               </>
             ) : (

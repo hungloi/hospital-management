@@ -2,44 +2,71 @@ import { auth } from '@/auth';
 import { NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
 
-export async function GET() {
+export async function GET(req: Request) {
   const session = await auth();
-  if (!session?.user || (session.user as any).role !== 'ADMIN') {
+  if (!session?.user || !['ADMIN','DIRECTOR'].includes((session.user as any).role)) {
     return NextResponse.json({ error: 'forbidden' }, { status: 403 });
   }
 
-  const rooms = await prisma.room.findMany({
-    include: {
-      department: true,
-      beds: {
-        orderBy: { bedNumber: 'asc' },
-        include: {
-          inpatientRecords: {
-            orderBy: { admissionDate: 'desc' },
-            take: 1,
-            include: {
-              patient: true,
+  const { searchParams } = new URL(req.url);
+  const page   = Math.max(1, Number(searchParams.get('page')  ?? 1));
+  const limit  = Math.min(100, Math.max(1, Number(searchParams.get('limit') ?? 50)));
+  const type   = searchParams.get('type')   ?? undefined;
+  const status = searchParams.get('status') ?? undefined;
+  const deptId = searchParams.get('departmentId') ?? undefined;
+  const search = searchParams.get('search') ?? undefined;
+
+  const where: any = {};
+  if (type)   where.type   = type;
+  if (status) where.status = status;
+  if (deptId) where.departmentId = deptId;
+  if (search) where.name = { contains: search };
+
+  // Only show patient rooms (exclude OFFICE, LAB_ROOM, EXAM_ROOM)
+  where.type = type
+    ? type
+    : { in: ['NORMAL', 'SERVICE', 'VIP', 'ICU', 'SURGERY', 'OBSERVATION'] };
+
+  const [total, rooms] = await Promise.all([
+    prisma.room.count({ where }),
+    prisma.room.findMany({
+      where,
+      include: {
+        department: { select: { id: true, name: true } },
+        beds: {
+          orderBy: { bedNumber: 'asc' },
+          include: {
+            inpatientRecords: {
+              where: { dischargeDate: null },
+              take: 1,
+              include: { patient: { select: { name: true } } },
             },
           },
         },
+        services: { select: { id: true, name: true, price: true } },
       },
-      services: true,
-    },
-    orderBy: { name: 'asc' },
-  });
+      orderBy: [{ type: 'asc' }, { name: 'asc' }],
+      skip: (page - 1) * limit,
+      take: limit,
+    }),
+  ]);
 
-  return NextResponse.json(
-    rooms.map((room) => ({
+  return NextResponse.json({
+    data: rooms.map((room) => ({
       ...room,
-      occupiedBeds: room.beds.filter((bed) => bed.status === 'OCCUPIED').length,
-      availableBeds: room.beds.filter((bed) => bed.status === 'AVAILABLE').length,
+      occupiedBeds:  room.beds.filter((b) => b.status === 'OCCUPIED').length,
+      availableBeds: room.beds.filter((b) => b.status === 'AVAILABLE').length,
     })),
-  );
+    total,
+    page,
+    limit,
+    totalPages: Math.ceil(total / limit),
+  });
 }
 
 export async function POST(req: Request) {
   const session = await auth();
-  if (!session?.user || (session.user as any).role !== 'ADMIN') {
+  if (!session?.user || !['ADMIN','DIRECTOR'].includes((session.user as any).role)) {
     return NextResponse.json({ error: 'forbidden' }, { status: 403 });
   }
 

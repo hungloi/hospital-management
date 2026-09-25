@@ -21,7 +21,8 @@ const ROOM_STATUS_LABELS: Record<string, { label: string; color: string }> = {
 };
 
 export default function RoomsClient() {
-  const { data: rooms = [], mutate } = useSWR('/api/admin/rooms', fetcher);
+  const { data: roomsData, mutate } = useSWR('/api/admin/rooms', fetcher);
+  const rooms = Array.isArray(roomsData) ? roomsData : (roomsData?.data || []);
   const { data: departments = [] } = useSWR('/api/admin/departments', fetcher);
   const [name, setName] = useState('');
   const [type, setType] = useState('NORMAL');

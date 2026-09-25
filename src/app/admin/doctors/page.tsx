@@ -10,7 +10,7 @@ import DoctorTableClient from './DoctorTableClient';
 
 export default async function AdminDoctorsPage() {
   const session = await auth();
-  if (!session?.user || (session.user as any).role !== 'ADMIN') redirect('/login');
+  if (!session?.user || !['ADMIN','DIRECTOR'].includes((session.user as any).role)) redirect('/login');
 
   const doctors = await prisma.doctor.findMany({
     include: {

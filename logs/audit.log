@@ -1,1 +1,3 @@
 [2026-08-05T15:05:42.092Z] payment_created: { txnRef: h0knEkbcuLCZ, amount: 200000, appointmentId: cmsg7wi0j000fns7ft9va2apj, invoiceId: cmsg7yikz000kns7flfceiu1n }
+[2026-09-21T16:26:22.476Z] payment_created: { txnRef: 9JGBKP3xyFNJ, amount: 200000, appointmentId: cmubgiwfh0000w07f2qc7e9af, invoiceId: cmubgjaso0001w07ff6n3ft04 }
+[2026-09-21T16:44:01.812Z] payment_created: { txnRef: lTHXHagT41sf, amount: 140000, appointmentId: cmubh5nrq0005w07fy3rzrz2g, invoiceId: cmubh607i0006w07f7e7cwrm3 }

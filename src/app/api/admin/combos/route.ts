@@ -77,7 +77,7 @@ export async function POST(req: Request) {
     let session: any = null;
     try {
       session = await auth();
-      if (!session?.user || (session.user as any).role !== 'ADMIN') return NextResponse.json({ error: 'forbidden' }, { status: 403 });
+      if (!session?.user || !['ADMIN','DIRECTOR'].includes((session.user as any).role)) return NextResponse.json({ error: 'forbidden' }, { status: 403 });
     } catch (e) {
       return NextResponse.json({ error: 'forbidden' }, { status: 403 });
     }

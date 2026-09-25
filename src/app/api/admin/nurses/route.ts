@@ -4,7 +4,7 @@ import { NextResponse } from 'next/server';
 
 export async function GET() {
   const session = await auth();
-  if (!session?.user || (session.user as any).role !== 'ADMIN') {
+  if (!session?.user || !['ADMIN','DIRECTOR'].includes((session.user as any).role)) {
     return NextResponse.json({ error: 'forbidden' }, { status: 403 });
   }
 
@@ -21,7 +21,7 @@ export async function GET() {
 
 export async function POST(req: Request) {
   const session = await auth();
-  if (!session?.user || (session.user as any).role !== 'ADMIN') {
+  if (!session?.user || !['ADMIN','DIRECTOR'].includes((session.user as any).role)) {
     return NextResponse.json({ error: 'forbidden' }, { status: 403 });
   }
 

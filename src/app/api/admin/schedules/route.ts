@@ -14,7 +14,7 @@ const NON_MEDICAL_DEPTS = new Set([
 
 export async function GET(req: Request) {
   const session = await auth();
-  if (!session?.user || (session.user as any).role !== 'ADMIN') {
+  if (!session?.user || !['ADMIN','DIRECTOR'].includes((session.user as any).role)) {
     return NextResponse.json({ error: 'forbidden' }, { status: 403 });
   }
 
@@ -79,7 +79,7 @@ export async function GET(req: Request) {
 
 export async function POST(req: Request) {
   const session = await auth();
-  if (!session?.user || (session.user as any).role !== 'ADMIN') {
+  if (!session?.user || !['ADMIN','DIRECTOR'].includes((session.user as any).role)) {
     return NextResponse.json({ error: 'forbidden' }, { status: 403 });
   }
 
@@ -137,7 +137,7 @@ export async function POST(req: Request) {
 
 export async function DELETE(req: Request) {
   const session = await auth();
-  if (!session?.user || (session.user as any).role !== 'ADMIN') {
+  if (!session?.user || !['ADMIN','DIRECTOR'].includes((session.user as any).role)) {
     return NextResponse.json({ error: 'forbidden' }, { status: 403 });
   }
 

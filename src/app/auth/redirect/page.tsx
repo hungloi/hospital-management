@@ -9,10 +9,8 @@ export default async function AuthRedirectPage() {
 
   switch (role) {
     case 'ADMIN':
-      redirect('/admin');
     case 'DIRECTOR':
-    case 'DEPUTY_DIRECTOR':
-      redirect('/director');
+      redirect('/admin');
     case 'DOCTOR':
     case 'HEAD_DOCTOR':
     case 'DEPUTY_HEAD':

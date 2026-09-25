@@ -7,7 +7,7 @@ import { ADMIN_NAV, ADMIN_THEME } from '@/lib/adminConfig';
 
 export default async function AdminPaymentsPage() {
   const session = await auth();
-  if (!session?.user || (session.user as any).role !== 'ADMIN') redirect('/login');
+  if (!session?.user || !['ADMIN','DIRECTOR'].includes((session.user as any).role)) redirect('/login');
 
   const payments = await prisma.payment.findMany({
     orderBy: { createdAt: 'desc' },

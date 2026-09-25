@@ -18,6 +18,7 @@ export default function BookingLink({ href, children, className, style, onClick 
 
   const handle = (e: React.MouseEvent) => {
     e.preventDefault();
+    if (status === 'loading') return; // Do nothing if still loading session
     if (onClick) onClick();
     if (status === 'authenticated') {
       router.push(href);

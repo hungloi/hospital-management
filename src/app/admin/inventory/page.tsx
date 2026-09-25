@@ -7,7 +7,7 @@ import InventoryAdjustClient from './InventoryAdjustClient';
 
 export default async function AdminInventoryPage() {
   const session = await auth();
-  if (!session?.user || (session.user as any).role !== 'ADMIN') redirect('/login');
+  if (!session?.user || !['ADMIN','DIRECTOR'].includes((session.user as any).role)) redirect('/login');
 
   const now = new Date();
   const expiryWarningWindow = new Date();

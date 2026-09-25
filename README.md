@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🏥 Bệnh viện Đa khoa Hưng Lợi - Web Management System
 
-## Getting Started
-
-First, run the development server:
+## 🚀 Cài đặt & Chạy
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🗄️ Database Setup
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Dự án dùng **SQLite** (`hospital.db`) cho môi trường dev.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Tạo Database & Seed dữ liệu lần đầu
+```bash
+# 1. Tạo schema database
+npx prisma db push
 
-## Learn More
+# 2. Seed toàn bộ dữ liệu (khoa, nhân sự, phòng...)
+npm run seed
+# hoặc
+node prisma/seed.js
+```
 
-To learn more about Next.js, take a look at the following resources:
+### Reset & Seed lại từ đầu
+```bash
+# Xóa database cũ và tạo lại
+del hospital.db
+npx prisma db push
+npm run seed
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 👤 Tài khoản mặc định
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+| Role | Email | Mật khẩu |
+|---|---|---|
+| Admin | admin@bvhungloi.vn | Admin@123 |
+| Bác sĩ/Y tá/NV | *(tạo tự động)* | password123 |
 
-## Deploy on Vercel
+## 📊 Dữ liệu mẫu (sau khi seed)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- 🏢 **50** Khoa/Phòng ban
+- 👨‍⚕️ **~467** Bác sĩ
+- 👩‍⚕️ **~807** Y tá
+- 👨‍💼 **~220** Nhân viên/KTV/Dược sĩ/Kế toán
+- 🏥 **~3007** Phòng bệnh (Thường / Dịch vụ / VIP)
+- 🛏️ **~11754** Giường bệnh
+- 🛎️ **~5928** Tiện nghi VIP/Dịch vụ
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Giá phòng bệnh
+| Loại | Giá/ngày | Giường/phòng | Tiện nghi |
+|---|---|---|---|
+| Phòng thường | 200.000đ | 4-6 giường | — |
+| Phòng dịch vụ | 600.000đ | 2 giường | Điều hòa, Tivi, Wifi |
+| Phòng VIP | 1.500.000đ | 1 giường | Đầy đủ cao cấp |
+
+## ⚠️ Lưu ý khi deploy lên web
+
+SQLite **không phù hợp cho production**. Khi deploy lên Vercel/Railway:
+1. Chuyển `DATABASE_URL` sang **PostgreSQL** (Neon, Supabase miễn phí)
+2. Cập nhật `prisma/schema.prisma`: `provider = "postgresql"`
+3. Chạy `npx prisma migrate deploy`
+4. Chạy `npm run seed` để nạp dữ liệu
+
+## 🛠️ Tech Stack
+
+- **Framework**: Next.js 16 (App Router, Turbopack)
+- **Auth**: NextAuth v5 (Auth.js)
+- **ORM**: Prisma v7 + better-sqlite3
+- **Database**: SQLite (dev) → PostgreSQL (prod)
+- **UI**: Vanilla CSS + Recharts

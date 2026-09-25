@@ -94,17 +94,17 @@ export default function BookingForm({ departments }: { departments: any[] }) {
       <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.5rem' }}>
         <div>
           <label htmlFor="name" style={labelStyle}>Họ và tên *</label>
-          <input defaultValue={defaultName} type="text" id="name" name="name" required style={inputStyle} readOnly={status === 'authenticated' && !editableContacts} />
+          <input value={defaultName} onChange={e => setDefaultName(e.target.value)} type="text" id="name" name="name" required style={inputStyle} readOnly={status === 'authenticated' && !editableContacts} />
         </div>
         <div>
           <label htmlFor="email" style={labelStyle}>Email liên hệ *</label>
-          <input defaultValue={defaultEmail} type="email" id="email" name="email" required style={inputStyle} readOnly={status === 'authenticated' && !editableContacts} />
+          <input value={defaultEmail} onChange={e => setDefaultEmail(e.target.value)} type="email" id="email" name="email" required style={inputStyle} readOnly={status === 'authenticated' && !editableContacts} />
         </div>
       </div>
 
       <div style={{ marginTop: '1rem', marginBottom: '0.5rem' }}>
         <label htmlFor="phone" style={labelStyle}>Số điện thoại *</label>
-        <input defaultValue={defaultPhone} type="text" id="phone" name="phone" required style={inputStyle} readOnly={status === 'authenticated' && !editableContacts} />
+        <input value={defaultPhone} onChange={e => setDefaultPhone(e.target.value)} type="text" id="phone" name="phone" required style={inputStyle} readOnly={status === 'authenticated' && !editableContacts} />
         {status === 'authenticated' ? (
           <div style={{ marginTop: '0.5rem', fontSize: '0.85rem', color: '#64748b' }}>
             Thông tin lấy từ hồ sơ. <button type="button" onClick={async () => {

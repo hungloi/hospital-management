@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Tinos:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root{
+  --desk:#dde4ec; --panel:#ffffff; --ink:#17202b; --muted:#566274; --line:#c3ccd8;
+  --accent:#1f4fa3; --accent-soft:#e4ecfa; --accent-ink:#ffffff; --warn:#b42318;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --desk:#0f1319; --panel:#1b212b; --ink:#e7ecf3; --muted:#9aa7b8; --line:#2d3745;
+    --accent:#8ab0ff; --accent-soft:#1f2b44; --accent-ink:#0b1220; --warn:#ff9a8a;
+  }
+}
+
+/* Base print wrapping styles */
+.print-app-wrapper {
+  background: var(--desk);
+  color: var(--ink);
+  font-family: 'Be Vietnam Pro', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.55;
+  min-height: 100vh;
+  padding: 40px 24px;
+}
+
+.stage {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.fit {
+  min-width: 0;
+  overflow-x: auto;
+}
+
+/* ---------- Tờ giấy ---------- */
+.sheet {
+  --pen:#0f3d91;--stamp:#0f6b3a;--red:#b42318;
+  width: 794px; /* A4 width at 96 DPI */
+  margin: 0 auto;
+  background: #fff;
+  color: #111;
+  font-family: 'Tinos', 'Times New Roman', Times, serif;
+  font-size: 14px;
+  line-height: 1.5;
+  padding: 42px 52px 46px;
+  box-shadow: 0 1px 2px rgba(0,0,0,.25), 0 14px 34px rgba(12,22,36,.2);
+  box-sizing: border-box;
+}
+.sheet.a4 {
+  min-height: 1123px; /* A4 height at 96 DPI */
+}
+.sheet.a5 {
+  width: 600px;
+}
+.sheet.slip {
+  width: 340px;
+  padding: 22px 20px 24px;
+  font-size: 13px;
+}
+.sheet .d {
+  color: var(--pen);
+  font-weight: 700;
+  border-bottom: 1px dotted #8a94a3;
+  padding: 0 3px;
+}
+.sheet .row {
+  display: flex;
+  gap: 8px;
+  align-items: baseline;
+  margin: 3px 0;
+}
+.sheet .row > .d {
+  flex: 1;
+  min-width: 0;
+}
+.sheet .row > span:not(.d) {
+  white-space: nowrap;
+}
+
+.hdr {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  align-items: flex-start;
+  font-size: 13px;
+}
+.org {
+  text-align: center;
+  min-width: 240px;
+}
+.org b {
+  display: block;
+  font-size: 14px;
+}
+.org .ln {
+  width: 56%;
+  height: 1px;
+  background: #111;
+  margin: 3px auto 0;
+}
+.meta {
+  text-align: right;
+  font-size: 12.5px;
+  line-height: 1.4;
+}
+.bc {
+  display: block;
+  width: 132px;
+  height: 30px;
+  margin: 4px 0 0 auto;
+}
+.qr {
+  display: block;
+  width: 92px;
+  height: 92px;
+}
+.title {
+  text-align: center;
+  font-size: 21px;
+  font-weight: 700;
+  margin: 14px 0 0;
+  letter-spacing: .03em;
+}
+.sub {
+  text-align: center;
+  font-style: italic;
+  font-size: 13px;
+  margin: 0 0 8px;
+}
+.sec {
+  font-weight: 700;
+  margin: 14px 0 4px;
+  border-bottom: 1px solid #888;
+  padding-bottom: 1px;
+}
+.vit {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border: 1px solid #444;
+}
+.vit > div {
+  padding: 5px 8px;
+  border-right: 1px solid #444;
+  border-bottom: 1px solid #444;
+}
+.vit > div:nth-child(4n) { border-right: 0; }
+.vit > div:nth-last-child(-n+4) { border-bottom: 0; }
+.vit .vl {
+  display: block;
+  font-size: 12px;
+  color: #444;
+}
+.tb {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+  margin: 4px 0;
+}
+.tb th, .tb td {
+  border: 1px solid #444;
+  padding: 4px 6px;
+  vertical-align: top;
+}
+.tb th {
+  background: #eee;
+  text-align: center;
+  font-weight: 700;
+}
+.tb .r { text-align: right; white-space: nowrap; }
+.tb .c { text-align: center; }
+.tb tr.gr td { background: #f5f5f5; font-weight: 700; }
+.tb.sm13 { font-size: 12px; }
+.tb.sm13 th, .tb.sm13 td { padding: 3px 5px; }
+
+.alert {
+  border: 1.5px solid var(--red);
+  color: var(--red);
+  padding: 4px 10px;
+  font-weight: 700;
+  margin: 8px 0;
+}
+.flag { color: var(--red); font-weight: 700; }
+.ok { color: var(--stamp); font-weight: 700; }
+.wait { color: #8a5a00; font-weight: 700; }
+.sigs {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  text-align: center;
+  margin-top: 22px;
+}
+.sigs > div { flex: 1; }
+.sigs .role { font-weight: 700; }
+.sigs .hint { font-style: italic; font-size: 12px; }
+.stamp {
+  display: inline-block;
+  margin: 6px 0 4px;
+  border: 1.5px solid var(--stamp);
+  color: var(--stamp);
+  padding: 4px 9px;
+  border-radius: 3px;
+  font-family: 'Be Vietnam Pro', Arial, sans-serif;
+  font-size: 10.5px;
+  line-height: 1.4;
+  text-align: left;
+}
+.small { font-size: 12px; color: #444; }
+.it { font-style: italic; }
+
+.slip .center { text-align: center; }
+.slip hr {
+  border: 0;
+  border-top: 1px dashed #666;
+  margin: 8px 0;
+}
+.big {
+  font-size: 62px;
+  font-weight: 700;
+  line-height: 1.05;
+  text-align: center;
+  letter-spacing: .02em;
+  margin: 6px 0;
+}
+.kv {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 2px 0;
+}
+.kv .v { text-align: right; }
+.sum {
+  margin-left: auto;
+  width: 62%;
+  border: 1px solid #444;
+  font-size: 13px;
+}
+.sum div {
+  display: flex;
+  justify-content: space-between;
+  padding: 3px 8px;
+  border-bottom: 1px solid #ccc;
+}
+.sum div:last-child { border-bottom: 0; }
+.sum .tot { font-weight: 700; background: #f0f0f0; }
+
+.no-print {
+  text-align: center;
+  margin-top: 20px;
+}
+.no-print button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+.no-print button:hover {
+  background: #2563eb;
+}
+
+/* ---------- In ---------- */
+@media print {
+  body, .print-app-wrapper { background: #fff !important; padding: 0 !important; margin: 0 !important; }
+  .no-print { display: none !important; }
+  .stage { display: block; padding: 0; margin: 0; }
+  .fit { overflow: visible; }
+  .sheet {
+    box-shadow: none !important;
+    zoom: 1 !important;
+    margin: 0 !important;
+    padding: 0 !important; /* Let browser handle print margins */
+    width: 100% !important;
+    max-width: none !important;
+    min-height: auto !important;
+  }
+}

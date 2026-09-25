@@ -8,7 +8,7 @@ import StatsCharts from './StatsCharts';
 
 export default async function AdminStatsPage() {
   const session = await auth();
-  if (!session?.user || (session.user as any).role !== 'ADMIN') redirect('/login');
+  if (!session?.user || !['ADMIN','DIRECTOR'].includes((session.user as any).role)) redirect('/login');
 
   const [totalAppointments, totalPatients, totalDoctors, totalRevenue, statusCounts, topDoctors, recentAppointments, prescriptions, lowStockMedicines, lowStockSupplies] = await Promise.all([
     prisma.appointment.count(),

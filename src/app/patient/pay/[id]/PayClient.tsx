@@ -48,38 +48,40 @@ export default function PayClient({ appointmentId, initialAmount, paymentExists,
   }, [paymentExists, paymentStatus]);
 
   return (
-    <div style={{ display: 'flex', gap: '0.75rem', alignItems: 'center' }}>
+    <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem', alignItems: 'stretch' }}>
       {paymentExists && paymentStatus === 'PENDING' ? (
         <>
-          <div style={{ color: '#d97706', fontWeight: 700 }}>Giao dịch chờ xử lý. Nếu không tự chuyển, bấm nút bên cạnh để mở VNPay.</div>
+          <div style={{ color: '#d97706', fontWeight: 600, fontSize: '0.9rem', marginBottom: '4px' }}>Giao dịch chờ xử lý. Nếu không tự chuyển, bấm nút bên dưới.</div>
           <button
             onClick={createOrGetPayment}
             disabled={loading}
-            style={{ padding: '0.6rem 1rem', background: '#2563eb', color: 'white', borderRadius: '8px', fontWeight: 700, border: 'none' }}
+            style={{ width: '100%', padding: '0.85rem 1rem', background: 'linear-gradient(135deg, #1d4ed8, #2563eb)', color: 'white', borderRadius: '12px', fontWeight: 700, border: 'none', cursor: 'pointer', boxShadow: '0 4px 12px rgba(37,99,235,0.25)' }}
           >
             {loading ? 'Đang chuyển...' : 'Mở VNPay'}
           </button>
         </>
       ) : paymentExists && paymentStatus === 'PAID' ? (
-        <div style={{ color: '#16a34a', fontWeight: 700 }}>Lịch hẹn đã được thanh toán.</div>
+        <div style={{ padding: '1rem', background: '#dcfce7', color: '#166534', borderRadius: '12px', fontWeight: 700 }}>
+          Giao dịch đã thanh toán thành công.
+        </div>
       ) : (
         <>
           <button
             onClick={createOrGetPayment}
             disabled={loading}
-            style={{ padding: '0.6rem 1rem', background: '#2563eb', color: 'white', borderRadius: '8px', fontWeight: 700, border: 'none' }}
+            style={{ width: '100%', padding: '0.85rem 1rem', background: 'linear-gradient(135deg, #1d4ed8, #2563eb)', color: 'white', borderRadius: '12px', fontWeight: 700, border: 'none', cursor: 'pointer', boxShadow: '0 4px 12px rgba(37,99,235,0.25)' }}
           >
-            {loading ? 'Đang chuyển...' : 'Thanh toán bằng VNPay'}
+            {loading ? 'Đang xử lý...' : 'Thanh toán bằng VNPay'}
           </button>
           <button
-            onClick={() => alert('Tùy chọn Thanh toán tiền mặt: đến quầy tiếp nhận khi đến khám')}
-            style={{ padding: '0.6rem 1rem', background: '#f3f4f6', color: '#0f172a', borderRadius: '8px', fontWeight: 700, border: '1px solid #e2e8f0' }}
+            onClick={() => alert('Vui lòng đến quầy thu ngân (Tầng 1) để đóng tiền mặt.')}
+            style={{ width: '100%', padding: '0.85rem 1rem', background: '#f8fafc', color: '#334155', borderRadius: '12px', fontWeight: 700, border: '1.5px solid #e2e8f0', cursor: 'pointer' }}
           >
             Thanh toán tiền mặt
           </button>
         </>
       )}
-      {error && <div style={{ color: '#dc2626', fontWeight: 700 }}>{error}</div>}
+      {error && <div style={{ color: '#ef4444', fontWeight: 600, fontSize: '0.9rem', marginTop: '4px' }}>{error}</div>}
     </div>
   );
 }
