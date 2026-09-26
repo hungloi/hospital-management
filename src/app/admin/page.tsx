@@ -12,22 +12,22 @@ export default async function AdminDashboard() {
   const [totalPatients, totalDoctors, pendingAppts, totalRevenue, recentAppts, deptStats, pendingPrescriptions, medicineStockData, supplyStockData, todayRevenue] = await Promise.all([
     prisma.user.count({ where: { role: 'PATIENT' } }),
     prisma.doctor.count(),
-    prisma.appointment.count({ where: { status: 'PENDING' } }),
-    prisma.payment.aggregate({ _sum: { amount: true }, where: { status: 'PAID' } }),
+    prisma.appointment.count({ where: { status: 'DANG_KY' } }),
+    prisma.invoice.aggregate({ _sum: { totalAmount: true }, where: { status: 'DA_THANH_TOAN' } }),
     prisma.appointment.findMany({
       take: 10, orderBy: { createdAt: 'desc' },
-      include: { patient: true, doctor: { include: { user: true, department: true } }, payments: true }
+      include: { patient: true, doctor: { include: { user: true, department: true } }, invoices: true }
     }),
     prisma.department.findMany({
       include: { _count: { select: { doctors: true } } }
     }),
-    prisma.prescription.count({ where: { status: 'PENDING' } }),
+    prisma.prescription.count({ where: { status: 'CHO_THANH_TOAN' } }),
     prisma.medicine.findMany({ select: { id: true, inventory: true, minStock: true } }),
-    prisma.medicalSupply.findMany({ select: { id: true, inventory: true, minStock: true } }),
-    prisma.payment.aggregate({
-      _sum: { amount: true },
+    prisma.medicalSupply.findMany({ select: { id: true, inventory: true } }),
+    prisma.invoice.aggregate({
+      _sum: { totalAmount: true },
       where: {
-        status: 'PAID',
+        status: 'DA_THANH_TOAN',
         paidDate: {
           gte: new Date(new Date().setHours(0, 0, 0, 0)),
           lt: new Date(new Date().setHours(23, 59, 59, 999)),
@@ -37,10 +37,10 @@ export default async function AdminDashboard() {
   ]);
 
   const lowStockMedicines = medicineStockData.filter((item) => item.inventory <= item.minStock).length;
-  const lowStockSupplies = supplyStockData.filter((item) => item.inventory <= item.minStock).length;
+  const lowStockSupplies = supplyStockData.filter((item) => item.inventory <= 10).length; // Default threshold
 
-  const STATUS_COLOR: Record<string, string> = { PENDING: '#f59e0b', CONFIRMED: '#38bdf8', EXAMINING: '#a78bfa', COMPLETED: '#34d399', CANCELLED: '#f87171' };
-  const STATUS_LABEL: Record<string, string> = { PENDING: 'Chờ xác nhận', CONFIRMED: 'Đã xác nhận', EXAMINING: 'Đang khám', COMPLETED: 'Hoàn thành', CANCELLED: 'Đã hủy' };
+  const STATUS_COLOR: Record<string, string> = { DANG_KY: '#f59e0b', DA_THANH_TOAN: '#38bdf8', DA_DEN: '#2563eb', DANG_CHO: '#8b5cf6', DANG_KHAM: '#a78bfa', CHO_CLS: '#f43f5e', DA_KET_LUAN: '#10b981', HOAN_TAT: '#34d399', HUY: '#f87171' };
+  const STATUS_LABEL: Record<string, string> = { DANG_KY: 'Đăng ký', DA_THANH_TOAN: 'Đã TT', DA_DEN: 'Đã đến', DANG_CHO: 'Đang chờ', DANG_KHAM: 'Đang khám', CHO_CLS: 'Chờ CLS', DA_KET_LUAN: 'Kết luận', HOAN_TAT: 'Hoàn thành', HUY: 'Đã hủy' };
 
   return (
     <DashboardShell
@@ -64,7 +64,7 @@ export default async function AdminDashboard() {
             { label: 'Bệnh nhân', value: totalPatients, icon: '⊙', color: '#60a5fa', sub: 'Đã đăng ký', bg: 'rgba(96,165,250,0.08)' },
             { label: 'Bác sĩ', value: totalDoctors, icon: '⊚', color: '#34d399', sub: `${deptStats.length} khoa`, bg: 'rgba(52,211,153,0.08)' },
             { label: 'Đơn chờ phát', value: pendingPrescriptions, icon: '⊕', color: '#fbbf24', sub: 'Từ phòng khám', bg: 'rgba(251,191,36,0.08)' },
-            { label: 'Doanh thu hôm nay', value: `${((todayRevenue._sum.amount || 0) / 1_000_000).toFixed(1)}M`, icon: '⊞', color: '#a78bfa', sub: 'VNĐ đã thu', bg: 'rgba(167,139,250,0.08)' },
+            { label: 'Doanh thu hôm nay', value: `${((todayRevenue._sum.totalAmount || 0) / 1_000_000).toFixed(1)}M`, icon: '⊞', color: '#a78bfa', sub: 'VNĐ đã thu', bg: 'rgba(167,139,250,0.08)' },
           ].map(c => (
             <div key={c.label} style={{
               background: 'white',
@@ -110,7 +110,7 @@ export default async function AdminDashboard() {
             </div>
             <div style={{ marginTop: '1rem', background: '#eff6ff', border: '1px solid #bfdbfe', borderRadius: '12px', padding: '0.9rem 1rem' }}>
               <div style={{ color: '#1d4ed8', fontWeight: 700, fontSize: '0.9rem' }}>💵 Doanh thu tổng</div>
-              <div style={{ color: '#0f172a', fontSize: '1.2rem', fontWeight: 800, marginTop: '0.2rem' }}>{((totalRevenue._sum.amount || 0) / 1_000_000).toFixed(1)} triệu VNĐ</div>
+              <div style={{ color: '#0f172a', fontSize: '1.2rem', fontWeight: 800, marginTop: '0.2rem' }}>{((totalRevenue._sum.totalAmount || 0) / 1_000_000).toFixed(1)} triệu VNĐ</div>
             </div>
           </div>
 
@@ -133,8 +133,8 @@ export default async function AdminDashboard() {
                   {recentAppts.map(a => (
                     <tr key={a.id} style={{ borderBottom: '1px solid #e2e8f0' }}>
                       <td style={{ padding: '0.7rem 0.75rem', color: '#0f172a' }}>{a.patient.name}</td>
-                      <td style={{ padding: '0.7rem 0.75rem', color: '#475569' }}>{a.doctor.user.name}</td>
-                      <td style={{ padding: '0.7rem 0.75rem', color: '#64748b' }}>{a.doctor.department?.name || '—'}</td>
+                      <td style={{ padding: '0.7rem 0.75rem', color: '#475569' }}>{a.doctor?.user?.name || '—'}</td>
+                      <td style={{ padding: '0.7rem 0.75rem', color: '#64748b' }}>{a.doctor?.department?.name || '—'}</td>
                       <td style={{ padding: '0.7rem 0.75rem', color: '#64748b', whiteSpace: 'nowrap' }}>
                         {new Intl.DateTimeFormat('vi-VN', { dateStyle: 'short', timeStyle: 'short' }).format(new Date(a.date))}
                       </td>
@@ -144,7 +144,7 @@ export default async function AdminDashboard() {
                         </span>
                       </td>
                       <td style={{ padding: '0.7rem 0.75rem' }}>
-                        {(a.payments && a.payments.length > 0) ? (
+                        {(a.invoices && a.invoices.length > 0) ? (
                           <span style={{ color: '#16a34a', fontSize: '0.75rem', fontWeight: 600 }}>✓ Đã TT</span>
                         ) : (
                           <span style={{ color: '#64748b', fontSize: '0.75rem' }}>Chưa TT</span>

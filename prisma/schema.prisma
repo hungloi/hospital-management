@@ -15,40 +15,49 @@ model User {
   email     String   @unique
   password  String
   name      String
-  role      String   @default("PATIENT") // PATIENT, DOCTOR, NURSE, ADMIN, PHARMACIST, ACCOUNTANT
+  role      String   @default("PATIENT") // PATIENT, DOCTOR, NURSE, ADMIN, PHARMACIST, ACCOUNTANT, RECEPTIONIST
   phone     String?
   address   String?
   dob       DateTime?
   gender    String?  // MALE, FEMALE, OTHER
+  identityId String? @unique // CCCD
+  healthInsuranceNo String?
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 
   appointments       Appointment[]
-  clinicAppointments ClinicAppointment[]
-  doctorInfo        Doctor?
-  nurseInfo         Nurse?
-  medicalRecords    MedicalRecord[]
-  clinicRecords     ClinicRecord[]
-  inpatientRecords  InpatientRecord[]
-  surgeryOrders     SurgeryOrder[]
-  articles          Article[]
+  doctorInfo         Doctor?
+  nurseInfo          Nurse?
+  medicalRecords     MedicalRecord[]
+  inpatientRecords   InpatientRecord[]
+  surgeryOrders      SurgeryOrder[]
+  articles           Article[]
 }
 
 model Department {
   id          String   @id @default(cuid())
-  name        String   @unique
+  code        String   @unique // KHOA_KHAM_BENH, KHOA_CAP_CUU...
+  name        String
   description String?
+  type        String   @default("KHOA") // KHOI, KHOA, PHONG_KHAM, DON_VI, PHONG, TRUNG_TAM
   floor       String?
+  
+  // Hierarchical Structure
+  parentId    String?
+  parent      Department?  @relation("DepartmentHierarchy", fields: [parentId], references: [id])
+  children    Department[] @relation("DepartmentHierarchy")
+
   createdAt   DateTime @default(now())
   updatedAt   DateTime @updatedAt
 
   doctors           Doctor[]
   nurses            Nurse[]
-  clinicAppointments ClinicAppointment[]
+  appointments      Appointment[] // Nơi đăng ký đến khám
   rooms             Room[]
   staffShifts       StaffShift[]
    
-  @@index([name])
+  @@index([parentId])
+  @@index([type])
 }
 
 model Doctor {
@@ -58,14 +67,17 @@ model Doctor {
   licenseNo    String?
   userId       String   @unique
   user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
-  departmentId String   // Bắt buộc có khoa
+  
+  departmentId String   // Trực thuộc Khoa/Phòng nào
   department   Department @relation(fields: [departmentId], references: [id])
-  consultationFee Float  @default(0)
+  
+  consultationFee Float  @default(0) // Giá khám
+  isSpecialist Boolean  @default(false) // Bác sĩ chuyên gia?
+  
   createdAt    DateTime @default(now())
   updatedAt    DateTime @updatedAt
 
   appointments         Appointment[]
-  clinicAppointments   ClinicAppointment[]
   inpatientRecords     InpatientRecord[]
   medicalOrders        MedicalOrder[]
   surgeryOrders        SurgeryOrder[]
@@ -78,9 +90,9 @@ model Nurse {
   id          String   @id @default(cuid())
   userId      String   @unique
   user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
-  departmentId String   // Bắt buộc có khoa
+  departmentId String   
   department  Department @relation(fields: [departmentId], references: [id])
-  position    String?  // e.g., Trưởng Khoa Y Tá, Y Tá Senior, Y Tá
+  position    String?  
   createdAt   DateTime @default(now())
   updatedAt   DateTime @updatedAt
 
@@ -112,102 +124,60 @@ model StaffShift {
 
   @@index([departmentId])
   @@index([doctorId])
-  @@index([nurseId])
 }
+
+// ----------------------------------------------------------------------
+// WORKFLOW KHÁM BỆNH V2 (Appointments & Medical Workflow)
+// ----------------------------------------------------------------------
 
 model Appointment {
-  id          String   @id @default(cuid())
-  date        DateTime
-  status      String   @default("PENDING") // PENDING, CONFIRMED, EXAMINING, COMPLETED, CANCELLED
-  notes       String?
-  symptoms    String?
-  diagnosis   String?  // Bác sĩ điền sau khi khám
-  type        String   @default("SERVICE") // BHYT, SERVICE
+  id                String   @id @default(cuid())
+  appointmentCode   String   @unique // DK202610150001
+  
+  date              DateTime
+  timeSlot          String?  // "08:15"
+  
+  // Trạng thái workflow cực kỳ chi tiết
+  // DANG_KY, DA_THANH_TOAN, DA_DEN, DANG_CHO, DANG_KHAM, CHO_CLS, DA_KET_LUAN, HOAN_TAT, HUY
+  status            String   @default("DANG_KY") 
+  
+  // Loại khám
+  type              String   @default("BHYT") // BHYT, DICH_VU, THEO_YEU_CAU, CHUYEN_GIA
   healthInsuranceNo String?
-  queueNumber Int?     // Lễ tân cấp số thứ tự
+  
+  notes             String?
+  symptoms          String?  // Lý do khám
+  diagnosis         String?  // Chẩn đoán sau khi khám
+  
+  queueNumber       String?  // Số thứ tự vào khám "A015"
 
-  patientId   String
-  patient     User     @relation(fields: [patientId], references: [id], onDelete: Cascade)
+  // Liên kết người bệnh
+  patientId         String
+  patient           User     @relation(fields: [patientId], references: [id], onDelete: Cascade)
 
-  doctorId    String
-  doctor      Doctor   @relation(fields: [doctorId], references: [id], onDelete: Cascade)
+  // Liên kết nơi khám
+  departmentId      String
+  department        Department @relation(fields: [departmentId], references: [id]) // Tới Phòng khám nào
 
-  // Optional service combo applied to this appointment
-  serviceComboId String?
-  serviceCombo   ServiceCombo? @relation(fields: [serviceComboId], references: [id])
+  doctorId          String?
+  doctor            Doctor?   @relation(fields: [doctorId], references: [id], onDelete: SetNull)
 
-  // Allow multiple payments/invoices per appointment (e.g., deposit + final)
-  payments    Payment[]
-  invoices    Invoice[]
-  prescription Prescription?
-  labOrders   LabOrder[]
-  medicalRecord MedicalRecord?
+  serviceComboId    String?
+  serviceCombo      ServiceCombo? @relation(fields: [serviceComboId], references: [id])
 
-  createdAt   DateTime @default(now())
-  updatedAt   DateTime @updatedAt
+  invoices          Invoice[]
+  prescriptions     Prescription[]
+  labOrders         LabOrder[]
+  medicalRecord     MedicalRecord?
 
-  @@index([patientId])
-  @@index([doctorId])
-  @@index([date])
-}
-
-model ClinicAppointment {
-  id          String   @id @default(cuid())
-  date        DateTime
-  startTime   DateTime
-  endTime     DateTime
-  status      String   @default("PENDING") // PENDING, CONFIRMED, EXAMINING, COMPLETED, CANCELLED, NO_SHOW
-  notes       String?
-  symptoms    String?
-  diagnosis   String?
-  type        String   @default("SERVICE") // BHYT, SERVICE
-  healthInsuranceNo String?
-  queueNumber Int?
-
-  patientId   String
-  patient     User     @relation(fields: [patientId], references: [id], onDelete: Cascade)
-
-  doctorId    String
-  doctor      Doctor   @relation(fields: [doctorId], references: [id], onDelete: Cascade)
-
-  departmentId String
-  department   Department @relation(fields: [departmentId], references: [id])
-
-  // Service pricing for clinic
-  serviceComboId String?
-  serviceCombo   ServiceCombo? @relation(fields: [serviceComboId], references: [id])
-
-  payments    Payment[]
-  invoices    Invoice[]
-  prescription Prescription?
-  labOrders   LabOrder[]
-  clinicRecord ClinicRecord?
-
-  createdAt   DateTime @default(now())
-  updatedAt   DateTime @updatedAt
+  createdAt         DateTime @default(now())
+  updatedAt         DateTime @updatedAt
 
   @@index([patientId])
   @@index([doctorId])
   @@index([departmentId])
   @@index([date])
-}
-
-model ClinicRecord {
-  id              String   @id @default(cuid())
-  diagnosis       String
-  treatment       String
-  notes           String?
-  
-  patientId       String
-  patient         User     @relation(fields: [patientId], references: [id], onDelete: Cascade)
-  
-  clinicAppointmentId String @unique
-  clinicAppointment   ClinicAppointment @relation(fields: [clinicAppointmentId], references: [id], onDelete: Cascade)
-  
-  createdAt       DateTime @default(now())
-  updatedAt       DateTime @updatedAt
-
-  @@index([patientId])
+  @@index([status])
 }
 
 model MedicalRecord {
@@ -215,6 +185,7 @@ model MedicalRecord {
   diagnosis     String
   treatment     String
   notes         String?
+  icdCode       String?  // Mã bệnh ICD-10
 
   patientId     String
   patient       User     @relation(fields: [patientId], references: [id], onDelete: Cascade)
@@ -225,165 +196,94 @@ model MedicalRecord {
   updatedAt     DateTime @updatedAt
 }
 
-model Supplier {
-  id          String   @id @default(cuid())
-  name        String   @unique
-  contactPerson String?
-  phone       String?
-  email       String?
-  address     String?
-  city        String?
-  taxCode     String?
-  bankAccount String?
-  status      String   @default("ACTIVE") // ACTIVE, INACTIVE
-  createdAt   DateTime @default(now())
-  updatedAt   DateTime @updatedAt
+// ----------------------------------------------------------------------
+// THANH TOÁN (BILLING & INVOICE)
+// ----------------------------------------------------------------------
 
-  medicineBatches SupplierMedicineBatch[]
-  supplyBatches   SupplierSupplyBatch[]
+model Invoice {
+  id               String        @id @default(cuid())
+  invoiceNo        String        @unique
+  type             String        @default("TONG_HOP") // PHI_KHAM, PHI_CLS, PHI_THUOC, TONG_HOP
+  
+  totalAmount      Float         @default(0) // Tổng chi phí
+  healthInsurance  Float         @default(0) // BHYT trả
+  patientAmount    Float         @default(0) // BN trả
+  
+  status           String        @default("CHO_THANH_TOAN") // CHO_THANH_TOAN, DA_THANH_TOAN, HOAN_TIEN, HUY
+  paymentMethod    String?       // TIEN_MAT, CHUYEN_KHOAN, QR, POS
+  paidDate         DateTime?
+  
+  notes            String?
 
-  @@index([name])
+  appointmentId    String?
+  appointment      Appointment?  @relation(fields: [appointmentId], references: [id], onDelete: Cascade)
+
+  inpatientRecordId String?
+  inpatientRecord   InpatientRecord? @relation(fields: [inpatientRecordId], references: [id], onDelete: Cascade)
+
+  items            InvoiceItem[]
+
+  createdAt        DateTime      @default(now())
+  updatedAt        DateTime      @updatedAt
+
+  @@index([appointmentId])
+  @@index([status])
 }
 
-model SupplierMedicineBatch {
+model InvoiceItem {
+  id          String  @id @default(cuid())
+  description String
+  amount      Float
+  quantity    Int     @default(1)
+
+  invoiceId   String
+  invoice     Invoice @relation(fields: [invoiceId], references: [id], onDelete: Cascade)
+}
+
+// ----------------------------------------------------------------------
+// CẬN LÂM SÀNG (DIAGNOSTICS & LABS)
+// ----------------------------------------------------------------------
+
+model LabOrder {
   id            String   @id @default(cuid())
-  medicineId    String
-  medicine      Medicine @relation(fields: [medicineId], references: [id], onDelete: Cascade)
-  supplierId    String
-  supplier      Supplier @relation(fields: [supplierId], references: [id])
-  batchNo       String
-  manufacturingDate DateTime?
-  expiryDate    DateTime
-  quantity      Int
-  receivedDate  DateTime @default(now())
-  status        String   @default("AVAILABLE") // AVAILABLE, EXPIRED, DAMAGED, RECALLED
-  unitPrice     Float
+  type          String   // XET_NGHIEM, CDHA, NOI_SOI, GPB
+  name          String   // Tên dịch vụ: "Siêu âm ổ bụng", "Công thức máu"
+  description   String?
+  price         Float    @default(0) 
   
+  result        String?  // Kết luận
+  resultFileUrl String?  // File kết quả
+  
+  status        String   @default("CHO_THANH_TOAN") // CHO_THANH_TOAN, DA_THANH_TOAN, DANG_THUC_HIEN, DA_CO_KET_QUA, HUY
+  orderDate     DateTime @default(now())
+  completedDate DateTime?
+
+  appointmentId String?
+  appointment   Appointment? @relation(fields: [appointmentId], references: [id], onDelete: Cascade)
+
   createdAt     DateTime @default(now())
   updatedAt     DateTime @updatedAt
 
-  @@unique([medicineId, batchNo, supplierId])
-  @@index([medicineId])
-  @@index([expiryDate])
+  @@index([appointmentId])
+  @@index([status])
 }
 
-model SupplierSupplyBatch {
-  id            String   @id @default(cuid())
-  supplyId      String
-  supply        MedicalSupply @relation(fields: [supplyId], references: [id], onDelete: Cascade)
-  supplierId    String
-  supplier      Supplier @relation(fields: [supplierId], references: [id])
-  batchNo       String
-  manufacturingDate DateTime?
-  expiryDate    DateTime
-  quantity      Int
-  receivedDate  DateTime @default(now())
-  status        String   @default("AVAILABLE") // AVAILABLE, EXPIRED, DAMAGED, RECALLED
-  unitPrice     Float
-  
-  createdAt     DateTime @default(now())
-  updatedAt     DateTime @updatedAt
-
-  @@unique([supplyId, batchNo, supplierId])
-  @@index([supplyId])
-  @@index([expiryDate])
-}
-
-model Medicine {
-  id          String   @id @default(cuid())
-  name        String
-  activeIngredient String? // Hoạt chất
-  unit        String   @default("Viên") // Viên, Lọ, Ống, ml, cc
-  category    String   @default("GENERAL") // ANTIBIOTICS, PAIN, FEVER, ALLERGY, VITAMIN, DIGESTIVE, RESPIRATORY, CARDIO, etc
-  description String?
-  inventory   Int      @default(0)
-  price       Float    @default(0) // Giá bán lẻ
-  costPrice   Float    @default(0) // Giá nhập
-  minStock    Int      @default(10) // Cảnh báo tồn kho tối thiểu
-  maxStock    Int      @default(100) // Tồn kho tối đa
-  status      String   @default("ACTIVE") // ACTIVE, INACTIVE, DISCONTINUED
-  createdAt   DateTime @default(now())
-  updatedAt   DateTime @updatedAt
-
-  batches         SupplierMedicineBatch[]
-  prescriptionItems PrescriptionItem[]
-  inventoryLogs   MedicineInventoryLog[]
-
-  @@index([name])
-  @@index([category])
-}
-
-model MedicineInventoryLog {
-  id            String   @id @default(cuid())
-  medicineId    String
-  medicine      Medicine @relation(fields: [medicineId], references: [id], onDelete: Cascade)
-  type          String   // IN, OUT, ADJUSTMENT, EXPIRED
-  quantity      Int
-  description   String?
-  referenceId   String? // ID của đơn thuốc, hóa đơn cung cấp, etc
-  createdAt     DateTime @default(now())
-
-  @@index([medicineId])
-  @@index([type])
-  @@index([createdAt])
-}
-
-model MedicalSupply {
-  id          String   @id @default(cuid())
-  name        String
-  unit        String   @default("Cái") // Cái, Gói, Hộp, Cuộn, Túi
-  category    String   @default("GENERAL") // BANDAGE, NEEDLE, GLOVE, SYRINGE, GAUZE, COTTON, TAPE, MASK, GOWN, CAP, SHOE_COVER, etc
-  description String?
-  inventory   Int      @default(0)
-  price       Float    @default(0) // Giá bán lẻ
-  costPrice   Float    @default(0) // Giá nhập
-  minStock    Int      @default(20)
-  maxStock    Int      @default(200)
-  status      String   @default("ACTIVE") // ACTIVE, INACTIVE, DISCONTINUED
-  createdAt   DateTime @default(now())
-  updatedAt   DateTime @updatedAt
-
-  batches         SupplierSupplyBatch[]
-  inventoryLogs   SupplyInventoryLog[]
-
-  @@index([name])
-  @@index([category])
-}
-
-model SupplyInventoryLog {
-  id            String   @id @default(cuid())
-  supplyId      String
-  supply        MedicalSupply @relation(fields: [supplyId], references: [id], onDelete: Cascade)
-  type          String   // IN, OUT, ADJUSTMENT, EXPIRED
-  quantity      Int
-  description   String?
-  referenceId   String? // ID của hóa đơn cung cấp, etc
-  createdAt     DateTime @default(now())
-
-  @@index([supplyId])
-  @@index([type])
-  @@index([createdAt])
-}
+// ----------------------------------------------------------------------
+// ĐƠN THUỐC & DƯỢC
+// ----------------------------------------------------------------------
 
 model Prescription {
   id            String   @id @default(cuid())
   notes         String?  // Lời dặn của bác sĩ
-  status        String   @default("PENDING") // PENDING, DISPENSED, EXPIRED
+  status        String   @default("CHO_THANH_TOAN") // CHO_THANH_TOAN, DA_THANH_TOAN, DA_PHAT_THUOC, HUY
   
-  // Hỗ trợ cả outpatient appointment và clinic appointment
-  appointmentId String?   @unique
+  appointmentId String?  @unique
   appointment   Appointment? @relation(fields: [appointmentId], references: [id], onDelete: Cascade)
-  
-  clinicAppointmentId String? @unique
-  clinicAppointment   ClinicAppointment? @relation(fields: [clinicAppointmentId], references: [id], onDelete: Cascade)
   
   createdAt     DateTime @default(now())
   updatedAt     DateTime @updatedAt
 
   items         PrescriptionItem[]
-
-  @@index([appointmentId])
-  @@index([clinicAppointmentId])
 }
 
 model PrescriptionItem {
@@ -391,7 +291,8 @@ model PrescriptionItem {
   dosage         String   // Liều dùng: "2 viên/ngày"
   duration       String   // Số ngày: "7 ngày"
   instructions   String?  // Cách dùng: "Uống sau ăn"
-  quantity       Int      @default(1) // Số lượng hộp/đơn vị (mặc định 1)
+  quantity       Int      @default(1) 
+  price          Float    @default(0) // Lưu giá lúc kê đơn
 
   medicineId     String
   medicine       Medicine @relation(fields: [medicineId], references: [id])
@@ -399,110 +300,49 @@ model PrescriptionItem {
   prescription   Prescription @relation(fields: [prescriptionId], references: [id], onDelete: Cascade)
 }
 
-model LabOrder {
-  id            String   @id @default(cuid())
-  type          String   // "Xét nghiệm máu", "X-quang", "Siêu âm"...
-  description   String?
-  price         Float    @default(0) // Giá dịch vụ xét nghiệm
-  result        String?  // Kết quả (bác sĩ cập nhật sau)
-  status        String   @default("PENDING") // PENDING, DONE, CANCELLED
-  orderDate     DateTime @default(now())
-  completedDate DateTime?
+model Medicine {
+  id          String   @id @default(cuid())
+  name        String
+  activeIngredient String? 
+  unit        String   @default("Viên") 
+  category    String   @default("GENERAL") 
+  description String?
+  inventory   Int      @default(0)
+  price       Float    @default(0) 
+  costPrice   Float    @default(0) 
+  minStock    Int      @default(10)
+  status      String   @default("ACTIVE") 
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
 
-  // Có thể từ appointment thường hoặc clinic appointment
-  appointmentId String?
-  appointment   Appointment? @relation(fields: [appointmentId], references: [id], onDelete: Cascade)
-  
-  clinicAppointmentId String?
-  clinicAppointment   ClinicAppointment? @relation(fields: [clinicAppointmentId], references: [id], onDelete: Cascade)
-
-  createdAt     DateTime @default(now())
-  updatedAt     DateTime @updatedAt
-
-  @@index([appointmentId])
-  @@index([clinicAppointmentId])
-  @@index([status])
+  prescriptionItems PrescriptionItem[]
 }
 
-model Payment {
-  id            String   @id @default(cuid())
-  amount        Float
-  status        String   @default("PENDING") // PENDING, PAID, FAILED, REFUNDED
-  method        String   @default("CASH")    // VNPAY, CASH, BANK_TRANSFER, INSURANCE
-  txnRef        String?  @unique
-  vnpayResponse String?
-  paidDate      DateTime?
-
-  // Hỗ trợ cả outpatient appointment và clinic appointment
-  appointmentId String?
-  appointment   Appointment? @relation(fields: [appointmentId], references: [id], onDelete: Cascade)
-  
-  clinicAppointmentId String?
-  clinicAppointment   ClinicAppointment? @relation(fields: [clinicAppointmentId], references: [id], onDelete: Cascade)
-
-  // link to invoice (optional)
-  invoiceId     String?
-  invoice       Invoice?   @relation(fields: [invoiceId], references: [id], onDelete: Cascade)
-
-  createdAt     DateTime @default(now())
-  updatedAt     DateTime @updatedAt
-
-  @@index([appointmentId])
-  @@index([clinicAppointmentId])
-  @@index([status])
+model MedicalSupply {
+  id          String   @id @default(cuid())
+  name        String
+  unit        String   @default("Cái") 
+  category    String   @default("GENERAL") 
+  description String?
+  inventory   Int      @default(0)
+  price       Float    @default(0) 
+  status      String   @default("ACTIVE") 
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
 }
 
-model Invoice {
-  id               String        @id @default(cuid())
-  invoiceNo        String        @unique
-  total            Float
-  discount         Float         @default(0)
-  finalTotal       Float
-  status           String        @default("PENDING") // PENDING, PAID, PARTIAL, CANCELLED, OVERDUE
-  dueDate          DateTime?
-  notes            String?
-
-  // Hỗ trợ cả outpatient appointment, clinic appointment, và inpatient
-  appointmentId    String?
-  appointment      Appointment? @relation(fields: [appointmentId], references: [id], onDelete: Cascade)
-  
-  clinicAppointmentId String?
-  clinicAppointment   ClinicAppointment? @relation(fields: [clinicAppointmentId], references: [id], onDelete: Cascade)
-
-  inpatientRecordId String?
-  inpatientRecord   InpatientRecord? @relation(fields: [inpatientRecordId], references: [id], onDelete: Cascade)
-
-  items            InvoiceItem[]
-  payments         Payment[]
-
-  createdAt        DateTime      @default(now())
-  updatedAt        DateTime      @updatedAt
-
-  @@index([appointmentId])
-  @@index([clinicAppointmentId])
-  @@index([inpatientRecordId])
-  @@index([status])
-}
-
-model InvoiceItem {
-  id         String  @id @default(cuid())
-  description String
-  amount     Float
-  quantity   Int     @default(1)
-
-  invoiceId  String
-  invoice    Invoice @relation(fields: [invoiceId], references: [id], onDelete: Cascade)
-}
+// ----------------------------------------------------------------------
+// ĐIỀU TRỊ NỘI TRÚ & PHÒNG BỆNH
+// ----------------------------------------------------------------------
 
 model Room {
   id         String   @id @default(cuid())
-  name       String   @unique // Tên phòng: "Phòng 101", "VIP A"
-  type       String   @default("NORMAL") // NORMAL, VIP, ICU, SURGERY, OBSERVATION
-  status     String   @default("AVAILABLE") // AVAILABLE, OCCUPIED, MAINTENANCE, CLOSED
+  name       String   @unique 
+  type       String   @default("NORMAL") 
+  status     String   @default("AVAILABLE") 
   floor      Int?
-  capacity   Int      @default(1) // Số giường trong phòng
-  ratePerDay Float    @default(0) // Giá phòng/ngày
-  description String?
+  capacity   Int      @default(1)
+  ratePerDay Float    @default(0) 
   
   departmentId String?
   department   Department? @relation(fields: [departmentId], references: [id])
@@ -511,62 +351,27 @@ model Room {
   updatedAt  DateTime @updatedAt
 
   beds         RoomBed[]
-  services    RoomService[]
-  
-  @@index([departmentId])
-  @@index([status])
 }
 
 model RoomBed {
   id         String   @id @default(cuid())
-  bedNumber  String   // Giường số 1, 2, 3...
-  status     String   @default("AVAILABLE") // AVAILABLE, OCCUPIED, MAINTENANCE, RESERVED
+  bedNumber  String   
+  status     String   @default("AVAILABLE") 
   
   roomId     String
   room       Room     @relation(fields: [roomId], references: [id], onDelete: Cascade)
   
   inpatientRecords InpatientRecord[]
   
-  createdAt  DateTime @default(now())
-  updatedAt  DateTime @updatedAt
-
   @@unique([roomId, bedNumber])
-  @@index([roomId])
-  @@index([status])
-}
-
-model RoomService {
-  id          String   @id @default(cuid())
-  name        String   // "Air-con", "TV Cable", "Phone Service"
-  description String?
-  price       Float    @default(0) // Giá dịch vụ
-  
-  roomId      String
-  room        Room     @relation(fields: [roomId], references: [id], onDelete: Cascade)
-  
-  createdAt   DateTime @default(now())
-  updatedAt   DateTime @updatedAt
-}
-
-model ServiceCombo {
-  id        String  @id @default(cuid())
-  name      String
-  description String?
-  price     Float   @default(0)
-  status    String  @default("ACTIVE") // ACTIVE, INACTIVE
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
-
-  appointments       Appointment[]
-  clinicAppointments ClinicAppointment[]
 }
 
 model InpatientRecord {
   id            String   @id @default(cuid())
   admissionDate DateTime @default(now())
   dischargeDate DateTime?
-  reason        String   // Lý do nhập viện
-  status        String   @default("ADMITTED") // ADMITTED, DISCHARGED, TRANSFERRED
+  reason        String   
+  status        String   @default("ADMITTED") 
   notes         String?
 
   patientId     String
@@ -583,17 +388,12 @@ model InpatientRecord {
 
   createdAt     DateTime @default(now())
   updatedAt     DateTime @updatedAt
-
-  @@index([patientId])
-  @@index([doctorId])
-  @@index([roomBedId])
-  @@index([status])
 }
 
 model MedicalOrder {
   id                String   @id @default(cuid())
-  orderText         String   // Nội dung y lệnh (thuốc, chăm sóc, v.v.)
-  status            String   @default("PENDING") // PENDING, DONE
+  orderText         String   
+  status            String   @default("PENDING") 
 
   inpatientRecordId String
   inpatientRecord   InpatientRecord @relation(fields: [inpatientRecordId], references: [id], onDelete: Cascade)
@@ -607,10 +407,10 @@ model MedicalOrder {
 
 model SurgeryOrder {
   id              String   @id @default(cuid())
-  surgeryName     String   // Tên phẫu thuật
+  surgeryName     String   
   scheduledDate   DateTime?
-  diagnosisBefore String   // Chẩn đoán trước mổ
-  status          String   @default("PENDING") // PENDING, COMPLETED, CANCELLED
+  diagnosisBefore String   
+  status          String   @default("PENDING") 
 
   patientId       String
   patient         User     @relation(fields: [patientId], references: [id], onDelete: Cascade)
@@ -622,6 +422,10 @@ model SurgeryOrder {
   updatedAt       DateTime @updatedAt
 }
 
+// ----------------------------------------------------------------------
+// BÀI VIẾT (TIN TỨC)
+// ----------------------------------------------------------------------
+
 model Article {
   id          String   @id @default(cuid())
   title       String
@@ -629,7 +433,7 @@ model Article {
   excerpt     String?
   content     String
   coverImage  String?
-  category    String   @default("NEWS") // NEWS, MEDICAL, ANNOUNCEMENT
+  category    String   @default("NEWS") 
   viewCount   Int      @default(0)
 
   authorId    String
@@ -637,4 +441,16 @@ model Article {
 
   createdAt   DateTime @default(now())
   updatedAt   DateTime @updatedAt
+}
+
+model ServiceCombo {
+  id        String  @id @default(cuid())
+  name      String
+  description String?
+  price     Float   @default(0)
+  status    String  @default("ACTIVE") 
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  appointments       Appointment[]
 }
